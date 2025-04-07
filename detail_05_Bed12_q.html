@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+        <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+            <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="detailContainer">
+        <ol class="utMm16 stepNav">
+            <li class="dyIB"><a href="index_logO.html" class="gs05">Home</a></li>
+            <li class="gs06 dyIB poR poSB">Furniture</li>
+            <li class="dyIB poR poSB"><a href="list_05_bed_1.html" class="gs07">Bed</a></li>
+            <li class="gs08 dyIB poR poSB">Laila</li>
+        </ol>
+        <!-- step -->
+        <div id="view">
+            <div class="poR">
+                <h2 class="utBd52 bls06">Laila</h2>
+
+                <ul class="detailSlider">
+                    <li>
+                        <img src="images/detail_05_bed_12_1.png" alt="LailaBed1">
+                    </li>
+                    <li>
+                        <img src="images/detail_05_bed_12_2.png" alt="LailaBed2">
+                    </li>
+                    <li>
+                        <img src="images/detail_05_bed_12_3.png" alt="LailaBed3">
+                    </li>
+                </ul>
+                <ol class="thumbPager dyF wFull"></ol>
+            </div>
+            <!-- slider -->
+           <div>
+                <div class="dyF">
+                    <strong class="utLt36 gs09">$229.00</strong>
+                    <button class="utMm14 circleBtnB">ADD TO CART</button>
+                    <input type="button" value="addToWish" class="addToWish txBg">
+                </div>
+                <h3 class="pwbL30 gs11">Laila Linen Duvet Cover + Shams Set - Light Grey</h3>
+                <div class="utLt20">
+                    <span class="dyB">Color : Light Grey</span>
+                    <ol>
+                        <li class="dyIB">
+                            <a href="detail_05_Bed10_q.html">
+                                <img src="images/tex_74.png" alt="Navy">
+                            </a>
+                        </li>
+                        <li class="dyIB">
+                            <a href="detail_05_Bed11_q.html">
+                                <img src="images/tex_75.png" alt="Blue">
+                            </a>
+                        </li>
+                        <li class="dyIB">
+                            <a href="detail_05_Bed12_q.html" class="active">
+                                <img src="images/tex_76.png" alt="Light Grey">
+                            </a>
+                        </li>
+                        <li class="dyIB">
+                            <a href="detail_05_Bed13_q.html">
+                                <img src="images/tex_77.png" alt="Desert Rose">
+                            </a>
+                        </li>
+                    </ol>
+                    <dl class="nonFin">
+                        <dt class="flL">Material : </dt>
+                        <dd class="flL">Fabric</dd>
+                    </dl>
+                    <dl>
+                        <dt class="flL">Free delivery</dt>
+                        <dt class="flL">In Stock : </dt>
+                        <dd class="flL">1 remaining</dd>
+                    </dl>
+                    <dl class="dOption">
+                        <dt class="wFull flL">Choose options</dt>
+                        <dd class="utMm18 dopBtn bs04 bGs01 flL active"><a href="detail_05_Bed12_q.html" class="dyB">Queen</a></dd>
+                        <dd class="utMm18 dopBtn bs04 bGs01 flL"><a href="detail_05_Bed12_ek.html" class="dyB">Estn-King</a></dd>
+                        <dd class="utMm18 dopBtn bs04 bGs01 flL"><a href="detail_05_Bed12_t.html" class="dyB">Twin</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ol class="utMm18">
+                <li class="active"><a href="#view">Overview</a></li>
+                <li><a href="#descript">Description</a></li>
+                <li><a href="#care">Care Instructions</a></li>
+                <li><a href="#dimen">Dimensions</a></li>
+                <li><a href="#why">Why Dania?</a></li>
+            </ol>
+            <article id="descript">
+                <div>
+                    <h3 class="pwbL52 gs11">About this piece</h3>
+                    <p class="utMm18">
+                        Add a layer of luxury to your bedroom with the Laila Linen Bedding. Woven from 100% pre-washed linen, this duvet cover and sham set have a soft, natural feel that only increases exponentially with more washes. This bedding is set to help your bedroom become the most serene space within your home; the combination of soft, soothing comfort and breathable linen texture create an undeniably relaxing ambiance. The Laila Linen Bedding comes with a wealth of stylistic opportunities - mix and match your color options for an elevated, layered look, and then melt into this soft bedding to enjoy the comfort that comes from fine, quality linen.
+                    </p>
+                </div>
+                <img src="images/detail_05_bed_10-11-12-13_sketch.png" alt="LailaBed sketch">
+            </article>
+            <div id="care">
+                <img src="images/detail_05_bed_12_care.png" alt="LailaBed care">
+                <div>
+                    <h3 class="pwbL52 gs11">Care Instructions</h3>
+                    <p class="utMm18">
+                        Machine wash warm. Tumble dry low.
+                    </p>
+                </div>
+            </div>
+            <div id="dimen">
+                <h3 class="pwbL52 gs11">Dimensions</h3>
+                <img src="images/detail_05_bed_12_q_dimen.png" alt="LailaBed dimensions">
+                <dl class="utMm18">
+                    <dt>Width(in)</dt>
+                    <dd>
+                        <span>Duvet : 90</span>
+                        <span>Sham : 26</span>
+                    </dd>
+                    <dt>Height(in)</dt>
+                    <dd>
+                        <span>Duvet : 90</span>
+                        <span>Sham : 20</span>
+                    </dd>
+                    <dt>Materials</dt>
+                    <dd>100% Washed Finished Linen</dd>
+                    <dt>Features</dt>
+                    <dd>Includes duvet cover + 2 king shams</dd>
+                    <dt>Dania Model#</dt>
+                    <dd>B36*BS-NM9090-FQ/LGY</dd>
+                </dl>
+            </div>
+            <div id="why">
+                <h3 class="pwbL52 gs11">Why shop with Dania?</h3>
+                <p class="utMm18">
+                    We want to make your house a home with beautiful, affordable, high-quality furniture.
+                    Setting a new standard for value is kind of our thing.
+                </p>
+                <img src="images/detail_why.png" alt="why dania?">
+                <ul>
+                    <li class="wFull bdX">
+                        <strong class="utLt26 dyB">Best Price Guarantee</strong>
+                        <a href="footer_warrantyInfo.html" class="utBd20 borLearnBtnA">LEARN MORE</a>
+                    </li>
+                    <li class="wFull bdX">
+                        <strong class="utLt26 dyB">Shipping &amp; Handling</strong>
+                        <a href="footer_shippingInfo.html" class="utBd20 borLearnBtnA">LEARN MORE</a>
+                    </li>
+                    <li class="wFull bdX">
+                        <strong class="utLt26 dyB">Returns & Exchanges</strong>
+                        <a href="footer_returnsExchange.html" class="utBd20 borLearnBtnA">LEARN MORE</a>
+                    </li>
+                    <li class="wFull bdX">
+                        <strong class="utLt26 dyB">Financing Available</strong>
+                        <a href="footer_termsOfService.html" class="utBd20 borLearnBtnA">LEARN MORE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="reView bBe">
+            <h3 class="pwbL52 gs09">Recently Viewed</h3>
+            <ul>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa05.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_05.jpg" alt="Jaden Right Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Jaden Right Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$2,699.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa01.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_01.jpg" alt="Jessa Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Jessa Sofa</b>
+                        <mark class="utBd14 gs06">$799.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa06_L.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_06.jpg" alt="Celeste Flip Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Celeste Flip Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$1,499.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa10.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_10.jpg" alt="Tamar Convertible Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Tamar Convertible Sofa</b>
+                        <mark class="utBd14 gs06">$1,399.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

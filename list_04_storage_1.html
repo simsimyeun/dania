@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="listContainer">
+        <div class="utMm16 bdX">
+            <ol class="stepNav">
+                <li class="dyIB"><a href="index_logO.html" class="gs05">Home</a></li>
+                <li class="gs06 dyIB poR poSB">Furniture</li>
+                <li class="dyIB poR poSB"><a href="list_04_storage_1.html" class="gs07">Storage</a></li>
+            </ol>
+            <a href="#howTo">Jump To All Products</a>
+        </div>
+         <div class="bdX">
+            <h2 class="pwbL72 gs09">Storage</h2>
+            <img src="images/ban_list_04storage.png" alt="list storage banner">
+        </div>
+        <div id="sortBar" class="poR bdX">
+            <div>
+                <button class="utMm16 gs09 bgT poR poSB poSA" data-panel="filtersPanel">FILTERS</button>
+                <div id="filtersPanel" class="bGs01 poA bdX">
+                    <h3 class="pwbL26 gs08">Filters</h3>
+                    <ul class="colorSelect gs07">
+                        <li>
+                            <b class="utMm18 poSA">Color</b>
+                            <ol class="utMm14 bdX">
+                                <li>
+                                    <input type="radio" id="storageColor1Btn" name="colorChip">
+                                    <label for="storageColor1Btn" class="brown poSB">Brown</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="storageColor2Btn" name="colorChip">
+                                    <label for="storageColor2Btn" class="white poSB">White</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="storageColor3Btn" name="colorChip">
+                                    <label for="storageColor3Btn" class="black poSB">Black</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="storageColor4Btn" name="colorChip">
+                                    <label for="storageColor4Btn" class="grey poSB">Grey</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="storageColor5Btn" name="colorChip">
+                                    <label for="storageColor5Btn" class="green poSB">Green</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">Price</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="tablesPrice1Btn">
+                                    <label for="tablesPrice1Btn" class="checkZone">$50.00 - $250.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="tablesPrice2Btn">
+                                    <label for="tablesPrice2Btn" class="checkZone">$250.00 - $750.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="tablesPrice3Btn">
+                                    <label for="tablesPrice3Btn" class="checkZone">$750.00 - $1500.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="tablesPrice4Btn">
+                                    <label for="tablesPrice4Btn" class="checkZone">$1500.00 - $2000.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="tablesPrice5Btn">
+                                    <label for="tablesPrice5Btn" class="checkZone">$2000.00 - $3000.00</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">In Stock</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="stockBtn">
+                                    <label for="stockBtn" class="checkZone">In Stock and Ready to Ship</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+                <button class="utRr14">CLEAR FILTERS</button>
+                <span class="utMm14">31 Results</span>
+                <div class="notMui">
+                    <span class="utMm14">VIEW</span>
+                    <button class="way1 active">3grid</button>
+                    <button class="way2">2grid</button>
+                </div>
+                <div>
+                    <span class="utMm14">SORT BY - <span>Recommened</span></span>
+                    <div class="utMm14 selectBox">
+                        <ol>
+                            <li class="active">Recommened</li>
+                            <li>New Arrivals</li>
+                            <li>Price Low to High</li>
+                            <li>Price High to Low</li>
+                            <li>Product Name A - Z</li>
+                            <li>Product Name Z - A</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="thirdGrid bdX">
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage01.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_01.jpg" alt="Holfred Media Stand" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Holfred Media Stand</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_29.png" alt="Timber Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$899.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage02.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_02.jpg" alt="Karsten Sideboard" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Sideboard</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,299.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage03.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_03.jpg" alt="Karsten Low Bookcase" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Low Bookcase</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$579.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage04_01.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_04.jpg" alt="Dion Two-Door Cabinet" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Dion Two-Door Cabinet</b>
+                    <mark class="utLt26 flL">2 Colors</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_56_grn.png" alt="Dark Forest Green">
+                            <img src="images/tex_56_bk.png" alt="Black">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$249.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage05_01.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_05.jpg" alt="Dion Tall Cabinet" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Dion Tall Cabinet</b>
+                    <mark class="utLt26 flL">2 Colors</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_56_grn.png" alt="Dark Forest Green">
+                            <img src="images/tex_56_bk.png" alt="Black">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$479.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage06.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_06.jpg" alt="Danne 82inch Media Unit" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Danne 82" Media Unit</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_57.png" alt="Cement&White">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$499.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage07_01.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_07.jpg" alt="Svante Tall Bookcase" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Svante Tall Bookcase</b>
+                    <mark class="utLt26 flL">2 Colors</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_49_wh.png" alt="White">
+                            <img src="images/tex_49_oak.png" alt="Smoked Oak">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$999.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage08.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_08.jpg" alt="Inari High Bokkcase + Door Set" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Inari High Bokkcase + Door Set</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_58.png" alt="Cool Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$318.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage09.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_09.jpg" alt="Acero SideBoard" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Acero SideBoard</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_48.png" alt="White Ceramic&Walnut Veneer">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$2,599.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage10.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_10.jpg" alt="Haldi Room Divider - White" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Haldi Room Divider - White</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_59.png" alt="White">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$799.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage11.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_11.jpg" alt="Haldi Bookcase I - White" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Haldi Bookcase I - White</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_59.png" alt="White">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$899.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage12.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_12.jpg" alt="Holfred Sideboard" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Holfred Sideboard</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_29.png" alt="Timber Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$999.00</strong>
+                </div>
+            </li>
+        </ul>
+        <div class="utBd16 pager poR mgn0A bdX">
+            <a href="#" class="dyB poA">prev</a>
+            <a href="list_04_storage_2.html" class="dyB poA">next</a>
+            <ol class="bs05 txtC">
+                <li class="dyIB"><a href="#" class="poSB active">1</a></li>
+                <li class="dyIB poR"><a href="list_04_storage_2.html" class="poSB">2</a></li>
+                <li class="dyIB poR"><a href="list_04_storage_3.html" class="poSB">3</a></li>
+            </ol>
+        </div>
+        <article id="howTo" class="gs08">
+            <h3 class="pwbL52">How to Choose a Storage</h3>
+            <ul class="utMm16">
+                <li>
+                    Living room media storage comes in an array of sizes, materials, and finishes to fit nearly any decor and preference. With limited space, a small media console or cabinet would likely make most sense, but it can still provide what's needed to organize electronic gear and store media. If you favor a wood media cabinet, DWR offers a variety of them in various sizes and finishes. Whatever the size or material, nearly all living room media storage is fitted with a media storage shelf or several of them. Some living room media storage also comes with drawers. A steel media console is another option, and DWR offers several to choose from. Another option for media storage units is whether to select one with open shelves or with doors that can completely conceal the contents of the unit.
+                </li>
+                <li>
+                    Because most of what differentiates a credenza from a sideboard buffet is height, width, depth, and whether the cabinet doors swing or slide open, choosing a piece of dining room storage furniture comes down to choosing a cabinet unit that will fit in your space, suit your needs, and look the part.
+                </li>
+                <li>
+                    If you have limited space but would still like a handsome piece of functional storage furniture in your dining room, living room, or home office, consider a low credenza with sliding cabinet doors. With sliding doors, you won't need to account for swing space around your modern credenza. For a larger piece of dining room storage furniture, opt for a taller sideboard with ample surface space. If you're an avid entertainer, that extra surface space will come in handy around mealtimes, when it may be more convenient to have additional tableware and serving dishes within reach.
+                </li>
+                <li>
+                    Some sideboards and credenzas are designed for specialized use, like wine bars, which have built-in racks for safely storing wine glasses and wine bottles. Some kitchen sideboards and credenzas have shallow, compartmentalized drawers made for silverware and other dining utensils. You can also look out for sideboards with soft-close hardware that cuts down on the sound and impact of drawers and cabinet doors closing.
+                </li>
+                <li>
+                    Design is another consideration not to forget when choosing a modern sideboard or credenza. Though modern credenzas and sideboards share similar characteristics – minimalist silhouettes, warm wood finishes, slatted paneling – you can fine-tune your list of options by leg type, cabinet, hardware, and surface material, and more. At Design Within Reach, shop louvered and slatted wood credenzas made of solid walnut, oak, or ash (among others). Discover black sideboards with marble tabletops and solid brass hardware alongside brightly colored dining room cabinets with reeded glass doors.
+                </li>
+            </ul>
+        </article>
+        <div class="reView bBe">
+            <h3 class="pwbL52 gs09">Recently Viewed</h3>
+            <ul>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa05.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_05.jpg" alt="Jaden Right Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Jaden Right Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$2,699.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa01.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_01.jpg" alt="Jessa Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Jessa Sofa</b>
+                        <mark class="utBd14 gs06">$799.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa06_L.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_06.jpg" alt="Celeste Flip Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Celeste Flip Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$1,499.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa10.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_10.jpg" alt="Tamar Convertible Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Tamar Convertible Sofa</b>
+                        <mark class="utBd14 gs06">$1,399.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

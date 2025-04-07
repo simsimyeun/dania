@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="listContainer">
+        <div class="utMm16 bdX">
+            <ol class="stepNav">
+                <li class="dyIB"><a href="index_logO.html" class="gs05">Home</a></li>
+                <li class="gs06 dyIB poR poSB">Furniture</li>
+                <li class="dyIB poR poSB"><a href="list_05_bed_1.html" class="gs07">Bed</a></li>
+            </ol>
+            <a href="#howTo">Jump To All Products</a>
+        </div>
+         <div class="bdX">
+            <h2 class="pwbL72 gs09">
+                Bed
+                <img src="images/bul_list_ban.png" alt="+">
+                Cover
+            </h2>
+            <img src="images/ban_list_05bed.png" alt="list bed banner">
+        </div>
+        <div id="sortBar" class="poR bdX">
+            <div>
+                <button class="utMm16 gs09 bgT poR poSB poSA" data-panel="filtersPanel">FILTERS</button>
+                <div id="filtersPanel" class="bGs01 poA bdX">
+                    <h3 class="pwbL26 gs08">Filters</h3>
+                    <ul class="colorSelect gs07">
+                        <li>
+                            <b class="utMm18 poSA">Color</b>
+                            <ol class="utMm14 bdX">
+                                <li>
+                                    <input type="radio" id="bedsColor1Btn" name="colorChip">
+                                    <label for="bedsColor1Btn" class="grey poSB">Grey</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="bedsColor2Btn" name="colorChip">
+                                    <label for="bedsColor2Btn" class="white poSB">White</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="bedsColor3Btn" name="colorChip">
+                                    <label for="bedsColor3Btn" class="brown poSB">Brown</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="bedsColor4Btn" name="colorChip">
+                                    <label for="bedsColor4Btn" class="blue poSB">Blue</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="bedsColor5Btn" name="colorChip">
+                                    <label for="bedsColor5Btn" class="red poSB">Red</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">Type</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="type1Btn">
+                                    <label for="type1Btn" class="checkZone">Beds</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="type2Btn">
+                                    <label for="type2Btn" class="checkZone">Mattresses</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="type3Btn">
+                                    <label for="type3Btn" class="checkZone">Cover</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">Price</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="bedsPrice1Btn">
+                                    <label for="bedsPrice1Btn" class="checkZone">$50.00 - $500.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="bedsPrice2Btn">
+                                    <label for="bedsPrice2Btn" class="checkZone">$500.00 - $1000.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="bedsPrice3Btn">
+                                    <label for="bedsPrice3Btn" class="checkZone">$1000.00 - $1500.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="bedsPrice4Btn">
+                                    <label for="bedsPrice4Btn" class="checkZone">$1500.00 - $3000.00</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">In Stock</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="stockBtn">
+                                    <label for="stockBtn" class="checkZone">In Stock and Ready to Ship</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+                <button class="utRr14">CLEAR FILTERS</button>
+                <span class="utMm14">22 Results</span>
+                <div class="notMui">
+                    <span class="utMm14">VIEW</span>
+                    <button class="way1 active">3grid</button>
+                    <button class="way2">2grid</button>
+                </div>
+                <div>
+                    <span class="utMm14">SORT BY - <span>Recommened</span></span>
+                    <div class="utMm14 selectBox">
+                        <ol>
+                            <li class="active">Recommened</li>
+                            <li>New Arrivals</li>
+                            <li>Price Low to High</li>
+                            <li>Price High to Low</li>
+                            <li>Product Name A - Z</li>
+                            <li>Product Name Z - A</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="thirdGrid bdX">
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed13_q.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_13.jpg" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose" class="dyBFull">
+                </div>
+                <div>
+                    <b class="pwbL30 gs09 dyB">Laila Linen Duvet Cover + Shams Set - Desert Rose</b>
+                    <mark class="utLt26 flL">4 Colors</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_74.png" alt="Navy">
+                            <img src="images/tex_75.png" alt="Blue">
+                            <img src="images/tex_76.png" alt="Light Grey">
+                            <img src="images/tex_77.png" alt="Desert Rose">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$143.20</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed14_q.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_14.jpg" alt="Mondiana Bed" class="dyBFull">
+                </div>
+                <div>
+                    <b class="pwbL30 gs09 dyB">Mondiana Bed</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_36.png" alt="High Gloss Grey">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,399.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed15_q.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_15.jpg" alt="Palermo Bed" class="dyBFull">
+                </div>
+                <div>
+                    <b class="pwbL30 gs09 dyB">Palermo Bed</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_63.png" alt="Palermo White High Gloss">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$999.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed16_q.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_16.jpg" alt="Knox Bed" class="dyBFull">
+                </div>
+                <div>
+                    <b class="pwbL30 gs09 dyB">Knox Bed</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_64.png" alt="White High Gloss">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$699.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed17_q.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_17.jpg" alt="Halsa Sleep™ Freja Hybrid Mattress" class="dyBFull">
+                </div>
+                <div>
+                    <b class="pwbL30 gs09 dyB">Halsa Sleep™ Freja Hybrid Mattress</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_69_70_71_73_78_105_110.png" alt="White">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,799.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed18_q.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_18.jpg" alt="Sealy Red Maple Medium" class="dyBFull">
+                </div>
+                <div>
+                    <b class="pwbL30 gs09 dyB">Sealy Red Maple Medium</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_72.png" alt="Grey">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,049.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed19_q.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_19.jpg" alt="Bennett Bed" class="dyBFull">
+                </div>
+                <div>
+                    <b class="pwbL30 gs09 dyB">Bennett Bed</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_79.png" alt="Smoked Umber">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$699.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed20.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_20.jpg" alt="Rowan Twin Loft Bed" class="dyBFull">
+                </div>
+                <div>
+                    <b class="pwbL30 gs09 dyB">Rowan Twin Loft Bed</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_80.png" alt="White/Natural">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,499.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed21.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_21.jpg" alt="Rowan Twin-Over-Full Bunk Bed" class="dyBFull">
+                </div>
+                <div>
+                    <b class="pwbL30 gs09 dyB">Rowan Twin-Over-Full Bunk Bed</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_80.png" alt="White/Natural">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,349.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed22.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_22.jpg" alt="Rowan Twin-Over-Twin Bunk Bed" class="dyBFull">
+                </div>
+                <div>
+                    <b class="pwbL30 gs09 dyB">Rowan Twin-Over-Twin Bunk Bed</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_80.png" alt="White/Natural">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,199.00</strong>
+                </div>
+            </li>
+        </ul>
+        <div class="utBd16 pager poR mgn0A bdX">
+            <a href="list_05_bed_1.html" class="dyB poA">prev</a>
+            <a href="#" class="dyB poA">next</a>
+            <ol class="bs05 txtC">
+                <li class="dyIB poR"><a href="list_05_bed_2.html" class="poSBs">1</a></li>
+                <li class="dyIB"><a href="#" class="poSB active">2</a></li>
+            </ol>
+        </div>
+        <article id="howTo" class="gs08">
+            <h3 class="pwbL52">How to Choose a Beds</h3>
+            <ul class="utMm16">
+                <li>
+                    In the flurry of furnishing a bedroom, it's all too easy to opt for a practical bed frame — something that meets only the most basic criteria, such as elevating your mattress off of the floor. However, a modern bed frame should transcend pure functionality – good bed design is about the marriage of form and function. Not only should a well-designed bed be durable, but your bed frame and headboard should also be visually pleasing elements that make a statement, whether minimalist or traditional, mid-century modern or Bohemian-chic, in your bedroom. Well-chosen modern bedroom furniture has the power to transform a room from a mere place to sleep to a haven of rest and solace.
+                </li>
+                <li>
+                    From contemporary bed frames to mid-century modern beds, in twin, full, queen, king, and California king sizes, Design Within Reach offers a range of types and styles to suit every interior.
+                </li>
+                <li>
+                    Wondering how to choose decorative pillows for the bed? Play with shape, size, and texture. For a smaller bed, such as a twin- or full-sized mattress, select three to four decorative pillows that vary in size; arrange them from largest to smallest. For a queen- or king-sized bed, purchase a pair of decorative pillows or a throw pillow set, and mirror them on either side of the bed. Then select two or three additional pillows to place in the middle of the bed.
+                </li>
+                <li>
+                    The same rules apply when choosing the right decorative pillows for your couch or accent chair. That is, vary the silhouettes, sizes, and coverings. If you're wondering how to decorate with throw blankets, consider these ideas: Fold a blanket and lay it at the foot of a bed, or spread it across the bed to showcase the blanket's pattern. For the living room, drape a throw blanket over the arm of your sofa or accent chair.
+                </li>
+                <li>
+                    Pillows and throws add instant warmth (both literally and figuratively) to your home, so choose your favorites and start tossing them on your sofa, loveseat, and bed — anywhere you see fit.
+                </li>
+            </ul>
+        </article>
+        <div class="reView bBe">
+            <h3 class="pwbL52 gs09">Recently Viewed</h3>
+            <ul>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa05.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_05.jpg" alt="Jaden Right Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Jaden Right Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$2,699.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa01.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_01.jpg" alt="Jessa Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Jessa Sofa</b>
+                        <mark class="utBd14 gs06">$799.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa06_L.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_06.jpg" alt="Celeste Flip Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Celeste Flip Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$1,499.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa10.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_10.jpg" alt="Tamar Convertible Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Tamar Convertible Sofa</b>
+                        <mark class="utBd14 gs06">$1,399.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

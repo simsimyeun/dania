@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="listContainer">
+        <div class="utMm16 bdX">
+            <ol class="stepNav">
+                <li class="dyIB"><a href="index_logO.html" class="gs05">Home</a></li>
+                <li class="gs06 dyIB poR poSB">Furniture</li>
+                <li class="dyIB poR poSB"><a href="list_01_sofa_1.html" class="gs07">Sofas</a></li>
+            </ol>
+            <a href="#howTo">Jump To All Products</a>
+        </div>
+         <div class="bdX">
+            <h2 class="pwbL72 gs09">
+                Sofas
+                <img src="images/bul_list_ban.png" alt="+">
+                Sectionals
+            </h2>
+            <img src="images/ban_list_01sofa.png" alt="list sofa banner">
+        </div>
+        <div id="sortBar" class="poR bdX">
+            <div>
+                <button class="utMm16 gs09 bgT poR poSB poSA" data-panel="filtersPanel">FILTERS</button>
+                <div id="filtersPanel" class="bGs01 poA bdX">
+                    <h3 class="pwbL26 gs08">Filters</h3>
+                    <ul class="colorSelect gs07">
+                        <li>
+                            <b class="utMm18 poSA">Color</b>
+                            <ol class="utMm14 bdX">
+                                <li>
+                                    <input type="radio" id="sofaColor1Btn" name="colorChip">
+                                    <label for="sofaColor1Btn" class="grey poSB">Grey</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="sofaColor2Btn" name="colorChip">
+                                    <label for="sofaColor2Btn" class="cream poSB">Cream</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="sofaColor3Btn" name="colorChip">
+                                    <label for="sofaColor3Btn" class="black poSB">Black</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="sofaColor4Btn" name="colorChip">
+                                    <label for="sofaColor4Btn" class="blue poSB">Blue</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="sofaColor5Btn" name="colorChip">
+                                    <label for="sofaColor5Btn" class="brown poSB">Brown</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="sofaColor6Btn" name="colorChip">
+                                    <label for="sofaColor6Btn" class="yellow poSB">Yellow</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="sofaColor7Btn" name="colorChip">
+                                    <label for="sofaColor7Btn" class="green poSB">Green</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="sofaColor8Btn" name="colorChip">
+                                    <label for="sofaColor8Btn" class="white poSB">White</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="sofaColor9Btn" name="colorChip">
+                                    <label for="sofaColor9Btn" class="red poSB">Red</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="sofaColor10Btn" name="colorChip">
+                                    <label for="sofaColor10Btn" class="multi poSB">Multi</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">Price</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="sofaPrice1Btn">
+                                    <label for="sofaPrice1Btn" class="checkZone">$250.00 - $1500.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="sofaPrice2Btn">
+                                    <label for="sofaPrice2Btn" class="checkZone">$1500.00 - $2000.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="sofaPrice3Btn">
+                                    <label for="sofaPrice3Btn" class="checkZone">$2000.00 - $3000.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="sofaPrice4Btn">
+                                    <label for="sofaPrice4Btn" class="checkZone">$3000.00 - $5000.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="sofaPrice5Btn">
+                                    <label for="sofaPrice5Btn" class="checkZone">$5000.00 - $10000.00</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">In Stock</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="stockBtn">
+                                    <label for="stockBtn" class="checkZone">In Stock and Ready to Ship</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">Upholstery</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="uphosery1Btn">
+                                    <label for="uphosery1Btn" class="checkZone">Fabric</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="uphosery2Btn">
+                                    <label for="uphosery2Btn" class="checkZone">Leather</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="uphosery3Btn">
+                                    <label for="uphosery3Btn" class="checkZone">Wood</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">Sofa Width</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="sofaWidth1Btn">
+                                    <label for="sofaWidth1Btn" class="checkZone">85" - 95"</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="sofaWidth2Btn">
+                                    <label for="sofaWidth2Btn" class="checkZone">75" - 85"</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="sofaWidth3Btn">
+                                    <label for="sofaWidth3Btn" class="checkZone">Under 65"</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="sofaWidth4Btn">
+                                    <label for="sofaWidth4Btn" class="checkZone">65" - 75"</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="sofaWidth5Btn">
+                                    <label for="sofaWidth5Btn" class="checkZone">Over 95"</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="sofaWidth6Btn">
+                                    <label for="sofaWidth6Btn" class="checkZone">85" - 89"</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+                <button class="utRr14">CLEAR FILTERS</button>
+                <span class="utMm14">24 Results</span>
+                <div class="notMui">
+                    <span class="utMm14">VIEW</span>
+                    <button class="way1 active">3grid</button>
+                    <button class="way2">2grid</button>
+                </div>
+                <div>
+                    <span class="utMm14">SORT BY - <span>Recommened</span></span>
+                    <div class="utMm14 selectBox">
+                        <ol>
+                            <li class="active">Recommened</li>
+                            <li>New Arrivals</li>
+                            <li>Price Low to High</li>
+                            <li>Price High to Low</li>
+                            <li>Product Name A - Z</li>
+                            <li>Product Name Z - A</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="thirdGrid bdX">
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa13.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_13.jpg" alt="Braxten Leather Sofa" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Braxten Leather Sofa </b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_12.png" alt="Camel M-2895">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,999.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa14.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_14.jpg" alt="Voss Power Reclining Sofa" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Voss Power Reclining Sofa</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_08.png" alt="Frost NCS-156E">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$2,899.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa15_01.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_15_1.jpg" alt="Deni Sofa" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Deni Sofa</b>
+                    <mark class="utLt26 flL">2 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_13_01.png" alt="Mustard Yellow">
+                            <img src="images/tex_13_02.png" alt="Cream">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$799.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa16.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_16.jpg" alt="Ingrid Left Sectional" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Ingrid Left Sectional</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_14.png" alt="Heavenly Olive">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$3,399.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa17.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_17.jpg" alt="Maeve Sofa" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Maeve Sofa</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_15.png" alt="Contessa Paprika">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,399.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa18.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_18.jpg" alt="Dakota Sofa" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Dakota Sofa</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_16.png" alt="Concrete Grey">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$799.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa19.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_19.jpg" alt="Hugo Right Sectional" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Hugo Right Sectional</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_17.png" alt="VIBE NOCTURNAL">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$2,999.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa20.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_20.jpg" alt="Gianna Leather Left Chaise Sectional" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Gianna Leather Left Chaise Sectional</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_08.png" alt="Frost NCS-156E">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$2,999.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa21.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_21.jpg" alt="Gianna Leather Right Chaise Sectional" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Gianna Leather Right Chaise Sectional</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_18.png" alt="GREY 360/S">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$2,999.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa22.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_22.jpg" alt="Jett Pull Out Storage Sleeper" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Jett Pull Out Storage Sleeper</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_19.png" alt="Fisk Grey">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$3,499.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa23.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_23.jpg" alt="Olwyn Sofa" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Olwyn Sofa</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_20.png" alt="Platinum Grey">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,299.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_01_Sofa24.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_01_sofa_24.jpg" alt="Taylor Sofa" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Taylor Sofa</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_21.png" alt="Merit Greystone">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,499.00</strong>
+                </div>
+            </li>
+        </ul>
+        <div class="utBd16 pager poR mgn0A bdX">
+            <a href="list_01_sofa_1.html" class="dyB poA">prev</a>
+            <a href="#" class="dyB poA">next</a>
+            <ol class="bs05 txtC">
+                <li class="dyIB poR"><a href="list_01_sofa_1.html" class="poSB">1</a></li>
+                <li class="dyIB"><a href="#" class="poSB active">2</a></li>
+            </ol>
+        </div>
+        <article id="howTo" class="gs08">
+            <h3 class="pwbL52">How to Choose a Sofa</h3>
+            <ul class="utMm16">
+                <li>
+                    Consider sofa dimensions.<br>
+                    To choose the best sofa for your space, first consider dimensions: the dimensions of your space as well as standard sofa and sectional dimensions. This is of utmost importance in smaller spaces. In a smaller home, for instance, you may want to consider an apartment-size sofa – a loveseat, a two-seater sofa, a small three-seater sofa, or a small sectional like the Raleigh Sectional from Design Within Reach.
+                </li>
+                <li>
+                    To answer the question: What size sofa for a living room? It depends on the living room. There really is no standard sofa size, although many fall in the range of 85" to 95" long and 30” to 40” deep, with seat heights of 16” to 20”. Sectional sofa dimensions vary widely and usually are better suited for larger living rooms. A good method for choosing the right size sofa is to place a rectangle of tape on your living room floor where you think you'd like your sofa to fit. Keep in mind the flow of traffic through your home; it's a good idea to keep approximately two to three feet of walking space around your living room furniture, and 14” to 18” between your sofa and your coffee table. Once you have a rectangle taped down, measure it – those measurements can serve as a rough guideline for the maximum sofa or sectional size that will suit your space.
+                </li>
+                <li>
+                    Choose sofa materials to suit your lifestyle.
+                    With sofa size out of the way, you're free to consider sofa materials and colors. The two main sofa and sectional materials are as follows:
+                </li>
+                <li>
+                    Leather Sofas: A high-quality leather sofa is a mid-century modern classic, as are leather sectional sofas. Not only is it luxurious to stretch out on a modern leather sofa, but leather is durable, hypoallergenic, and stain-resistant when maintained properly. Leather sofas are available in a wide spectrum of colors, with popular choices being warm brown leather and elegant black leather.
+                </li>
+                <li>
+                    Fabric Sofas: Fabric sofas are comfortable, breathable sofas, made from a wide variety of fibers including cotton, linen, wool, and synthetic. Because they can be upholstered in a vast range of materials, fabric sofas offer you an incredible selection of colors and textures to choose from. Depending on the specific material, fabric sofas can also be highly durable and easy to clean. Design Within Reach offers a large selection of high-quality fabrics to provide plentiful options for your fabric sofa or fabric sectional sofa and also high-quality leather for your choice of leather sofa.
+                </li>
+                <li>
+                    Key considerations here, beyond personal style, are durability, ease of cleaning, and comfort. If you have children and/or pets, it's a good idea to choose high-performance, easy-to-clean materials like cotton, wool, and high-performance synthetic fabrics. Microfiber sofas are particularly easy to clean. As you browse, make note of colors and materials you like, and think about ordering fabric samples to test softness and see how the colors and textures will look in your space.
+                </li>
+            </ul>
+        </article>
+        <div class="reView bBe">
+            <h3 class="pwbL52 gs09">Recently Viewed</h3>
+            <ul>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa05.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_05.jpg" alt="Jaden Right Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Jaden Right Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$2,699.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa01.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_01.jpg" alt="Jessa Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Jessa Sofa</b>
+                        <mark class="utBd14 gs06">$799.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa06_L.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_06.jpg" alt="Celeste Flip Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Celeste Flip Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$1,499.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa10.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_10.jpg" alt="Tamar Convertible Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Tamar Convertible Sofa</b>
+                        <mark class="utBd14 gs06">$1,399.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

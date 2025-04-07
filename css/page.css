@@ -1,0 +1,2231 @@
+input[type='email']:not(.mainContainer input[type="email"]),
+input[type='password'], input[type='text'], input[type='tel']{
+    width: 100%; color: var(--BLS03); border: 2px solid var(--GS04); border-radius: 13px;
+    padding: 20px 50px 20px 20px; box-sizing: border-box; display: block;
+}
+input::placeholder, textarea::placeholder{color: var(--BLS03);}
+
+.listContainer #filtersPanel label[for*="Color"],
+.listContainer #filtersPanel label[for*="Color"]::before,
+.listContainer #sortBar > div:last-of-type > span > span,
+input[type="button"],
+.signContainer .moveAside > div .leafBtnBor:hover,
+.customContainer :is([id$="Area"], [id$="Tab"]) li{cursor: pointer;}
+
+:is([class^='sign'], .payContainer, .customContainer, .myContainer) input.user-invalid{border-color: var(--RS03);}
+
+.customContainer > div:nth-child(2) #productArea [id$="Tab"]::-webkit-scrollbar{width: 10px;}
+
+:is(.reView > ul, .detailContainer #view .thumbPager, .sideNav > ul, .storeContainer > [id^='fs_'] > ul, .customContainer #colorArea > ul)::-webkit-scrollbar{height: 2px;}
+
+.detailContainer > div:nth-child(3) > div > ol::-webkit-scrollbar,
+.listContainer #filtersPanel li > ol,
+.listContainer > ul > li:hover > div:last-child > mark,
+.storeContainer :is([id^='f_'], [id^='fs_']){display: none;}
+
+.customContainer > div:nth-child(2) #productArea [id$="Tab"]::-webkit-scrollbar-thumb{
+    background-color: var(--BLS02); background-clip: padding-box;
+    border: 2px solid transparent; height: 50px; max-height: 50px;
+}
+:is(.detailContainer #view .thumbPager, .sideNav > ul, .storeContainer > [id^='fs_'] > ul)::-webkit-scrollbar-thumb{
+    background-color: var(--BLS02); background-clip: padding-box;
+    border: 2px solid var(--BLS02); height: 2px; max-height: 2px;
+}
+.reView > ul::-webkit-scrollbar-thumb{background-color: transparent; background-clip: padding-box;}
+
+.mainContainer > .bx-wrapper .mainTicker > li{margin-left: 10px;}
+
+.customContainer #colorArea > ul::-webkit-scrollbar-track,
+.listContainer .addToWish.active,
+.signContainer .moveAside > div .leafBtnBor:hover{background-color: var(--GS01);}
+
+:is(.detailContainer #view .thumbPager, .sideNav > ul, .storeContainer > [id^='fs_'] > ul)::-webkit-scrollbar-track{background-color: var(--BE);}
+
+.reView > ul::-webkit-scrollbar-track,
+.mCollection > ul > li > a:hover{background-color: transparent;}
+
+.listContainer > div:first-child > a:hover,
+.listContainer .pager ol li a.active::before,
+.listContainer .pager ol li a.active,
+.listContainer .pager ol li a:hover::before,
+.listContainer .pager ol li a:hover,
+.detailContainer .dopBtn:hover > a,
+.detailContainer .dopBtn.active > a,
+.customContainer #colorArea > ul > li::after{color: var(--GS01);}
+
+.detailContainer .miniNavWrapper > ol > li > a{color: var(--GS09);}
+
+.customContainer #colorArea > ul > li:nth-of-type(4)::after,
+.customContainer #colorArea > ul > li:last-of-type::after{color: var(--GS11);}
+
+.signContainer .moveAside > div .leafBtnBor:hover,
+.signContainer .signIn li:last-of-type > input[type="button"]:hover,
+.fContainer > .sideNav a:hover,
+.fContainer > .sideNav a.active{color: var(--BS04);}
+
+.mainContainer h3 > mark{color: var(--BS06);}
+
+.storeContainer [id^='f_'] h4{color: var(--BLS02);}
+
+.fContainer > div > *:not(form, a, h2){color: var(--BLS04);}
+
+.listContainer #sortBar > div > button:first-of-type.active,
+:is(.myContainer, .wishContainer, .orderContainer) .sideNav ul li a:hover,
+:is(.myContainer, .wishContainer, .orderContainer) .sideNav ul li a.active{color: var(--RS03);}
+
+.detailContainer .dopBtn:hover,
+.detailContainer .dopBtn.active{background-color: var(--BS04);}
+
+.detailContainer .miniNavWrapper #navLine,
+.orderContainer :is(input[value="Return Request"], input[value="YES"], input[value="NO"],#reRequest input[type="button"]):hover,
+.orderContainer input[value="Return Request"].active{background-color: var(--RS03);}
+
+.listContainer :is(#filtersPanel li > ol, #sortBar .selectBox).active,
+.signContainer .signIn .forgotPw.active,
+.wishContainer .emptyList.active,
+.orderContainer :is(#requestPopup, #reRequest).active,
+.detailContainer #view .thumbPager > li > a,
+.detailContainer .miniNavWrapper > ol > li > a,
+.wishContainer .haveList.active > small,
+.storeContainer :is([id^='f_'], [id^='fs_']).active,
+.customContainer :is(#productArea [id$="Tab"], #texArea > li, #colorArea).active,
+.customContainer > div:last-child.active,
+.faqContainer > div > ul > li.active > p{display: block;}
+
+.mainContainer > div:nth-of-type(3) .mainSlider span > img,
+.detailContainer .miniNavWrapper > ol > li{display: inline-block;}
+
+.detailContainer #view .thumbPager > li{display: flex;}
+
+.detailContainer #view .thumbPager > li > a > img,
+.customContainer #productImg > img{display: block; width: 100%;}
+
+.mainContainer .bx-wrapper:has(.mainTicker),
+.customContainer #colorArea > ul > li::before{width: 100%;}
+
+.detailContainer .miniNavWrapper{position: relative;}
+
+.detailContainer .miniNavWrapper #navLine{position: absolute;}
+
+.mainContainer .bx-wrapper:not(:has(.mainTicker)),
+.mainContainer .bx-wrapper:has(.mainTicker){margin: 0 auto;}
+
+.mainContainer > div:first-of-type > div > .mBtn,
+.mainContainer > div:nth-of-type(2) a{margin-left: auto;}
+
+.mainContainer > div:nth-of-type(3) .mainSlider span,
+.detailContainer .miniNavWrapper > ol li > a,
+.fContainer .shipInfo > ol li > h3 > strong{margin-bottom: var(--sp10);}
+
+.mainContainer .mainSlider mark,
+.listContainer #filtersPanel li > ol li,
+.detailContainer #view div.utLt20 > dl:not(.nonFin) > dt:first-of-type,
+.detailContainer .dOption > dd,
+.signContainer .signIn li:not(:nth-of-type(3)) label,
+.signContainer .signUp li:not(:last-of-type) label,
+.payContainer > div:nth-of-type(2) li:not(:nth-of-type(2),:last-of-type) label,
+.myContainer form:first-of-type fieldset > div input:not(:last-of-type),
+.orderContainer div > div:first-of-type > ul li dl dd:not(:last-of-type),
+.orderContainer div > div:last-of-type > div:first-of-type :is(address, b),
+.payContainer > div:nth-of-type(2) fieldset,
+.payContainer > div:last-of-type li dl dt,
+.payContainer > div:last-of-type li dl dd:not(:last-of-type){margin-bottom: var(--sp20);}
+
+.mainContainer h3 > mark,
+.listContainer > div:first-child,
+.detailContainer #view div.utLt20 > span,
+.detailContainer #descript:not(.careDescript) > div > p:not(:last-of-type),
+.detailContainer :is(.careDescript, #care) > div > p:not(:last-of-type),
+.wishContainer .haveList b,
+.orderContainer #reRequest .selectRequest > span,
+.customContainer > div:nth-child(2) > ol li :is(h3, span),
+.customContainer > div:last-child fieldset > label,
+.fContainer .shipInfo > ul:first-of-type > li:not(:last-of-type),
+.fContainer .shipInfo > ul:last-of-type > li:first-of-type,
+.fContainer div > :is(ul, ol) li > ul > li:not(:last-of-type),
+.fContainer div > ul > li > p:not(:last-of-type),
+.fContainer .delivery > ul > li:first-of-type > p,
+.fContainer .pPolicy > ul > li > p:not(:nth-of-type(2), :last-of-type),
+.fContainer .pPolicy > ul > li:nth-of-type(7) > p:first-of-type,
+.fContainer .warrantyInfo > ul > li:not(:last-of-type){margin-bottom: var(--sp25);}
+
+.mainContainer > div:last-of-type > h2,
+.listContainer #filtersPanel li > b,
+.listContainer > ul > li > div:first-child,
+.listContainer #howTo > ul > li:not(:last-of-type),
+.detailContainer #view > div:first-child > .bx-wrapper,
+.myContainer fieldset ul > li:not(:last-of-type),
+.orderContainer > div > div:last-of-type > div:first-of-type > strong,
+.orderContainer #reRequest > strong,
+.payContainer > div:last-of-type > dl:first-of-type > dt:first-of-type,
+.storeContainer [id^='f_'] div:nth-child(2) strong,
+.storeContainer [id^='f_'] div:nth-child(3) dt:not(:last-of-type),
+.customContainer #texArea > li:first-of-type,
+.cusContainer > div > ul > li:not(:last-of-type),
+.fContainer .shipInfo > ol > li > h3,
+.fContainer .shipInfo > p:nth-of-type(2),
+.fContainer .reEx > ul > li:nth-of-type(2) > h4,
+.fContainer .pPolicy > ul > li:nth-of-type(7) > ul > li h4,
+.ourContainer > div:first-of-type > h2 > span:first-of-type,
+.ourContainer > div:last-of-type > div:first-of-type > div:last-of-type > p:first-of-type,
+.ourContainer > div:last-of-type > div:last-of-type > div > p:first-of-type{margin-bottom: var(--sp30);}
+
+.reView > ul li > a > :is(img, mark),
+.wishContainer .haveList a,
+.fContainer .pPolicy > ul > li > ul{margin-bottom: var(--sp35);}
+
+.mainContainer h3,
+.detailContainer #view > div:last-child > h3,
+.wishContainer .emptyList > strong,
+.cusContainer fieldset > ul > li:not(:last-of-type),
+.storeContainer [id^='f_'] :is(div:nth-child(2), div:nth-child(3)) h5,
+.customContainer #productArea > ul,
+.customContainer #productArea [id$="Tab"] > li:not(:last-of-type),
+.fContainer .shipInfo > ol > li > ul,
+.fContainer .reEx > ul > li:first-of-type,
+.fContainer .pPolicy > ul > li:nth-of-type(7) > ul > li > p:not(:last-of-type),
+.ausContainer > div:last-of-type > div > div :is(h3, p:first-of-type){margin-bottom: var(--sp40);}
+
+.orderContainer > div > div:first-of-type > ul li dl dt{margin-bottom: var(--sp45);}
+
+.mainContainer > div:first-of-type > div :is(p, h2),
+.mainContainer > div:nth-of-type(2) h2,
+.mainContainer > div:not(:first-child, :nth-of-type(2), :last-of-type) p,
+.listContainer #filtersPanel > ul,
+:is(.listContainer #howTo, .reView ) > h3,
+.detailContainer :is(#descript, #care, #dimen, #why, #caProp) h3,
+.detailContainer #why > p,
+.myContainer > div legend,
+.myContainer form:first-of-type fieldset > div,
+.myContainer form:last-of-type fieldset > ul,
+.orderContainer > div > div:first-of-type > ul,
+.orderContainer > div > div:first-of-type > ul > li:not(:last-of-type),
+.signContainer :is(.signIn, .signUp) fieldset > h2,
+.payContainer > div:nth-of-type(2) fieldset > input[type="button"],
+.payContainer > div:last-of-type > ul > li:not(:last-of-type),
+.storeContainer h2,
+.storeContainer > [id^='fs_'] > h3,
+.storeContainer [id^='f_'] :is(h4, div:nth-child(2) address),
+.customContainer > div:nth-child(2) > ol,
+.customContainer > div:last-child > p,
+.customContainer h4,
+:is(.faqContainer, .cusContainer) > a,
+.fContainer > div > a,
+:is(.faqContainer div, .fContainer ul li) > h3,
+.fContainer .shipInfo > ul:nth-of-type(2) > li > h3,
+:is(.fContainer, .cusContainer) fieldset > ul,
+.fContainer .warrantyInfo > p:last-of-type,
+.ausContainer > div:last-of-type > div,
+.ourContainer h3,
+.ourContainer > div:last-of-type > div:nth-of-type(2) > h3{margin-bottom: var(--sp50);}
+
+.signContainer :is(.signIn, .signUp) fieldset ul{margin-bottom: var(--sp55);}
+
+.mainContainer > div:nth-of-type(5) ul,
+.detailContainer #view,
+.signContainer .moveAside > div > h2,
+.signContainer :is(.signIn, .signUp) fieldset > p,
+.payContainer > div:nth-of-type(2) fieldset > ul > li:nth-of-type(2),
+.ausContainer > div:last-of-type > h3{margin-bottom: var(--sp60);}
+
+.mainContainer > div:nth-of-type(4),
+.detailContainer > .stepNav,
+.orderContainer > div > div:first-of-type > time{margin-bottom: var(--sp70);}
+
+.listContainer #filtersPanel > h3,
+.detailContainer #descript:not(.careDescript) > div:has(a) > p:last-of-type,
+.payContainer > div:nth-of-type(2) :is(h2, fieldset > ul),
+.customContainer > div:nth-child(2) > div:first-of-type{margin-bottom: var(--sp80);}
+
+.mainContainer > div:nth-of-type(2) p,
+.detailContainer #view > div:first-child > h2,
+.detailContainer #view > div:last-child > div:first-of-type,
+:is(.myContainer, .wishContainer, .orderContainer) > div > h2,
+.faqContainer > div:not(:last-of-type),
+.cusContainer > div :is(p, ul),
+.fContainer .shipInfo > :is(p:first-of-type, ul:first-of-type, p:nth-of-type(3)),
+.fContainer .shipInfo > ul:nth-of-type(2) > li:not(:first-of-type, :last-of-type),
+.fContainer .reEx > ul > li:not(:first-of-type),
+.fContainer .warrantyInfo > p:first-of-type,
+.fContainer :is(.warrantyInfo, .pPolicy) > ul,
+.fContainer .pPolicy > ul > li:not(:last-of-type),
+.fContainer .terms > ul,
+.fContainer .terms > ul > li:not(:last-of-type),
+.fContainer .delivery > ul > li:not(:last-of-type){margin-bottom: var(--sp90);}
+
+.listContainer > ul > li > div:last-child > b,
+.detailContainer #caProp,
+.customContainer > div:first-child,
+.customContainer > div:nth-child(2) > div:nth-of-type(2),
+:is(.ausContainer, .ourContainer) > div:first-of-type{margin-bottom: var(--sp100);}
+
+.listContainer > div:nth-child(2),
+.storeContainer [id^='fs_'] > ul,
+:is(.faqContainer, .cusContainer, .fContainer) h2{margin-bottom: var(--sp120);}
+
+.myContainer form:first-of-type fieldset{margin-bottom: var(--sp135);}
+
+.mainContainer > :is(div:nth-of-type(3), div:nth-of-type(6), div:nth-of-type(7), div:nth-of-type(8), div:nth-of-type(9)),
+.storeContainer, .customContainer, .faqContainer, .ausContainer, .ourContainer, .cusContainer,
+.fContainer > div,
+.ausContainer > div:last-of-type > p:not(:last-of-type),
+.ourContainer > div:last-of-type > div:first-of-type,
+.ourContainer > div:last-of-type > div:nth-of-type(2){margin-bottom: var(--sp150);}
+
+.customContainer > div:nth-child(2){margin-bottom: var(--sp200);}
+
+.listContainer #howTo > ul,
+.signContainer .signIn :is(li:nth-of-type(3), li:nth-of-type(4)),
+.signContainer .signUp :is(li:first-of-type, li:nth-of-type(2), li:last-of-type),
+.payContainer > div:nth-of-type(2) fieldset > ul :is(li:nth-of-type(2), li:last-of-type){line-height: 20px;}
+
+.mainContainer :is(div:nth-of-type(2), div:nth-of-type(3), div:nth-of-type(7), div:nth-of-type(8), div:last-of-type) p,
+.listContainer #filtersPanel ul li,
+.detailContainer :is(#descript:not(.careDescript), .careDescript, #why, #caProp) p,
+.signContainer :is(.signIn, .signUp) fieldset > p{line-height: 25px;}
+
+.mainContainer > div:first-of-type > div > p,
+.mainContainer > div:nth-of-type(5) ul > li,
+.listContainer > ul > li > div:last-child > b,
+.detailContainer dl :is(dt, dd),
+.detailContainer #care > div > p,
+.orderContainer > div > div:first-of-type > ul li dl dt,
+.payContainer > div:last-of-type li dl dt,
+.storeContainer [id^='f_'] div:nth-child(2) address,
+.customContainer > div:nth-child(2) > div:nth-of-type(2) > div > h4,
+.customContainer > div:last-child > p,
+.faqContainer > div > ul li :is(h4, p),
+.cusContainer > div > p,
+.cusContainer > div > ul > li,
+.fContainer p,
+.fContainer .shipInfo > ul > li,
+.fContainer :is(.pPolicy, .delivery) > ul > li > ul > li,
+.ourContainer > div:first-of-type > h2 > span:last-of-type,
+.ourContainer > div:last-of-type > div:nth-of-type(2) > p{line-height: 30px;}
+
+.listContainer > ul > li > div a.utLt26 > span:first-of-type,
+.listContainer > ul > li > div input[value="myCart"],
+.listContainer .pager > a{text-indent: -9999px;}
+
+.listContainer > ul > li > div:last-child::after,
+.detailContainer #view div.utLt20 > dl::after,
+.detailContainer #care::after,
+.wishContainer .haveList > ul > li::after,
+.signContainer .signIn > form fieldset ul::after,
+.signContainer .signUp > form fieldset ul::after,
+.payContainer > div:nth-of-type(2) fieldset::after,
+.payContainer > div:last-of-type > dl:first-of-type::after,
+.storeContainer [id^='f_']::after,
+.storeContainer [id^='f_'] div:nth-child(2)::after,
+.storeContainer [id^='f_'] div:nth-child(3) dl::after,
+.customContainer #specs > li::after,
+.customContainer > div:last-child fieldset::after,
+.fContainer fieldset::after,
+.cusContainer fieldset::after{content: ''; display: block; clear: both;}
+
+.customContainer > div:nth-child(2) > ol > li::after{content: ''; display: block;}
+
+.mainContainer > div:first-of-type{
+    padding-top: var(--sp80); padding-bottom: var(--sp35);
+    background: url('../images/ban_main_01.png') left center / cover no-repeat;
+}
+.mainContainer > div:nth-of-type(2) > div{padding: var(--sp120) 0 var(--sp200);}
+
+.mainContainer .mainSlider img{margin: 0 auto var(--sp10);}
+
+.mainContainer .bx-wrapper:not(:has(.mainTicker)),
+.fContainer .warrantyInfo > p{width: 95%;}
+
+.mainContainer > div:nth-of-type(3) :is(.bx-prev, .bx-next),
+.mainContainer > div:nth-of-type(6) :is(.bx-prev, .bx-next){
+    background: url("../images/btn_01_mainslide.png") center / 100% no-repeat; z-index: 10;
+}
+.mainContainer > :is(div:nth-of-type(3), div:nth-of-type(6)) .bx-prev{left: -3%;}
+.mainContainer > :is(div:nth-of-type(3), div:nth-of-type(6)) .bx-next{right: -3%;}
+
+.mainContainer > div:nth-of-type(5) ul{padding-left: 5%;}
+
+.mainContainer > div:nth-of-type(5) ul > li::before{
+    width: 6px; height: 15px; position: absolute; left: -15px; top: 8px;
+    background: url('../images/bul_arrow_main_collection.png') left / 100% no-repeat;
+}
+.mainContainer > div:nth-of-type(7) > div > p,
+.mainContainer > div:last-of-type fieldset{max-width: 700px;}
+
+.mainContainer > div:last-of-type{
+    padding-top: var(--sp90); padding-bottom: var(--sp150); margin-top: var(--sp100);
+}
+.mainContainer > div:last-of-type > p{max-width: 580px; margin: 0 auto var(--sp60);}
+
+.mainContainer input[type="email"]{
+    border: 1px solid transparent; border-bottom: 1px solid var(--GS09); padding: 20px;
+}
+.mCollection > ul > li{background-repeat: no-repeat; background-position: center; background-size: cover;}
+.mCollection > ul > li:first-of-type{background-image: url('../images/list_collection_kastern01.png');}
+.mCollection > ul > li:nth-of-type(2){background-image: url('../images/list_collection_holfred01.png');}
+.mCollection > ul > li:last-of-type{background-image: url('../images/list_collection_modania01.png');}
+
+.mCollection > ul > li > a{
+    background-color: rgba(50, 50, 50, 0.5); transition: background-color 0.3s ease-in-out;
+}
+.listContainer > div:first-child{padding-top: var(--sp35);}
+
+.stepNav > li{line-height: 16px;}
+
+.stepNav > li:not(:first-child)::before{
+    width: 5px; height: 10px; top: 2.5px;
+    background: url('../images/bul_arrow_step.png') center / 100% no-repeat;
+}
+.listContainer > div:first-child > a{padding-left: 1%; border: 1px solid var(--GS09);}
+
+.listContainer > div:first-child > a:hover{border: 1px solid var(--RS03);}
+
+.listContainer > div:nth-child(2) > h2{margin: 0;}
+
+.listContainer #sortBar{
+    padding: var(--sp30) 4%; border-top: 1px solid var(--GS02); border-bottom: 1px solid var(--GS02);
+}
+.listContainer #sortBar > div > button:first-of-type::before,
+.listContainer #sortBar > div > button:first-of-type::after{
+    width: 1px; height: 5px; background-color: var(--GS09); transition: all 0.3s ease-in-out;
+}
+.listContainer #sortBar > div > button:first-of-type.active::before,
+.listContainer #sortBar > div > button:first-of-type.active::after{background-color: var(--RS03);}
+
+.listContainer #sortBar > div > button:first-of-type::before{top: 2.5px; left: 3px;}
+.listContainer #sortBar > div > button:first-of-type.active::after{left: 3px;}
+
+.listContainer #sortBar > div > button:first-of-type.active::before,
+.listContainer #sortBar > div > button:first-of-type::after{left: 11px;}
+
+.listContainer #sortBar > div > button:first-of-type{
+    background: url('../images/bul_listFilters_bk.png') left center / auto no-repeat;
+}
+.listContainer #sortBar > div > button:first-of-type.active{
+    background: url('../images/bul_listFilters_rd.png') left center / auto no-repeat;
+}
+.listContainer #filtersPanel{
+    z-index: 10; max-width: 500px; padding: var(--sp50) 5% var(--sp200);
+    transition: all 0.3s ease-in-out; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.listContainer #filtersPanel.active{display: block; left: 0;}
+
+.listContainer #filtersPanel li > b,
+.listContainer .pager > ol > li > a{display: block; position: relative;}
+
+.listContainer #filtersPanel li > b::after{
+    width: 10px; height: 10px; background: url('../images/bul_+.png') center / auto no-repeat;
+    right: 0; top: 5px; transition: all 0.3s ease-in-out;
+}
+.listContainer #filtersPanel li > b.active::after{transform: rotate(45deg);}
+
+.listContainer #filtersPanel label[for*="Color"]::before{
+    width: 25px; height: 25px; left: 0; top: -5px; border: 1px solid transparent;
+    background-position: center; background-size: 85%; background-repeat: no-repeat;
+}
+.listContainer #filtersPanel .grey::before{background-image: url('../images/filterColorChip_grey.png');}
+.listContainer #filtersPanel .cream::before{background-image: url('../images/filterColorChip_Cream.png');}
+.listContainer #filtersPanel .black::before{background-image: url('../images/filterColorChip_black.png');}
+.listContainer #filtersPanel .blue::before{background-image: url('../images/filterColorChip_blue.png');}
+.listContainer #filtersPanel .brown::before{background-image: url('../images/filterColorChip_brown.png');}
+.listContainer #filtersPanel .yellow::before{background-image: url('../images/filterColorChip_yellow.png');}
+.listContainer #filtersPanel .green::before{background-image: url('../images/filterColorChip_green.png');}
+.listContainer #filtersPanel .white::before{background-image: url('../images/filterColorChip_white.png');}
+.listContainer #filtersPanel .red::before{background-image: url('../images/filterColorChip_red.png');}
+.listContainer #filtersPanel .multi::before{background-image: url('../images/filterColorChip_multi.png');}
+.listContainer #filtersPanel .begie::before{background-image: url('../images/filterColorChip_Begie.png');}
+
+.listContainer #filtersPanel .colorSelect > li > ol.active,
+.listContainer > ul,
+.detailContainer #dimen > dl,
+.ausContainer > div:last-of-type > div{display: flex; flex-wrap: wrap;}
+
+.listContainer > ul > li{transition: all 0.2s ease-in-out;}
+
+.listContainer > ul > li,
+.detailContainer #view div.utLt20 > ol,
+.detailContainer #view .capacity > span,
+.detailContainer #view div.utLt20 > dl:not(:last-child),
+.detailContainer #view div.utLt20 > dl:nth-child(4),
+.detailContainer .nonMaFin{border-bottom: 1px solid var(--GS02);}
+
+.listContainer > ul.thirdGrid > li{width: calc(33.333% - 1px);}
+.listContainer > ul.secondGrid > li{width: calc(50% - 1px);}
+
+.listContainer > ul.thirdGrid > li:nth-child(3n+2),
+.listContainer > ul.secondGrid > li:nth-child(2n+1){border-right: 1px solid var(--GS02);}
+
+.listContainer > ul > li > div:first-child > div,
+.listContainer > ul > li > div a.utLt26,
+.detailContainer #view div.utLt20 > ol > li > a{display: flex; justify-content: center;}
+
+.listContainer > ul > li > div:first-child > div{
+    width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: opacity 0.4s ease-out;
+}
+.listContainer > ul > li:hover > div:first-child > div,
+.listContainer > ul > li:hover > div:last-child > ol,
+.signContainer li > span,
+.storeContainer #map > a:hover,
+.storeContainer #map > a.active{opacity: 1;}
+
+.listContainer > ul > li > div:first-child > div > *{align-self: center;}
+
+.listContainer .addToWish{
+    background-position: 55% center; background-size: 25%; background-repeat: no-repeat;
+    border-radius: 50px 0 0 50px;
+}
+.listContainer .addToWish.active{background-size: 22%;}
+
+.listContainer > ul > li > div a.utLt26{
+    align-items: center; padding: 4% 0; border-top: 2px solid var(--GS01); border-bottom: 2px solid var(--GS01);
+}
+.listContainer > ul > li > div a.utLt26 > span:first-of-type{
+    opacity: 0; white-space: nowrap; transition: opacity 0.2s ease-in-out, text-indent 0.1ms ease-in-out;
+}
+.listContainer > ul > li > div input[value="myCart"]{
+    border-radius: 0 50px 50px 0;
+    background: url('../images/ico_cart_wh.png') 45% center / 25% no-repeat;
+}
+.listContainer > ul > li > div input[value="myCart"].active{
+    background: url('../images/ico_cart_fullbk.png') 45% center / 22% no-repeat;
+    background-color: var(--GS01);
+}
+.listContainer > ul > li > div:last-child{padding: 0 8% var(--sp100);}
+
+.listContainer > ul > li > div:last-child > ol{display: inline-flex; opacity: 0;}
+
+.listContainer .pager,
+.detailContainer{border-top: 1px solid var(--GS02);}
+
+.listContainer .pager,
+.detailContainer :is(#descript, #care, #dimen),
+:is(.myContainer, .wishContainer, .orderContainer) > div > h2,
+.myContainer > div legend,
+.wishContainer :is(.haveList > small, #deletePopup, .haveList > ul li),
+.orderContainer > div > div > time,
+.payContainer > div:nth-of-type(2) fieldset,
+.customContainer > div:nth-child(2) > div:nth-of-type(2) > div > h4,
+.faqContainer > div > ul > li > h4,
+:is(.storeContainer, .faqContainer, .cusContainer, .fContainer) h2{border-bottom: 2px solid var(--GS02);}
+
+.listContainer .pager > a{
+    width: 20px; line-height: 20px;
+    background: url('../images/btn_01_mainslide.png') center / 100% no-repeat;
+}
+.listContainer .pager > a:first-of-type:hover{
+    background: url('../images/btn_01_hover.png') left center / 70% no-repeat;
+}
+.listContainer .pager > a:nth-of-type(2):hover{
+    background: url('../images/btn_01_hover.png') left center / 70% no-repeat;
+    transform: rotate(180deg);
+}
+.listContainer .pager > ol > li{transition: all 0.3s ease-in-out;}
+.listContainer .pager > ol > li:not(:first-of-type),
+.storeContainer [id^='f_'] div:nth-child(3) dd,
+.customContainer #texArea > li > ol > li:not(:first-of-type){margin-left: 5%;}
+
+.listContainer .pager > ol > li > a.active,
+.listContainer .pager > ol > li > a:hover,
+.listContainer .pager > ol > li > a:hover::before,
+.listContainer .pager > ol > li > a.active::before{opacity: 1; transform: rotate(0deg);}
+.listContainer .pager > ol > li > a::before{
+    background: url('../images/btn_01_mainslide.png') center / 100% no-repeat;
+    z-index: -1; opacity: 0; transform: rotate(45deg); transition: all 0.3s ease-in-out;
+}
+.reView{padding: var(--sp150) 0;}
+.reView > ul{
+    display: grid; gap: var(--sp100); grid-template-columns: repeat(4, 1fr);
+    overflow-x: scroll; scroll-behavior: smooth;
+}
+.reView > ul li a > :is(b, mark, span){display: block; max-width: 300px;}
+.reView > ul li a > :is(b, mark){margin: 0 auto var(--sp30);}
+
+.detailContainer > .stepNav{padding-top: var(--sp50);}
+
+.detailContainer #view :is(.bx-prev, .bx-next){z-index: 10;}
+
+.detailContainer #view .bx-next{transform: rotate(180deg);}
+
+.detailContainer #view :is(.bx-prev, .bx-next):hover{background-image: url('../images/bul_detailslide_hover_btn.png');}
+
+.detailContainer #view > div:first-child{overflow: hidden;}
+
+.detailContainer #view .thumbPager{
+    max-width: 1200px; line-height: 10px; overflow-x: auto; padding-bottom: var(--sp20);
+}
+.detailContainer #view .thumbPager > li{flex-shrink: 0; border: 2px solid transparent;}
+
+.detailContainer #view .thumbPager > li.active{border: 2px solid var(--BS03);}
+
+.detailContainer #view .addToWish{width: 25px; height: 20px; margin-left: 10%;}
+
+.detailContainer #view :is(.capacity > span, div.utLt20 > ol),
+.detailContainer .nonMaFin,
+:is(.myContainer, .wishContainer, .orderContainer) > div > h2,
+.storeContainer :is([id^='fs_'] > ul, h2),
+:is(.faqContainer, .cusContainer) > h2,
+.fContainer :is(div > h2, .shipInfo > ol > li){padding-bottom: var(--sp30);}
+
+.detailContainer #view div.utLt20 > ol > li:not(:first-of-type){margin-left: 1.5%;}
+
+.detailContainer #view div.utLt20 > ol > li > a{
+    align-items: center; width: 29px; height: 31px; border: 1px solid transparent; border-radius: 20px;
+}
+.detailContainer #view div.utLt20 > ol > li a.active{border: 1px solid var(--GS02);}
+
+.detailContainer #view div.utLt20 > ol > li > a > img{width: 25px; height: 25px;}
+
+.detailContainer #view div.utLt20 > dl:not(.nonMaFin){padding: var(--sp30) 0;}
+
+.detailContainer #view div.utLt20 > :is(dl:nth-child(3), dl:nth-child(4)) > dd,
+.detailContainer .nonMaFin > dd{margin-left: 1%;}
+
+.detailContainer #view div.utLt20 > dl:nth-of-type(2) > dt:first-of-type,
+.detailContainer .nonMaFin > dt:first-of-type{
+    clear: right; background: url('../images/ico_freeDelivery.png') left 30% / auto no-repeat;
+}
+.detailContainer #view div.utLt20 > dl:nth-of-type(2) > dt:last-of-type,
+.detailContainer .nonMaFin > dt:last-of-type{
+    clear: left; background: url('../images/ico_stock.png') 15% / auto no-repeat;
+}
+.detailContainer .haveFin > dt:nth-of-type(2){clear: left;}
+
+.detailContainer .dopBtn:nth-of-type(2){margin-left: 3%; margin-right: 3%;}
+
+.detailContainer .dopBtn{
+    max-width: 150px; border: 2px solid var(--BS04); border-radius: 30px;
+}
+.detailContainer .dopBtn > a,
+.sideNav > ul > li > a,
+.orderContainer #reRequest input[type="button"],
+.orderContainer > div > div:first-of-type > ul li input[type="button"],
+.fContainer ul > li > h3,
+.fContainer .shipInfo > ul:nth-of-type(2) > li > h3{line-height: 40px;}
+
+.detailContainer .miniNavWrapper > ol,
+.customContainer #specs > li{border-bottom: 2px solid var(--GS04);}
+
+.listContainer > ul,
+.detailContainer .miniNavWrapper > ol > li{box-sizing: border-box;}
+
+.detailContainer .miniNavWrapper #navLine{
+    left: 0; bottom: 0px; height: 2px; z-index: 10; transform-origin: left; transition: all 0.4s ease-in-out;
+}
+.detailContainer #descript:not(.careDescript),
+.detailContainer #care,
+.detailContainer #dimen{padding: var(--sp100) 0 var(--sp150);}
+
+.detailContainer .careDescript{padding: var(--sp100) 0;}
+
+.detailContainer #care > div > p{max-width: 725px;}
+
+.detailContainer #care > div > a{margin-top: var(--sp45);}
+
+.detailContainer #dimen > dl{align-content: center;}
+
+.detailContainer #why > p{max-width: 660px;}
+
+.detailContainer #why > ul{display: grid;}
+
+.detailContainer #why > ul > li{background-position: top left; background-repeat: no-repeat;}
+.detailContainer #why > ul > li:first-child{background-image: url('../images/ico_bestprice.png');}
+.detailContainer #why > ul > li:nth-child(2){background-image: url('../images/ico_delivery.png');}
+.detailContainer #why > ul > li:nth-child(3){background-image: url('../images/ico_return.png');}
+.detailContainer #why > ul > li:last-child{background-image: url('../images/ico_financing.png');}
+
+.detailContainer #caProp{
+    padding-top: var(--sp100); border-top: 2px solid var(--GS02);
+}
+.signContainer > div:last-of-type{padding-top: var(--sp100);}
+
+.signContainer .moveAside{height: 100%;}
+
+.signContainer li > span.active,
+.customContainer #colorArea > ul > li.active::before,
+.customContainer #colorArea > ul > li:hover::before,
+.customContainer #colorArea > ul > li.active::after,
+.customContainer #colorArea > ul > li:hover::after{opacity: 0;}
+
+.signContainer .moveAside > div > p{margin: 0 auto var(--sp70);}
+
+.signContainer .moveAside > div .leafBtnBor{
+    max-width: 255px; border: 2px solid var(--GS01); border-radius: var(--sp35) 0 var(--sp35) 0;
+}
+.signContainer :is(.signIn, .signUp){transition: opacity 0.3s ease-in-out;}
+
+.signContainer :is(.signIn, .signUp) fieldset{max-width: 540px;}
+
+.signContainer li > span{
+    transition: opacity 0.1s ease-in-out; line-height: 15px; bottom: -30px; z-index: 10;
+}
+.signContainer .signIn li:last-of-type > input[type="button"],
+.signContainer .signIn .forgotPw .backLog,
+.faqContainer > div > ul > li > p > a{text-decoration: underline;}
+
+.signContainer .signIn li:not(:nth-of-type(3)) label,
+.signContainer .signUp li:not(:last-of-type) label,
+.payContainer > div:nth-of-type(2) li:not(:nth-of-type(2),:last-of-type) label,
+.myContainer fieldset ul > li > label,
+.myContainer fieldset > div label,
+.fContainer fieldset > ul > li > label,
+.cusContainer fieldset > ul > li > label,
+.fContainer .shipInfo > ol > li > span{display: block; margin-bottom: var(--sp20);}
+
+.signContainer .toggleVisible,
+.myContainer input[value="visible"]{
+    position: absolute; padding: 15px; text-indent: -9999px;
+    background: url('../images/bul_visible.png') center / 100% no-repeat;
+}
+.signContainer .toggleVisible.active,
+.myContainer input[value="visible"].active{
+    background: url('../images/bul_visible_no.png') center / 100% no-repeat;
+}
+.sideNav > strong{line-height: 60px;}
+
+:is(.myContainer, .wishContainer, .orderContainer) > div{margin-top: var(--sp50); padding-bottom: var(--sp150);}
+
+.myContainer > div legend,
+.wishContainer .haveList > small,
+.orderContainer > div > div > time{padding: 0 0 var(--sp15) 2%;}
+
+.wishContainer .emptyList{
+    background-image: url('../images/bg_mywish_sparkle.png'); background-repeat: no-repeat;
+}
+.wishContainer #deletePopup{width: 100%; height: 100%;}
+
+.wishContainer .haveList > ul > li{padding: 0 2.5% var(--sp50);}
+
+.wishContainer .haveList input[type='button']:not(.okBtn){
+    background-size: 100%; background-position: center; background-repeat: no-repeat;
+}
+.wishContainer .haveList input[value='cart']{
+    background-image: url('../images/ico_cart_line.png'); padding: 10px 13px;
+}
+.wishContainer .haveList input[value='cart']:hover{background-image: url('../images/ico_cart_fullbkk.png');}
+.wishContainer .haveList input[value='delete']{
+    background-image: url('../images/ico_delete_line.png'); padding: 9px 11px; margin-left: 10%;
+}
+.wishContainer .haveList input[value='delete']:hover{background-image: url('../images/ico_delete_bk.png');}
+
+.orderContainer > div > div:first-of-type > ul li div{
+    padding: var(--sp10); border: 1px solid var(--GS04); border-radius: 10px;
+}
+.orderContainer > div > div:first-of-type > ul li div > sup{
+    z-index: 2; background-color: var(--BLS05); border-radius: 20px; padding: 10px 15px;
+}
+.orderContainer > div > div:first-of-type > ul li div > img{
+    display: block; border-radius: 30px; margin: 0 auto;
+}
+.orderContainer > div > div:first-of-type > ul li input[type="button"]{
+    max-width: 200px; border-radius: 5px;
+}
+.orderContainer #requestPopup{max-width: 500px;}
+
+.orderContainer #requestPopup > div > input[type="button"]:not(:first-of-type),
+.customContainer #specs > li{line-height: 50px;}
+
+.orderContainer > div > div:last-of-type > div:first-of-type > address,
+.orderContainer > div > div:last-of-type > div:first-of-type > b,
+.storeContainer [id^='f_'] div:nth-child(2) address{font-style: normal;}
+
+.orderContainer #reRequest .selectRequest > span{
+    padding: 0 15px; background: url('../images/bul_arrow_request.png') right 15px center / auto no-repeat;
+    background-color: var(--GS01); border: 1px solid var(--GS04);
+}
+.orderContainer #reRequest .selectRequest > ol{
+    padding: var(--sp10) 0; box-shadow: -5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.orderContainer #reRequest .selectRequest > ol > li{line-height: 20px; padding-left: 10px;}
+
+.orderContainer #reRequest .selectRequest > ol > li:hover,
+.orderContainer #reRequest .selectRequest > ol > li.active{background-color: var(--BLS02);}
+
+.payContainer > div:nth-of-type(2) > ul li:nth-of-type(2){margin: 0 3%;}
+
+.payContainer > div:last-of-type > ul{
+    border-bottom: 2px solid var(--GS05); padding-bottom: var(--sp70);
+}
+.payContainer > div:last-of-type li div{
+    border: 1px solid var(--GS04); border-radius: 10px;
+}
+.payContainer > div:last-of-type li div sup{
+    z-index: 2; right: -13%; top: -10%; padding: 10px; background-color: var(--BLS05); border-radius: 20px;
+}
+.payContainer > div:last-of-type li div > img{width: 90%; border-radius: 30px;}
+
+.payContainer > div:last-of-type > dl:first-of-type,
+.payContainer > div:last-of-type > dl:last-of-type{
+    border-bottom: 2px solid var(--GS05); padding: var(--sp40) 0;
+}
+.payContainer > div:last-of-type > dl:first-of-type > dt,
+.payContainer > div:last-of-type > dl:first-of-type > dd{width: 50%;}
+
+.payContainer > div:last-of-type > dl:first-of-type > dt:last-of-type{clear: both;}
+
+.payContainer > div:last-of-type > dl:last-of-type{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.storeContainer #map{max-width: 1312px;}
+.storeContainer #map > a{opacity: 0.5; z-index: 2;}
+.storeContainer #map > a[href*='01']{width: 13.4%; top: 0; left: 0;}
+.storeContainer #map > a[href*='02']{width: 12.75%; top: 0; left: 11.45%;}
+.storeContainer #map > a[href*='03']{width: 13.83%; top: 13.45%; left: 0.25%;}
+.storeContainer #map > a[href*='04']{width: 17.74%; top: 31.48%; left: 0.6%;}
+.storeContainer #map > a[href*='05']{width: 11.9%; top: 31.96%; left: 7%;}
+.storeContainer #map > a[href*='06']{width: 11.6%; bottom: 23.3%; left: 17.35%;}
+.storeContainer #map > a[href*='07']{width: 11.25%; top: 30.8%; left: 16.75%;}
+.storeContainer #map > a[href*='08']{width: 12.48%; top: 36.4%; left: 26.67%;}
+.storeContainer #map > a[href*='09']{width: 21.55%; top: 0; left: 14.89%;}
+.storeContainer #map > a[href*='10']{width: 16.16%; top: 14.6%; left: 33.95%;}
+.storeContainer #map > a[href*='11']{width: 13.9%; top: 0; left: 46.9%;}
+.storeContainer #map > a[href*='12']{width: 12.4%; top: 35.9%; left: 50.17%;}
+.storeContainer #map > a[href*='13']{width: 8.1%; top: 29.7%; left: 57.67%;}
+.storeContainer #map > a[href*='14']{width: 6.2%; top: 32.89%; right: 29.24%;}
+.storeContainer #map > a[href*='15']{width: 11%; top: 29.8%; right: 12.6%;}
+.storeContainer #map > a[href*='16']{width: 6.05%; top: 34.53%; right: 12.12%;}
+.storeContainer #map > img{opacity: 0.5; z-index: 1;}
+
+.storeContainer [id^='fs_'] > ul{
+    display: grid; grid-template-columns: repeat(6, 1fr); overflow-x: auto;
+}
+.storeContainer [id^='fs_']:not(.noGap) > ul{gap: var(--sp40);}
+
+.storeContainer [id$='04'] > ul{grid-template-rows: repeat(3, auto);}
+
+.storeContainer [id^='fs_'] > ul > li{width: 250px; min-width: 250px;}
+
+.storeContainer [id^='fs_'] input[type='button']{
+    font: inherit; line-height: 45px; padding-left: 20px;
+}
+.storeContainer [id^='fs_'] input[type='button']:hover,
+.storeContainer [id^='fs_'] input[type='button'].active{color: var(--GS01); background-color: var(--BS03);}
+
+.storeContainer [id^='f_'] div:nth-child(2) strong{font: inherit;}
+
+.storeContainer [id^='f_'] div:nth-child(3) dt{float: left; clear: both;}
+
+.storeContainer [id^='f_'] div:nth-child(3) dd:nth-of-type(2n-1n){clear: right;}
+
+.customContainer > div:first-child{padding: var(--sp200) 0;}
+
+.customContainer > div:first-child > h2{background-color: rgba(0, 0, 0, 0.4); max-width: 550px;}
+
+.customContainer > div:nth-child(2) > ol > li{
+    margin: 0 -4px; display: inline-flex; flex-direction: column;
+}
+.customContainer > div:nth-child(2) > ol > li::after{border: 3px solid var(--BLS02);}
+
+.customContainer > div:nth-child(2) > ol > li > span::after{
+    width: 25px; height: 25px; border-radius: 30px; background-color: var(--BLS02); bottom: -9.5px;
+}
+.customContainer #productArea > ul > li:not(:first-of-type){margin-left: 10%;}
+
+.customContainer #productArea > ul > li.active{border-bottom: 2px solid var(--BS04);}
+
+.customContainer #productArea [id$="Tab"]{display: none; overflow-y: scroll;}
+
+.customContainer #productArea [id$="Tab"] > li.active{font-family: "Publico Banner Web Medium Regular";}
+
+.customContainer > div:nth-child(2) > div:nth-of-type(2) > div > h4{width: 210px;}
+
+.customContainer #texArea > li{display: none; width: 100%;}
+
+.customContainer h4{
+    width: 100px; line-height: 30px; border-bottom: 2px solid var(--GS02);
+}
+.customContainer #texArea > li > ol > li{border: 2px solid transparent;}
+
+.customContainer #texArea > li > ol > li.active{border: 2px solid var(--BS03);}
+
+.customContainer #colorArea > ul{overflow-x: auto;}
+
+.customContainer #colorArea > ul > li::before{opacity: 0.5;}
+.customContainer #colorArea > ul > li:first-of-type::before{background-color: #e0b209;}
+.customContainer #colorArea > ul > li:nth-of-type(2)::before{background-color: #740202;}
+.customContainer #colorArea > ul > li:nth-of-type(3)::before{background-color: #a0441e;}
+.customContainer #colorArea > ul > li:nth-of-type(4)::before{background-color: #eee;}
+.customContainer #colorArea > ul > li:nth-of-type(5)::before{background-color: #004184;}
+.customContainer #colorArea > ul > li:nth-of-type(6)::before{background-color: #006924;}
+.customContainer #colorArea > ul > li:last-of-type::before{background-color: #999;}
+
+.customContainer #colorArea > ul > li::after{top: 40%;}
+.customContainer #colorArea > ul > li:first-of-type::after{content: 'Yellow';}
+.customContainer #colorArea > ul > li:nth-of-type(2)::after{content: 'Red'; left: 35%;}
+.customContainer #colorArea > ul > li:nth-of-type(3)::after{content: 'Brown';}
+.customContainer #colorArea > ul > li:nth-of-type(4)::after{content: 'White';}
+.customContainer #colorArea > ul > li:nth-of-type(5)::after{content: 'Blue';}
+.customContainer #colorArea > ul > li:nth-of-type(6)::after{content: 'Green';}
+.customContainer #colorArea > ul > li:last-of-type::after{content: 'Grey';}
+.customContainer #colorArea > ul > li:not(:first-of-type){margin-left: 4%;}
+
+.customContainer > div:last-child > h3{
+    color: var(--BLS07); border-bottom: 2px solid var(--BLS02); max-width: 350px; margin: 0 auto var(--sp20);
+}
+.customContainer > div:last-child > p{max-width: 600px;}
+
+.faqContainer > a::before,
+.fContainer > div > a::before,
+.cusContainer > a::before{
+    background: url('../images/bul_arrow_step.png') left center / auto no-repeat;
+    width: 10px; height: 13px; transform: rotate(180deg); top: 2px; left: 0;
+}
+.faqContainer > a,
+.fContainer > div > a,
+.cusContainer > a{width: 80px; line-height: 18px;}
+
+.faqContainer > div > ul > li::before{
+    width: 20px; height: 10px; background: url('../images/bul_arrow_faq.png') center / auto no-repeat;
+    transition: transform 0.2s ease-in-out; left: 3%;
+}
+.faqContainer > div > ul > li.active::before{transform: rotate(180deg);}
+
+.faqContainer > div > ul > li > h4{transition: all 0.1s ease-in-out;}
+
+.faqContainer > div > ul > li.active > h4{font-weight: 700;}
+
+.faqContainer > div > ul > li > p{display: none; width: 95%; padding: var(--sp35) 0 var(--sp35) 8%;}
+
+.cusContainer > div > p{padding: var(--sp30) 5%;}
+
+.fContainer fieldset > ul > li > textarea,
+.cusContainer fieldset > ul > li > textarea{
+    border: 2px solid var(--GS04); border-radius: 15px; padding: var(--sp20) 3%; resize: none;
+}
+.fContainer .shipInfo > ol{margin: 0 auto var(--sp50);}
+
+.fContainer .shipInfo > ol > li{max-width: 300px; border-radius: 10px;}
+
+.fContainer .shipInfo > ol > li > h3{border-radius: 10px 10px 0 0; padding: var(--sp25) 0;}
+
+.fContainer .shipInfo > ol > li:first-of-type > h3{background-color: var(--BLS02);}
+.fContainer .shipInfo > ol > li:nth-of-type(2) > h3{background-color: var(--BS02);}
+.fContainer .shipInfo > ol > li:nth-of-type(3) > h3{background-color: var(--BS03);}
+.fContainer .shipInfo > ol > li:last-of-type > h3{background-color: var(--BS04);}
+
+.fContainer .reEx > ul > li:nth-of-type(2){padding: 0 7% 0 4%;}
+
+.fContainer .pPolicy > ul > li > ul,
+.fContainer .delivery > ul > li > ul{padding: 0 5%;}
+
+.fContainer .pPolicy > ul > li:not(:nth-of-type(7)) > ul > li::before,
+.fContainer .delivery > ul > li > ul > li::before{
+    width: 7px; height: 7px; border-radius: 10px; background-color: var(--BLS04); left: 0; top: 10px;
+}
+.fContainer .pPolicy > ul > li > ul > li{padding-left: 2%;}
+
+.fContainer .delivery > ul > li > ul > li:last-of-type > ul{padding-top: var(--sp20);}
+
+.fContainer .delivery > ul > li > a{padding-top: var(--sp25);}
+
+.ausContainer > div:first-of-type,
+.ourContainer > div:first-of-type{padding: var(--sp200) 0;}
+
+.ausContainer > div:first-of-type > h2{
+    background-color: rgba(0, 0, 0, 0.4); max-width: 550px; padding: var(--sp50) 0;
+}
+.ausContainer > div:last-of-type > p{line-height: 45px;}
+
+.ausContainer > div:last-of-type > div{align-items: center;}
+
+.ausContainer > div:last-of-type > div:last-of-type > div > h3,
+.ourContainer > div:last-of-type > div:last-of-type > div > h3{color: var(--RS05);}
+
+.ausContainer > div:last-of-type > div p,
+.ourContainer > div:last-of-type p{line-height: 35px;}
+
+.ourContainer > div:first-of-type > h2{
+    background-color: rgba(0, 0, 0, 0.4); max-width: 600px; padding: var(--sp50) 5%;
+}
+.ourContainer > div:first-of-type > h2 > span:last-of-type{max-width: 550px;}
+
+.ourContainer > div:last-of-type > div:last-of-type{background-repeat: no-repeat;}
+/* mobile tablet */
+@media screen and (max-width: 1279px){
+    .mainContainer > div:nth-of-type(2) > div,
+    .mainContainer > div:nth-of-type(8) > div > div,
+    .mCollection > ul > li,
+    .listContainer > div:nth-child(2) > img,
+    .detailContainer #view > div:first-child,
+    .detailContainer #view > div:first-child > h2,
+    .detailContainer :is(#descript, #dimen, #care, #why) > img,
+    .detailContainer :is(#descript, .careDescript, #care) > div,
+    .detailContainer #why > :is(p, ul, ul li),
+    .sideNav,
+    .myContainer > div legend,
+    .myContainer fieldset:last-child,
+    .myContainer fieldset:first-child > :is(ul, div:not([id$='Popups'])),
+    .orderContainer > div > div:first-of-type > ul > li > div > img,
+    .orderContainer #reRequest > strong,
+    .fContainer fieldset > ul > li,
+    .ausContainer > div:last-of-type > div > img,
+    .ourContainer > div:last-of-type > div:last-of-type > div{width: 100%;}
+
+    .detailContainer #why > ul,
+    .signContainer > div:last-of-type > div{margin: 0 auto;}
+
+    .mainContainer > div:nth-of-type(4) img:first-of-type,
+    .mainContainer > div:nth-of-type(5) img{margin-bottom: var(--sp25);}
+
+    .customContainer #productImg,
+    .fContainer .sideNav{margin-bottom: var(--sp30);}
+    
+    .payContainer > div:nth-of-type(2) fieldset > ul > li:nth-of-type(4) > input:not(:nth-of-type(3), :last-of-type),
+    .fContainer fieldset > ul > li:not(:last-of-type){margin-bottom: var(--sp40);}
+
+    .detailContainer #descript:has(img) > div,
+    .detailContainer #dimen > img,
+    .detailContainer #why > img,
+    .storeContainer [id^='f_'] div:nth-child(2),
+    .customContainer > div:nth-child(2) > div:nth-of-type(2) > div{margin-bottom: var(--sp50);}
+
+    .mainContainer > div:nth-of-type(2){margin-bottom: var(--sp70);}
+
+    .detailContainer #care > img{margin-bottom: var(--sp80);}
+
+    .mainContainer > div:nth-of-type(5){margin-bottom: var(--sp100);}
+    
+    .mainContainer > div:nth-of-type(7) > div > a,
+    .mainContainer > div:nth-of-type(8) a,
+    .detailContainer #view .circleBtnB{margin-left: auto;}
+
+    .mainContainer > div:nth-of-type(7) div{width: 100%; box-sizing: border-box;}
+
+    .mainContainer > div:nth-of-type(9){
+        background-image: url('../images/img_main_06.png'); background-position: center; background-repeat: no-repeat;
+    }
+    .mainContainer > div:nth-of-type(9) > div{
+        max-width: 580px; margin: 0 auto; background-color: rgba(255, 255, 255, 0.8);
+        padding: var(--sp50) 3% var(--sp150); box-sizing: border-box;
+    }
+    .mainContainer .mainTicker > li{max-width: 110px;}
+
+    .mCollection > ul > li > a{padding: var(--sp150) 10%;}
+
+    .mCollection > ul > li:nth-of-type(2) > a{text-align: right;}
+
+    .listContainer > div:nth-child(2) > h2{padding-left: 3%; margin-bottom: var(--sp30);}
+
+    .listContainer #sortBar > div > button{min-width: 90px;}
+
+    .listContainer > ul > li.active > div:first-child > div,
+    .listContainer > ul > li.active > div:last-child > ol,
+    .signContainer .moveAside > div:first-of-type{opacity: 0;}
+
+    .listContainer .closeBtn{
+        width: 15px; border: none; background-color: transparent; text-indent: -9999px;
+        background: url('../images/bul_cart_close.png') center / auto no-repeat;
+        position: absolute; top: 20px; right: 20px;
+    }
+    .listContainer .addToWish,
+    .listContainer > ul > li > div input[value="myCart"]{background-color: transparent; border: 2px solid #fff;}
+
+    .listContainer > ul > li > div a.utLt26{line-height: 37px;}
+
+    .listContainer > ul > li > :is(div input[value="myCart"], div a.utLt26),
+    .signContainer .signIn,
+    .signContainer .signIn > form > fieldset.active,
+    .signContainer .signUp.active{display: none;}
+    
+    .listContainer > ul > li:hover > div .addToWish,
+    .listContainer > ul > li:hover > div input[value="myCart"],
+    .listContainer > ul > li:hover > div a.utLt26,
+    .customContainer #specs{display: flex;}
+
+    .listContainer > ul > li > div:last-child > mark,
+    .listContainer > ul > li.active > div:last-child > mark,
+    .signContainer .signIn.active,
+    .signContainer .signIn fieldset,
+    .signContainer .signUp{display: block;}
+
+    .listContainer .pager > ol{width: 70%; margin: 0 auto;}
+
+    .listContainer #howTo{box-sizing: border-box;}
+
+    .detailContainer #view .bx-prev,
+    .orderContainer #reRequest .selectRequest > ol{left: 0;}
+    .detailContainer #view .bx-next{right: 0;}
+
+    .detailContainer #view .thumbPager > li:not(:first-of-type){margin-left: 1%;}
+
+    .detailContainer #view > div:last-child > div:first-of-type{justify-content: space-between;}
+
+    .detailContainer #view > div:last-child{width: 100%; margin-top: var(--sp70);}
+
+    .detailContainer .dOption > :is(dd:nth-child(3), dd:nth-child(4)){margin-right: 3%;}
+
+    .detailContainer .miniNavWrapper > ol{
+        display: flex; white-space: nowrap; overflow-x: auto; overflow-y: hidden;
+    }
+    .detailContainer .miniNavWrapper > ol > li:first-of-type{padding-right: 4%;}
+
+    .detailContainer .miniNavWrapper > ol > li:not(:first-of-type){padding: 0 4%;}
+
+    .detailContainer :is(#descript, #care) > div > a{float: right;}
+
+    .detailContainer #why > ul > li{padding-top: 130px;}
+
+    .signContainer .moveAside{display: block; position: relative;}
+
+    .signContainer .moveAside > div{
+        width: 100%; transition: opacity 1s ease-in-out; padding: var(--sp200) 0; box-sizing: border-box;
+        top: 0; background-color: var(--BS04);
+    }
+    .signContainer .moveAside.active > div:first-of-type{opacity: 1;}
+
+    .signContainer .moveAside > div:last-of-type{position: absolute; left: 0; opacity: 1;}
+
+    .signContainer .moveAside.active > div:last-of-type{position: absolute; left: -100%; opacity: 0;}
+
+    .signContainer > div:last-of-type{flex-direction: column-reverse;}
+
+    .signContainer .moveAside > div > p{width: 70%; line-height: 24px;}
+
+    .signContainer :is(.signIn, .signUp){position: relative;}
+
+    .signContainer :is(.signIn, .signUp) fieldset,
+    .signContainer .signIn > div{width: 100%; margin-bottom: var(--sp70);}
+
+    .sideNav > ul{
+        display: flex; gap: 50px; white-space: nowrap; overflow-x: auto; scroll-behavior: smooth;
+    }
+    .myContainer #save1Popups{top: 45%; left: 50%;}
+    .myContainer #save2Popups{top: 65%; left: 50%;}
+
+    .wishContainer .emptyList{background-position: 85% 30px;}
+
+    .orderContainer > div > div:first-of-type > ul > li:last-of-type > strong{vertical-align: 40px;}
+
+    .orderContainer #requestPopup > div > span{padding: 0 5%; box-sizing: border-box;}
+
+    .orderContainer #reRequest{margin-top: var(--sp50);}
+
+    .ausContainer > div:last-of-type > div > div,
+    .ourContainer > div:last-of-type > div:first-of-type > div:not(:last-of-type),
+    .ourContainer > div:last-of-type > div:first-of-type > img{width: 100%; margin-bottom: var(--sp50);}
+
+    .orderContainer #reRequest .selectRequest > span{line-height: 30px; margin-top: 5px;}
+
+    .payContainer > div:nth-of-type(2){padding: var(--sp70) 0 var(--sp150);}
+
+    .payContainer > div:last-of-type{padding: var(--sp200) 5% var(--sp150);}
+
+    .customContainer #productArea [id$="Tab"] > li{display: inline-block;}
+
+    .customContainer #specs > li{padding: 0 3%; position: relative;}
+
+    .customContainer #colorArea > ul{white-space: nowrap;}
+
+    .customContainer #colorArea > ul > li::before{height: 96%;}
+
+    .customContainer #colorArea > ul > li{width: 100px; display: inline-block;}
+
+    .customContainer #colorArea > ul > li:first-of-type::after,
+    .customContainer #colorArea > ul > li:nth-of-type(4)::after{left: 26%;}
+    .customContainer #colorArea > ul > li:nth-of-type(3)::after,
+    .customContainer #colorArea > ul > li:nth-of-type(6)::after{left: 24%;}
+    .customContainer #colorArea > ul > li:nth-of-type(5)::after{left: 31%;}
+    .customContainer #colorArea > ul > li:last-of-type::after{left: 28%;}
+
+    .customContainer > div:last-child{background: url('../images/bg_custom_order_opacity.png') center / 100% no-repeat;}
+
+    .cusContainer > div > p,
+    .fContainer .shipInfo > p:first-of-type{text-align: center;}
+
+    .fContainer .shipInfo > ol{max-width: 700px; flex-wrap: wrap; justify-content: center;}
+
+    .ausContainer > div:last-of-type > div:first-of-type{flex-direction: column-reverse;}
+
+    .ourContainer > div:last-of-type > div:nth-of-type(2){padding: var(--sp100) 0;}
+
+    .ourContainer > div:last-of-type > div:last-of-type{background-image: url('../images/bg_ourstory_04_opacity.png'), url('../images/bg_ourstory_05_opacity.png');}
+}
+/* mobile list */
+@media screen and (max-width: 767px){
+    .stepNav > li:not(:first-child){margin-left: 7%;}
+
+    .listContainer .stepNav > li:not(:first-child)::before{left: -13px;}
+
+    .listContainer > div:first-child{vertical-align: middle;}
+
+    .listContainer > div:first-child > a{
+        display: inline-block; width: 27px; line-height: 30px; border-radius: 30px;
+        text-indent: -9999px; background: url('../images/bul_arrow_down_bk.png') center / 30% no-repeat;
+    }
+    .listContainer > div:first-child > a:hover{
+        background: url('../images/bul_arrow_down_wh.png') center / 31% no-repeat; background-color: var(--RS03);
+    }
+    .listContainer  a.backOther{transform: rotate(-90deg); color: transparent;}
+    
+    .listContainer > div:first-child > ol{width: 87%; display: inline-block; vertical-align: middle;}
+
+    .listContainer > div:nth-child(2) > h2{line-height: 45px;}
+
+    .listContainer > div:nth-child(2) > h2 > img{width: 15px;}
+
+    .listContainer #sortBar > div > button:first-of-type{padding-left: 3%;}
+
+    .listContainer #sortBar > div > button:first-of-type::after{bottom: 2.5px;}
+
+    .listContainer #sortBar > div > :is(button:last-of-type, span, .notMui, div:last-of-type),
+    .listContainer #filtersPanel .colorSelect > li > ol{display: none;}
+
+    .listContainer #filtersPanel{width: 100%; left: -120%; top: 60px;}
+
+    .listContainer #filtersPanel > button{
+        color: var(--GS06); text-decoration: underline; background-color: transparent;
+        padding: 0; margin-bottom: var(--sp45);
+    }
+    .listContainer #filtersPanel span{color: var(--GS06);}
+
+    .listContainer #filtersPanel > span{margin-left: var(--sp20);}
+
+    .listContainer #filtersPanel > div{position: relative; max-width: 250px;}
+
+    .listContainer #filtersPanel > div span{display: flex; min-width: 180px;}
+
+    .listContainer #filtersPanel > div span > span{
+        border-bottom: 1px solid var(--BS06); position: relative; margin-left: 4%;
+    }
+    .listContainer #filtersPanel > div span > span:after{
+        content: ''; display: block; width: 10px; height: 8px; position: absolute; right: 0; top: 5px;
+        background: url('../images/bul_arrow_select.png') right center / auto no-repeat;
+    }
+    .listContainer #filtersPanel > div .selectBox{
+        position: absolute; z-index: 101; right: 0; top: 15px; display: none; padding-right: 20px; box-sizing: border-box;
+        width: 180px; height: 250px; background-color: var(--GS01); box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+    .listContainer #filtersPanel > div .selectBox > ol > li{line-height: 40px; padding-left: 10px;}
+
+    .listContainer #filtersPanel > div .selectBox > ol > li.active{background-color: var(--BLS02); border-radius: 0 50px 50px 0;}
+
+    .listContainer .addToWish,
+    .listContainer > ul > li > div input[value="myCart"]{width: 80px; line-height: 60px;}
+    .listContainer > ul > li > div a.utLt26{width: 80px; height: 66px;}
+
+    .listContainer .pager{padding: var(--sp80) 3%;}
+
+    .listContainer .pager a{top: 41%;}
+    .listContainer .pager a:first-of-type{left: 3%;}
+    .listContainer .pager a:nth-of-type(2){right: 3%;}
+
+    .listContainer .pager ol{width: 85%;}
+    .listContainer .pager ol li{width: 45px; line-height: 45px;}
+    .listContainer .pager ol li a::before{width: 45px; height: 45px;}
+
+    .listContainer #howTo{
+        padding: var(--sp200) 3%; background: url('../images/sp_detail_bg_01small.png') left bottom / auto no-repeat;
+        scroll-margin-top: 190px;
+    }
+    .listContainer #howTo > h3{line-height: 42px;}
+
+    .reView > ul > li{width: 260px;}
+    .reView > ul > li > a{padding: 0 7% var(--sp60); box-sizing: border-box;}
+}
+/* mobile only */
+@media screen and (max-width: 767px){
+    .orderContainer > div > div:first-of-type > ul > li:last-of-type::after,
+    .detailContainer #descript > div:has(.borLearnBtnA)::after{content: ''; display: block; clear: both;}
+
+    [class$=Container],
+    .mCollection{padding-top: 190px; box-sizing: border-box;}
+
+    .customContainer #texArea ol::-webkit-scrollbar{height: 2px;}
+
+    .mainContainer > div:nth-of-type(9) > div a,
+    .mainContainer > div:last-of-type input[type="submit"],
+    .detailContainer #why ul li,
+    .detailContainer #why ul li a,
+    .orderContainer #reRequest input[type="button"]:last-of-type{margin: 0 auto;}
+
+    .customContainer > div:last-child fieldset > input:not(:nth-of-type(4), :last-of-type),
+    .payContainer > div:last-of-type li dl{margin-bottom: var(--sp20);}
+
+    .fContainer .delivery > ul > li > ul > :is(li:not(:last-of-type), li:last-of-type ul li){margin-bottom: var(--sp25);}
+
+    .myContainer fieldset > ul,
+    .fContainer .shipInfo > ol > li:not(:last-of-type){margin-bottom: var(--sp30);}
+
+    .mainContainer > div:nth-of-type(7) img,
+    .detailContainer #view strong.utLt36,
+    .payContainer > div:nth-of-type(2) fieldset > ul > li > input:not(:last-of-type),
+    .payContainer > div:nth-of-type(2) fieldset > ul > li:not(:nth-of-type(2), :last-of-type),
+    .storeContainer [id^='f_'] div:nth-child(2) a[href^='tel']{margin-bottom: var(--sp40);}
+
+    .detailContainer #why ul li:not(:last-of-type),
+    .signContainer .signIn li:not(:nth-of-type(3),:last-of-type),
+    .signContainer .signUp li:not(:first-of-type,:nth-of-type(2), :last-of-type),
+    .signContainer .signUp :is(li:first-of-type, li:nth-of-type(2)),
+    .customContainer > div:last-child fieldset > input:nth-of-type(4){margin-bottom: var(--sp50);}
+
+    .mainContainer > div:nth-of-type(9) > div,
+    .sideNav > strong,
+    .wishContainer .haveList > ul > li,
+    .orderContainer #reRequest .selectRequest > span,
+    .payContainer > div:last-of-type li dl,
+    .customContainer #productArea [id$="Tab"] > li,
+    .customContainer #specs > li,
+    .fContainer .shipInfo > ol > li{width: 100%;}
+
+    .mainContainer h3{line-height: 45px;}
+
+    .mainContainer > div:nth-of-type(2){background: url('../images/bg_main_01_getcozy_01.png') center / cover no-repeat;}
+
+    .mainContainer > div:nth-of-type(2) a{line-height: 52px;}
+
+    .mainContainer .mainSlider > li{max-width: 250px;}
+
+    .mainContainer > div:nth-of-type(3) :is(.bx-prev, .bx-next),
+    .mainContainer > div:nth-of-type(6) :is(.bx-prev, .bx-next){width: 45px; height: 45px;}
+
+    .mainContainer > div:nth-of-type(3) .mainSlider > li{margin-left: 7px;}
+    .mainContainer > div:nth-of-type(6) .mainSlider > li{margin-left: 10px;}
+
+    .mainContainer > div:nth-of-type(5) p,
+    .mainContainer > div:nth-of-type(9) > div p,
+    .detailContainer > .stepNav,
+    .detailContainer #view > div:last-child > h3{line-height: 25px;}
+
+    .mainContainer > div:nth-of-type(5) a{margin-left: auto;}
+
+    .mainContainer > div:nth-of-type(8){padding: var(--sp140) 0 var(--sp40);}
+
+    .mainContainer > div:nth-of-type(8) > div > div{margin-bottom: var(--sp90);}
+
+    .mainContainer > div:nth-of-type(9){background-size: cover;}
+
+    .mainContainer > div:last-of-type input[type="email"]{
+        display: block; width: 80%; max-width: 700px; margin: 0 auto var(--sp50);
+    }
+    .mCollection > ul > li > a{line-height: 60px;}
+
+    .detailContainer .stepNav > li:not(:first-child)::before{left: -15px;}
+
+    .detailContainer :is(#view, #descript, #care, #dimen, #why, #caProp),
+    .storeContainer [id^="fs_"]{scroll-margin-top: 190px;}
+
+    .detailContainer #view :is(.bx-prev, .bx-next){
+        width: 30px; height: 50px; background: url('../images/bul_detailslide_btn.png') center / 100% no-repeat;
+    }
+    .detailContainer #view .detailSlider > li > img{width: 95%; margin: 0 3.5%;}
+
+    .detailContainer #view .thumbPager > li{width: 80px;}
+
+    .detailContainer #view > div:last-child > div:first-of-type{flex-wrap: wrap;}
+
+    .detailContainer #view strong.utLt36{width: 80%;}
+
+    .detailContainer #view .circleBtnB{order: 3;}
+
+    .detailContainer #view div.utLt20 > dl:nth-of-type(2) > dt:first-of-type,
+    .detailContainer #view div.utLt20 > dl:nth-of-type(2) > dt:last-of-type,
+    .detailContainer .nonMaFin > dt:first-of-type,
+    .detailContainer .nonMaFin > dt:last-of-type{padding-left: 22%;}
+
+    .detailContainer #view div.utLt20 > dl:nth-child(3) > dd{width: 75%;}
+    .detailContainer #view div.utLt20 > dl:nth-child(4) > dd{width: 50%;}
+
+    .detailContainer .dopBtn{width: 45%;}
+
+    .detailContainer #dimen dl :is(dt, dd){
+        padding: var(--sp15) 0; box-sizing: border-box; line-height: 30px; border-bottom: 1px solid var(--GS02);
+    }
+    .detailContainer #dimen > dl > dt{width: 35%; padding-left: 10px;}
+
+    .detailContainer #dimen > dl > dd{width: 65%; text-align: right; padding-right: 10px;}
+
+    .detailContainer #dimen > dl > dd > span:last-of-type{margin-left: 10px;}
+
+    .detailContainer #why{padding: var(--sp100) 0;}
+
+    .detailContainer #why > h3{text-align: right; line-height: 45px;}
+
+    .detailContainer #why > ul{max-width: 280px; grid-template-columns: repeat(1, 1fr);}
+
+    .detailContainer #why > ul > li:first-child{background-size: 38%;}
+    .detailContainer #why > ul > li:nth-child(2){background-size: 48%; background-position: center 10%;}
+    .detailContainer #why > ul > li:nth-child(3){background-size: 40%;}
+    .detailContainer #why > ul > li:last-child{background-size: 38%;}
+    .detailContainer #why > ul > li:not(:nth-child(2)){background-position: top center;}
+
+    .detailContainer #why ul li strong{max-width: 280px; margin: 0 auto var(--sp30);}
+
+    .signContainer #sendPopups{transform: translate(-50%, -100%);}
+    .signContainer #thankPopups{transform: translate(-50%, -50%);}
+
+    .signContainer .signIn,
+    .signContainer .signUp{padding: 0 3%;}
+
+    .signContainer .signIn fieldset > h2,
+    .signContainer .signUp fieldset > h2,
+    .wishContainer .emptyList > strong{line-height: 42px;}
+
+    .signContainer .signIn li:nth-of-type(3){margin-bottom: var(--sp15);}
+
+    .signContainer .signIn li:nth-of-type(4){float: right;}
+
+    .signContainer .toggleVisible,
+    .myContainer input[value="visible"]{top: 46px; right: 15px;}
+
+    .signContainer .toggleVisible.active,
+    .myContainer input[value="visible"].active{top: 47px;}
+
+    :is(.myContainer, .wishContainer, .orderContainer) > div > h2{text-align: center; line-height: 45px;}
+
+    .myContainer #save1Popups{transform: translate(-50%, -40%);}
+    .myContainer #save2Popups{transform: translate(-50%, -30%);}
+
+    .wishContainer .emptyList{height: 50vh; background-size: 100%;}
+    
+    .wishContainer #deletePopup{left: 0;}
+
+    .wishContainer #deletePopup > div{padding: 35% 7%;}
+
+    .orderContainer > div > div:first-of-type > ul > li > div{width: 45%; margin: 0 auto var(--sp30);}
+
+    .orderContainer > div > div:first-of-type > ul > li > div > sup{right: -10%; top: -10%;}
+
+    .orderContainer > div > div:first-of-type > ul > li > dl{width: 100%; margin-bottom: var(--sp10); padding-top: var(--sp15);}
+
+    .orderContainer > div > div:first-of-type > ul > li > strong{display: inline-block; width: 100%; text-align: right;}
+
+    .orderContainer > div > div:first-of-type > ul > li > input[type="button"]{width: 100%; float: right;}
+
+    [id$='Popups']{width: 95%;}
+    .orderContainer #requestPopup{width: 95%;}
+
+    .orderContainer #requestPopup > div{padding: var(--sp100) 5% var(--sp50);}
+
+    .orderContainer #reRequest .selectRequest > ol{width: 100%; top: 68px;}
+
+    .orderContainer #reRequest input[type="button"]{width: 100%; max-width: 280px; display: block;}
+
+    .orderContainer #reRequest input[type="button"]:first-of-type{margin: 0 auto var(--sp20);}
+
+    .orderContainer #requestPopup > div > input[type="button"]:not(:first-of-type){width: 100px;}
+
+    .orderContainer #requestPopup > div > input[value="NO"]{margin-left: 3%;}
+
+    .orderContainer > div > div:last-of-type{padding: var(--sp30) 5%;}
+
+    .orderContainer > div > div:last-of-type > div:first-of-type > address,
+    .orderContainer > div > div:last-of-type > div:first-of-type > b,
+    .payContainer > div:nth-of-type(2) > ul:last-of-type{line-height: 22px;}
+
+    .payContainer > #completePopup{transform: translate(-50%, -127%);}
+
+    .payContainer > div:last-of-type li div{width: 50%; margin: 0 auto var(--sp20);}
+
+    .payContainer > div:last-of-type li strong{display: inline-block; width: 100%; text-align: right;}
+
+    .storeContainer [id^='f_'] div:nth-child(2) a[href^='tel']{display: block; text-align: left;}
+
+    .storeContainer [id^='f_'] div:nth-child(3){width: 100%; max-width: 450px;}
+
+    .storeContainer [id^='f_'] div:nth-child(3) dt{width: 40%; line-height: 20px;}
+
+    .storeContainer [id^='f_'] div:nth-child(3) dd{width: 25%;}
+
+    .customContainer > div:first-child{background: url('../images/ban_custom.png') center / cover no-repeat;}
+
+    .customContainer > div:first-child > h2{width: 90%; line-height: 45px; padding: var(--sp50) 5%;}
+
+    .customContainer > div:nth-child(2) > ol > li:not(:last-of-type){width: 34%;}
+
+    .customContainer > div:nth-child(2) > ol > li:last-of-type{width: 32%;}
+
+    .customContainer > div:nth-child(2) > ol > li > h3,
+    .customContainer > div:nth-child(2) > ol > li > span{padding-left: 12%;}
+
+    .customContainer > div:nth-child(2) > ol > li > h3{font-size: 28px;}
+
+    .customContainer > div:nth-child(2) > ol > li > span{font-weight: 400; font-size: 14px;}
+
+    .customContainer > div:nth-child(2) > ol > li > span::after{left: 12%;}
+
+    .customContainer #productArea [id$="Tab"]{height: 100px; line-height: 30px;}
+
+    .customContainer #specs{flex-direction: column;}
+
+    .customContainer #texArea > li > ol{
+        list-style: none; overflow-x: auto; white-space: nowrap;
+    }
+    .customContainer #texArea > li > ol > li{width: 70px; display: inline-block;}
+
+    .customContainer #completePopup{transform: translate(-50%, 130%);}
+
+    .customContainer > div:last-child > h3{padding-bottom: var(--sp20);}
+
+    .faqContainer > div > ul > li::before{top: 30px;}
+
+    .faqContainer > div > ul > li > h4{padding: var(--sp30) 0 var(--sp30) 20%;}
+
+    .cusContainer #sendPopups{transform: translate(-50%, 150%);}
+
+    .fContainer > div > h2{text-align: center; line-height: 42px;}
+
+    .fContainer > div > :is(ul, ol),
+    :is(.ausContainer, .ourContainer) h3{line-height: 32px;}
+
+    .fContainer .shipInfo > p:first-of-type{padding: 7%;}
+
+    .fContainer .reEx #sendPopups{transform: translate(-50%, 420%);}
+    .fContainer .warrantyInfo #sendPopups{transform: translate(-50%, 50%);}
+    .fContainer .pPolicy #sendPopups{transform: translate(-50%, 1610%);}
+    .fContainer .terms #sendPopups{transform: translate(-50%, 3400%);}
+
+    .fContainer .delivery > ul > li > ul > li{padding-left: 7%;}
+
+    .ausContainer > div:first-of-type{background: url('../images/ban_aboutus.png') center / cover no-repeat;}
+
+    .ausContainer > div:first-of-type > h2{width: 90%;}
+    .ausContainer > div:last-of-type > p{color: var(--GS06); font-size: 22px; line-height: 40px;}
+    /* aboutUs */
+    .ourContainer > div:first-of-type{background: url('../images/ban_ourstory.png') center / cover no-repeat;}
+
+    .ourContainer > div:first-of-type > h2{width: 85%;}
+
+    .ourContainer > div:last-of-type > div:nth-of-type(2){background: url('../images/bg_ourstory_03.png') left center / cover no-repeat;}
+
+    .ourContainer > div:last-of-type > div:last-of-type{background-position: center top, center 62%; background-size: 90%, 90%;}
+}
+/* descktop tablet */
+@media screen and (min-width: 768px){
+    [class$=Container],
+    .mCollection{padding-top: 220px; box-sizing: border-box;}
+    .customContainer > div:nth-child(2) #productArea [id$="Tab"]::-webkit-scrollbar-track{background-color: transparent;}
+
+    .mainContainer > div:nth-of-type(2)::after,
+    .mainContainer > div:nth-of-type(8) > div::after,
+    .mainContainer > div:nth-of-type(9)::after,
+    .listContainer > div:first-child::after,
+    .detailContainer #descript::after,
+    .detailContainer #descript > div::after,
+    .orderContainer > div > div:last-of-type::after,
+    .payContainer > div:last-of-type > ul > li::after{content: ''; display: block; clear: both;}
+
+    .mainContainer > div:nth-of-type(2){background: url('../images/bg_main_01_getcozy_01.png') right center / cover no-repeat;}
+
+    .mainContainer > div:nth-of-type(2) > div,
+    .signContainer .signIn li:nth-of-type(4){float: left;}
+
+    .mainContainer > div:nth-of-type(3) > .bx-wrapper > .bx-viewport{width: 85%;}
+
+    .mainContainer > div:nth-of-type(3) :is(.bx-prev, .bx-next),
+    .mainContainer > div:nth-of-type(6) :is(.bx-prev, .bx-next),
+    .listContainer .pager > ol > li > a::before{width: 50px; height: 50px;}
+
+    .mainContainer > :is(div:nth-of-type(3), div:nth-of-type(6)) .bx-prev:hover{background: url('../images/btn_01_hover.png') left center / 60% no-repeat;}
+    .mainContainer > :is(div:nth-of-type(3), div:nth-of-type(6)) .bx-next:hover{background: url('../images/btn_01_hover.png') left center / 60% no-repeat; transform: rotate(180deg);}
+    
+    .mainContainer > div:nth-of-type(4){display: flex; flex-wrap: wrap;}
+
+    .mainContainer > div:nth-of-type(8){padding: var(--sp50) 0;}
+
+    .mainContainer > div:nth-of-type(8) > div > div{padding: var(--sp140) 5% var(--sp100); box-sizing: border-box;}
+
+    .mainContainer > div:last-of-type fieldset{margin: 0 auto; display: flex;}
+
+    .mainContainer > div:last-of-type input[type="email"]{width: 65%;}
+
+    .mainContainer > div:last-of-type input[type="submit"]{margin-left: 5%;}
+    /* main index */
+    .listContainer > div:first-child > ol{float: left; width: 50%; margin-top: var(--sp15);}
+
+    .stepNav > li:not(:first-child)::before{left: -14px;}
+
+    .listContainer > div:first-child > a{width: 50%; float: right; line-height: 40px; border-radius: 40px;}
+
+    .listContainer #sortBar > div{display: flex; align-items: center;}
+
+    .listContainer #sortBar > div > button:first-of-type{padding-left: 1.8%;}
+
+    .listContainer #sortBar > div > button:first-of-type::after{bottom: 3px;}
+
+    .listContainer #sortBar > div > button:last-of-type{
+        color: var(--GS06); text-decoration: underline; background-color: transparent;
+    }
+    .listContainer #sortBar > div span{color: var(--GS06); margin-left: auto;}
+
+    .listContainer #sortBar > div > .notMui{min-width: 90px;}
+
+    .listContainer #sortBar > div > .notMui > button{
+        width: 15px; background-color: transparent; text-indent: -9999px;
+    }
+    .listContainer #sortBar > div > .notMui :is(.way1, .way2){background-position: center; background-repeat: no-repeat;}
+    .listContainer #sortBar > div > .notMui .way1{background-image: url("../images/ico_3grid_normal.png");}
+    .listContainer #sortBar > div > .notMui .way2{background-image: url("../images/ico_2grid_normal.png");}
+    .listContainer #sortBar > div > .notMui .way1.active{background-image: url("../images/ico_3grid_active.png");}
+    .listContainer #sortBar > div > .notMui .way2.active{background-image: url("../images/ico_2grid_active.png");}
+
+    .listContainer #filtersPanel{left: -50%; top: 79px;}
+    
+    .listContainer #filtersPanel .colorSelect > li > ol{display: flex; flex-wrap: wrap;}
+
+    .listContainer #sortBar #filtersPanel > :is(button, span, div),
+    .listContainer #filtersPanel li > ol,
+    .listContainer #filtersPanel .colorSelect > li > ol,
+    .listContainer #sortBar .selectBox{display: none;}
+
+    .listContainer #sortBar > div > div:last-of-type{position: relative; min-width: 250px;}
+
+    .listContainer #sortBar > div > div:last-of-type span{display: flex; min-width: 180px;}
+
+    .listContainer #sortBar > div > div:last-of-type span > span{
+        display: block; border-bottom: 1px solid var(--BS06); position: relative;
+    }
+    .listContainer #sortBar > div > div:last-of-type span > span:after{
+        content: ''; display: block; width: 10px; height: 8px; position: absolute; right: 0; top: 5px;
+        background: url('../images/bul_arrow_select.png') right center / auto no-repeat;
+    }
+    .listContainer #sortBar > div > div:last-of-type .selectBox{
+        position: absolute; z-index: 10; right: 0; top: 30px; width: 180px; height: 250px; background-color: var(--GS01);
+        padding-right: 20px; box-sizing: border-box; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+    .listContainer #sortBar > div > div:last-of-type .selectBox > ol{list-style: none;}
+
+    .listContainer #sortBar > div > div:last-of-type .selectBox > ol > li{line-height: 40px; padding-left: 10px;}
+
+    .listContainer #sortBar > div > div:last-of-type .selectBox > ol > li.active{
+        background-color: var(--BLS02); border-radius: 0 50px 50px 0;
+    }
+    .listContainer > ul > li > div a.utLt26{width: 100px; height: 76px;}
+
+    .listContainer .pager{padding: var(--sp80) 15%;}
+    .listContainer .pager > a{top: 45%;}
+    .listContainer .pager > ol > li{width: 50px; line-height: 50px;}
+
+    .listContainer #howTo{
+        background: url('../images/sp_detail_bg_01small.png') left bottom / auto no-repeat, url('../images/sp_detail_bg_02big.png') right bottom / auto no-repeat;
+    }
+    .reView > ul > li{width: 360px;}
+    .reView > ul > li > a{padding-bottom: var(--sp60);}
+
+    .detailContainer #view :is(.bx-prev, .bx-next){
+        width: 40px; height: 65px; background: url('../images/bul_detailslide_btn.png') center / auto no-repeat;
+    }
+    .detailContainer #view .thumbPager > li{width: 100px;}
+
+    .detailContainer #view > div:last-child > div:first-of-type{align-items: center;}
+
+    .detailContainer :is(#view strong.utLt36, .dopBtn),
+    .ausContainer > div:first-of-type > h2{width: 30%;}
+
+    .listContainer #howTo,
+    .detailContainer :is(#view, #descript, #care, #dimen, #why, #caProp),
+    .storeContainer [id^="fs_"]{scroll-margin-top: 220px;}
+
+    .detailContainer #care > div > p{width: 95%;}
+
+    .detailContainer #dimen > dl > :is(dt, dd){
+        border-bottom: 1px solid var(--GS02); padding: var(--sp15) 0; box-sizing: border-box; line-height: 30px;
+    }
+    .detailContainer #dimen dl dt{width: 25%;  padding-left: 10px;}
+
+    .detailContainer #dimen dl dd{width: 75%; text-align: right; padding-right: 10px;}
+
+    .detailContainer #dimen dl dd span:last-of-type{margin-left: 10px;}
+
+    .detailContainer #why{padding: var(--sp100) 0 0; margin-bottom: var(--sp150);}
+
+    .detailContainer #why ul{grid-template-columns: repeat(2, 1fr);}
+
+    .detailContainer #why ul li:first-child{margin-bottom: var(--sp50);}
+
+    .detailContainer #why ul li:nth-child(2){background-position: left 10%; margin-bottom: var(--sp50);}
+
+    .detailContainer #why ul li strong{margin-bottom: var(--sp30);}
+
+    .signContainer .moveAside > div .leafBtnBor{width: 32%;}
+
+    .signContainer .signIn :is(li:nth-of-type(3), li:nth-of-type(4)),
+    .signContainer .signUp :is(li:first-of-type, li:nth-of-type(2)),
+    .storeContainer [id^='f_'] div:nth-child(3){width: 50%;}
+
+    .signContainer .signIn li:not(:nth-of-type(3),:last-of-type),
+    .signContainer .signUp li:not(:first-of-type,:nth-of-type(2), :last-of-type),
+    .signContainer .signUp :is(li:first-of-type, li:nth-of-type(2)){margin-bottom: var(--sp40); float: left;}
+
+    .signContainer .signUp li:first-of-type > input[type='text']{border-radius: 13px 0 0 13px;}
+
+    .signContainer .signUp li:nth-of-type(2) > input[type='text']{border-radius: 0 13px 13px 0; border-left: none;}
+
+    .signContainer .toggleVisible,
+    .myContainer input[value="visible"]{right: 20px;}
+
+    .wishContainer .emptyList{height: 60vh; background-size: 50%;}
+
+    .wishContainer #deletePopup{
+        max-width: 380px; left: 100%; border-right: 2px solid var(--GS02); border-left: 1px solid var(--GS02);
+    }
+    .wishContainer .haveList > ul > li{border-right: 1px solid var(--GS02);}
+
+    .wishContainer .haveList img{max-width: 424px;}
+
+    .orderContainer > div > div:first-of-type > ul > li > *{display: inline-block; vertical-align: middle;}
+
+    .orderContainer > div > div:first-of-type > ul > li > dl{margin-left: 5%; padding-top: var(--sp10);}
+
+    .orderContainer > div > div:first-of-type > ul > li > strong{margin-left: 3%;}
+
+    .orderContainer #requestPopup > div > input[type="button"]:not(:first-of-type){width: 130px;}
+
+    .orderContainer #requestPopup > div > input[value="NO"]{margin-left: 5%;}
+
+    .orderContainer > div > div:last-of-type{padding: var(--sp30) 3%;}
+
+    .payContainer > div:nth-of-type(2) fieldset > ul > li:not(:last-of-type){margin-bottom: var(--sp40);}
+
+    .payContainer > div:nth-of-type(2) li:nth-of-type(3) > input[type='text']:nth-of-type(4),
+    .payContainer > div:nth-of-type(2) li:nth-of-type(3) > input[type='text']:nth-of-type(5){
+        width: 49%; float: left;
+    }
+    .payContainer > div:nth-of-type(2) li:nth-of-type(3) > input[type='text']:nth-of-type(5),
+    .customContainer > div:last-child fieldset > input[type="text"]:nth-of-type(2){margin-left: 2%;}
+
+    .payContainer > div:last-of-type li div{width: 20%; float: left;}
+
+    .payContainer > div:last-of-type li dl{width: 52%; margin-left: 8%; float: left;}
+
+    .payContainer > div:last-of-type li strong{display: block; float: right; padding-top: var(--sp50);}
+
+    .storeContainer [id^='f_'] div:nth-child(2){padding-right: 3%; box-sizing: border-box;}
+
+    .customContainer > div:first-child{background: url('../images/ban_custom.png') center / 100% no-repeat;}
+
+    .customContainer > div:first-child > h2{padding: var(--sp50) 0;}
+
+    .customContainer > div:nth-child(2) > ol > li{width: 33.33%;}
+
+    .customContainer #texArea > li > ol{display: flex; list-style: none;}
+
+    .customContainer > div:last-child fieldset{padding: 0 5%; box-sizing: border-box;}
+
+    .customContainer > div:last-child fieldset > input:not(:last-of-type){margin-bottom: var(--sp20);}
+
+    .customContainer > div:last-child fieldset > input[type="text"]{width: 49%; float: left;}
+
+    .faqContainer > div > ul > li::before{top: 40px;}
+    .faqContainer > div > ul > li > h4{padding: var(--sp30) 0 var(--sp30) 8%;}
+
+    .fContainer .delivery > ul > li > ul > li{padding-left: 2%;}
+    .fContainer .delivery > ul > li > ul > li:not(:last-of-type),
+    .fContainer .delivery > ul > li > ul > li:last-of-type > ul > li{margin-bottom: var(--sp25);}
+
+    .ausContainer > div:first-of-type{background: url('../images/ban_aboutus.png') center / 100% no-repeat;}
+
+    .ourContainer > div:first-of-type{background: url('../images/ban_ourstory.png') center / 100% no-repeat;}
+    .ourContainer > div:last-of-type > div:nth-of-type(2){background: url('../images/bg_ourstory_03.png') left center / 100% no-repeat;}
+    .ourContainer > div:last-of-type > div:last-of-type{background-position: left top, right bottom;}
+}
+/* tablet list */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .stepNav > li:not(:first-child){margin-left: 5%;}
+
+    .listContainer > div:first-child > a{
+        display: inline-block; width: 27px; line-height: 33px; border-radius: 30px;
+        text-indent: -9999px; background: url('../images/bul_arrow_down_bk.png') center / 30% no-repeat;
+    }
+    .listContainer > div:first-child > a:hover{
+        background: url('../images/bul_arrow_down_wh.png') center / 31% no-repeat; background-color: var(--RS03);
+    }
+    .listContainer  a.backOther{transform: rotate(-90deg); color: transparent;}
+
+    .listContainer #sortBar > div{gap: 15px;}
+    .listContainer #sortBar > div > button:first-of-type{width: 80px;}
+
+    .listContainer #sortBar > div > .notMui .way1{margin-left: 1.5%;}
+    .listContainer #sortBar > div > .notMui .way2{position: relative;}
+
+    .listContainer #sortBar > div > .notMui .way2:after{
+        content: ''; display: block; width: 15px; height: 15px; position: absolute; top: -7px; right: -10px;
+        background: url('../images/ico_holdPin.png') center / auto no-repeat;
+    }
+    .listContainer #filtersPanel{width: 40%;}
+
+    .listContainer .addToWish,
+    .listContainer > ul > li > div input[value="myCart"]{width: 120px; line-height: 70px;}
+
+    .listContainer .pager > a:first-of-type{left: 20%;}
+    .listContainer .pager > a:nth-of-type(2){right: 20%;}
+    .listContainer .pager > ol{width: 70%;}
+
+    .listContainer #howTo{padding: var(--sp200) 10% var(--sp200) 10%;}
+}
+/* tablet only */
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    :is(.myContainer, .wishContainer, .orderContainer) .sideNav{display: flex;}
+
+    .mainContainer > div:nth-of-type(2){padding-right: 40%;}
+
+    .mainContainer > div:nth-of-type(2) p{max-width: 370px;}
+
+    .mainContainer .mainSlider > li{max-width: 280px; margin-left: 30px;}
+
+    .mainContainer > :is(div:nth-of-type(4), div:nth-of-type(5), div:nth-of-type(7)) img,
+    .mainContainer > div:nth-of-type(5) > div,
+    .customContainer #colorArea > ul > li > img{display: block; width: 100%;}
+
+    .mainContainer > div:nth-of-type(7) div{padding: var(--sp200) 5%;}
+
+    .mainContainer > div:nth-of-type(8) > div > img,
+    .mainContainer > div:nth-of-type(9) > div{width: 80%;}
+
+    .mainContainer > div:nth-of-type(8) > div > img{margin: 0 auto;}
+
+    .mainContainer > div:nth-of-type(9){background-size: 95%; padding-top: 28%; padding-bottom: 28%;}
+
+    .mainContainer > div:nth-of-type(9) > div a{margin-left: auto;}
+
+    .mainContainer > div:last-of-type input[type="submit"]{line-height: 30px;}
+
+    .mCollection > ul > li > a{line-height: 75px;}
+
+    .detailContainer > .stepNav > li:not(:first-child),
+    .orderContainer > div > div:first-of-type ul li input[type="button"],
+    .orderContainer #reRequest input[type="button"],
+    .fContainer .shipInfo > ol > li:not(:first-of-type, :nth-of-type(3)){margin-left: 3%;}
+
+    .detailContainer #view div.utLt20 > dl:nth-of-type(2) > :is(dt:first-of-type, dt:last-of-type),
+    .detailContainer .nonMaFin > :is(dt:first-of-type, dt:last-of-type){padding-left: 10%;}
+
+    .detailContainer #why{padding-left: 6%; padding-right: 6%; box-sizing: border-box;}
+
+    .detailContainer #why ul{width: 100%; max-width: 636px;}
+
+    .detailContainer #why ul > li:not(:first-child, :nth-child(3)){margin-left: 10%;}
+
+    .detailContainer #why ul > li:first-child{background-size: 35%;}
+    .detailContainer #why ul > li:nth-child(2){background-size: 43%; background-position: left 10%;}
+    .detailContainer #why ul > li:nth-child(3){background-size: 35%;}
+    .detailContainer #why ul > li:last-child{background-size: 30%;}
+
+    .signContainer :is(#sendPopups, #thankPopups){
+        width: 60%; max-width: 600px; transform: translate(-50%, -100%);
+    }
+    .signContainer .toggleVisible,
+    .myContainer input[value="visible"]{top: 49px;}
+    .signContainer .toggleVisible.active,
+    .myContainer input[value="visible"].active{top: 50px;}
+
+    .sideNav > strong,
+    .orderContainer > div > div:first-of-type > ul > li > dl{width: 40%;}
+
+    .myContainer fieldset > ul,
+    .fContainer .shipInfo > ol > li:not(:nth-of-type(3), :last-of-type){margin-bottom: var(--sp30);}
+
+    .wishContainer #deletePopup > div{padding: 35% 15%;}
+
+    .wishContainer .haveList > ul > li{width: 50%;}
+
+    .orderContainer > div > div:first-of-type ul li{display: flex; align-items: center;}
+
+    .orderContainer > div > div:first-of-type ul li div{width: 16%;}
+
+    .orderContainer > div > div:first-of-type ul li div sup{right: -17%; top: -18%;}
+
+    .orderContainer > div > div:first-of-type ul li strong{width: 10%;}
+
+    .orderContainer > div > div:first-of-type ul li input[type="button"]{width: 22%;}
+
+    .orderContainer #requestPopup{width: 50%; transform: translate(-50%, -25%);}
+
+    .orderContainer #requestPopup > div{padding: var(--sp100) 10% var(--sp50);}
+
+    .orderContainer #reRequest .selectRequest > span{width: 48%; float: left;}
+
+    .orderContainer #reRequest .selectRequest > ol{width: 48%; top: 85px;}
+
+    .orderContainer #reRequest input[type="button"]{width: 25%; max-width: 150px; float: left;}
+
+    .payContainer > #completePopup{transform: translate(-50%, -123%);}
+
+    .payContainer div:nth-of-type(2) li:nth-of-type(4) > input[type='text']:not(:first-of-type, :nth-of-type(2)){
+        width: 49%; float: left;
+    }
+    .payContainer div:nth-of-type(2) li:nth-of-type(4) > input[type='text']:last-of-type{
+        margin-left: 2%;
+    }
+    .payContainer > div:nth-of-type(2) fieldset > ul > li:not(:nth-of-type(4)) > input:not(:last-of-type){margin-bottom: var(--sp40);}
+
+    .customContainer > div:first-child > h2{width: 55%;}
+
+    .customContainer > div:nth-child(2) > ol > li > h3,
+    .customContainer > div:nth-child(2) > ol > li > span{padding-left: 10%;}
+
+    .customContainer > div:nth-child(2) > ol > li > span::after{left: 10%;}
+
+    .customContainer #productArea [id$="Tab"]{height: 115px;}
+
+    .customContainer #productArea [id$="Tab"] > li{width: 48%;}
+
+    .customContainer #productArea [id$="Tab"] > li:nth-of-type(2n){margin-left: 3%;}
+
+    .customContainer #specs > li:not(:first-of-type)::before{
+        content: '/'; display: block; position: absolute; left: -1%;
+    }
+    .customContainer #specs > li{width: 33.33%;}
+    
+    .customContainer #completePopup{transform: translate(-50%, 135%);}
+    .cusContainer #sendPopups{transform: translate(-50%, 50%);}
+
+    .fContainer .shipInfo > p:first-of-type{padding: 3% 7%;}
+
+    .fContainer .shipInfo > ol > li{width: 40%;}
+
+    .fContainer .reEx #sendPopups{transform: translate(-50%, 220%);}
+    .fContainer .warrantyInfo #sendPopups{transform: translate(-50%, 50%);}
+    .fContainer .pPolicy #sendPopups{transform: translate(-50%, 985%);}
+    .fContainer .terms #sendPopups{transform: translate(-50%, 2010%);}
+
+    .ourContainer > div:first-of-type > h2{width: 65%;}
+
+    .ourContainer > div:last-of-type > div:last-of-type{background-size: 30%, 30%;}
+}
+/* descktop list */
+@media screen and (min-width: 1024px){
+    .listContainer .stepNav > li:not(:first-child){margin-left: 3%;}
+
+    .listContainer > div:first-child > a,
+    .listContainer > div:first-child > a:hover{background-position: 8% center; background-size: 6%; background-repeat: no-repeat;}
+
+    .listContainer > div:first-child > a{
+        max-width: 200px; color: var(--GS09); background-image: url('../images/bul_arrow_down_bk.png');
+    }
+    .listContainer > div:first-child > a:hover{background-image: url('../images/bul_arrow_down_wh.png');}
+
+    .listContainer > div:nth-child(2){
+        display: flex; align-items: center; justify-content: space-between; padding-left: 3%;
+    }
+    .listContainer > div:nth-child(2) h2,
+    .listContainer .pager > ol{width: 40%;}
+
+    .listContainer > div:nth-child(2) h2 > img{padding-bottom: 5px;}
+
+    .listContainer > div:nth-child(2) > img{display: block; width: 60%;}
+
+    .listContainer #sortBar > div{gap: 20px; box-sizing: border-box;}
+
+    .listContainer #sortBar > div > button{min-width: 100px;}
+
+    .listContainer #sortBar > div > button:first-of-type:hover::before,
+    .listContainer #sortBar > div > button:first-of-type:hover::after,
+    .listContainer > div:first-child > a:hover{background-color: var(--RS03);}
+
+    .listContainer #sortBar > div > button:first-of-type:hover::before{left: 11px;}
+
+    .listContainer #sortBar > div > button:first-of-type:hover{
+        color: var(--RS03); background: url('../images/bul_listFilters_rd.png') left center / auto no-repeat;
+    }
+    .listContainer #sortBar > div > button:first-of-type:hover::after{left: 3px;}
+
+    .listContainer #sortBar > div > button:last-of-type{margin-left: 1%;}
+
+    .listContainer #sortBar > div > .notMui .way1:hover{background-image: url("../images/ico_3grid_active.png");}
+    .listContainer #sortBar > div > .notMui .way2:hover{background-image: url("../images/ico_2grid_active.png");}
+
+    .listContainer #filtersPanel{width: 30%;}
+
+    .listContainer #sortBar > div > div:last-of-type span > span{margin-left: 10px;}
+
+    .listContainer #sortBar > div > div:last-of-type .selectBox > ol > li:hover{
+        background-color: var(--BLS02); border-radius: 0 50px 50px 0;
+    }
+    .listContainer > ul.thirdGrid > li:not(:nth-child(3n)){border-right: 1px solid var(--GS02);}
+    .listContainer > ul > li > div input[type="button"]:not(:first-of-type){
+        width: 120px; line-height: 70px; border: 2px solid #fff;
+    }
+    .listContainer .closeBtn{display: none;}
+
+    .listContainer .addToWish:hover{background-color: var(--GS01); background-size: 23%;}
+
+    .listContainer > ul > li > div a.utLt26{transition: width 0.2s ease-in-out;}
+
+    .listContainer > ul > li > div a.utLt26 > span:last-of-type{width: 100%;}
+
+    .listContainer > ul > li > div a.utLt26:hover{width: 200px; box-sizing: border-box;}
+
+    .listContainer > ul > li > div a.utLt26:hover > span:first-of-type{
+        opacity: 1; text-indent: 0; width: 75%; text-align: right;
+    }
+    .listContainer > ul > li > div a.utLt26:hover > span:last-of-type{
+        width: 25%; text-align: left; padding-left: 3%; box-sizing: border-box;
+    }
+    .listContainer > ul > li > div input[value="myCart"]:hover{
+        background: url('../images/ico_cart_fullbk.png') 45% center / 22% no-repeat; background-color: var(--GS01);
+    }
+    .listContainer .pager > a:first-of-type{left: 30%;}
+    .listContainer .pager > a:nth-of-type(2){right: 30%;}
+    .listContainer #howTo{padding: var(--sp200) 33% var(--sp200) 15%; box-sizing: border-box;}
+}
+/* decktop only */
+@media screen and (min-width: 1280px){
+    .detailContainer #dimen::after,
+    .detailContainer #why::after,
+    .myContainer > div fieldset::after,
+    .customContainer > div:last-child::after{content: ''; display: block; clear: both;}
+
+    .signContainer :is(.signIn, .signUp),
+    .signContainer .signIn .forgotPw fieldset,
+    .ourContainer > div:last-of-type > div:last-of-type div{margin: 0 auto;}
+
+    .payContainer > div:nth-of-type(2) fieldset > ul > li > input:not(:last-of-type){margin-bottom: var(--sp40);}
+    .sideNav > ul > li:not(:last-of-type){margin-bottom: var(--sp50);}
+    .sideNav > strong{margin-bottom: var(--sp60);}
+    .mainContainer > div:nth-of-type(5){margin-bottom: var(--sp100);}
+    .signContainer :is(.signIn, .signUp){margin-bottom: var(--sp150);}
+
+    .mainContainer > div:nth-of-type(8) > div :is(div, img),
+    .detailContainer #descript:not(.careDescript) > div,
+    .detailContainer :is(#dimen, #care, #descript, #why) > img,  
+    .detailContainer :is(#dimen > dl, #care > div, #why > ul),
+    .orderContainer > div > div:last-of-type > div:first-of-type,
+    .orderContainer #reRequest input[value="Request"],
+    .myContainer form:first-of-type > fieldset :is(ul, div:not([id$='Popups'] > div)),
+    .storeContainer [id^='f_'] :is(div:nth-child(2), div:nth-child(3)){float: left;}
+
+    .mainContainer > div:nth-of-type(9) > div,
+    .orderContainer #reRequest,
+    .orderContainer #reRequest :is(input[value="Close"], .selectRequest > span),
+    .customContainer > div:last-child fieldset{float: right;}
+
+    .mainContainer > div:nth-of-type(9) > div,
+    .sideNav,
+    .detailContainer :is(#view, div:nth-child(3)),
+    .storeContainer [id^='f_'] div:nth-child(3),
+    .ourContainer > div:last-of-type > div:first-of-type > img{box-sizing: border-box;}
+
+    .mCollection > ul,
+    .detailContainer #view,
+    .myContainer, .wishContainer, .orderContainer, .fContainer,
+    .customContainer > div:nth-child(2) > :is(div:first-of-type, div:nth-of-type(2)){display: flex;}
+
+    .mainContainer > div:nth-of-type(2){padding-left: 5%; padding-right: 60%;}
+
+    .mainContainer > div:nth-of-type(2) > div,
+    .detailContainer :is(.careDescript > div, #why > p),
+    .myContainer > div legend,
+    .sideNav > strong,
+    :is(.fContainer, .cusContainer) fieldset > ul > li:last-of-type{width: 100%;}
+
+    .mainContainer > div:nth-of-type(2) p{max-width: 540px;}
+
+    .mainContainer > div:nth-of-type(4) img:first-of-type,
+    .mainContainer > div:nth-of-type(5) img{width: 56%;}
+
+    .mainContainer > div:nth-of-type(4) img:last-of-type{width: 43%; margin-left: 1%;}
+
+    .mainContainer :is(div:nth-of-type(5), div:nth-of-type(7)),
+    .payContainer{display: flex; justify-content: center;}
+
+    .mainContainer :is(div:nth-of-type(5), div:nth-of-type(7)) > div,
+    .detailContainer #view > div:last-child,
+    .detailContainer #descript > img,
+    .detailContainer #care > div,
+    .detailContainer #why > ul,
+    .detailContainer #dimen > dl,
+    .detailContainer #why > ul > li:not(:first-child, :nth-child(3)),
+    .customContainer #productArea{margin-left: 5%;}
+
+    .mainContainer > div:nth-of-type(5) > div{width: 43%;}
+
+    .mainContainer > div:nth-of-type(7) > img,
+    .mainContainer > div:nth-of-type(8) > div > div,
+    .detailContainer :is(#descript:not(.careDescript) > div, #dimen > dl, #why > img),
+    .signContainer :is(.moveAside > div, .signIn > .forgotPw),
+    .payContainer > :is(div:nth-of-type(2), div:last-of-type),
+    .storeContainer [id^='f_'] div:nth-child(2),
+    .customContainer > div:last-child fieldset,
+    .ausContainer > div:last-of-type > div > img,
+    .ourContainer > div:last-of-type > div:first-of-type > :is(div, img),
+    .ourContainer > div:last-of-type > div:last-of-type > div{width: 50%;}
+
+    .mainContainer > :is(div:nth-of-type(7), div:nth-of-type(9)) div,
+    .detailContainer :is(#descript, #dimen, #care) > img,
+    .detailContainer :is(#care > div,  #why > ul),
+    .orderContainer > div > div:first-of-type > ul > li > dl{width: 45%;}
+
+    .mainContainer :is(div:nth-of-type(7), div:nth-of-type(9)) > div{padding: var(--sp200) 0;}
+    .mainContainer > div:nth-of-type(8) > div > img,
+    .customContainer > div:first-child > h2{width: 40%;}
+    .mainContainer > div:nth-of-type(9){
+        background: url('../images/img_main_06.png') 5% center / 40% no-repeat; padding-top: 1%; padding-bottom: 1%;
+    }
+    .mCollection > ul > li{width: 33.333%;}
+    .mCollection > ul > li > a{height: 100%; padding: var(--sp150) 0 88% 15%;}
+
+    .detailContainer > .stepNav > li:not(:first-child){margin-left: 1.5%;}
+
+    .detailContainer #view .bx-next{right: 3%;}
+
+    .detailContainer #view > div:first-child{width: 65%;}
+
+    .detailContainer #view .thumbPager > li:not(:first-of-type),
+    .signContainer :is(.signIn li:nth-of-type(3), .signUp li:last-of-type) > label,
+    :is(.fContainer, .cusContainer) fieldset > ul > li:nth-of-type(2){margin-left: 2%;}
+
+    .detailContainer #view .thumbPager > li:hover{border: 2px solid var(--BS03);}
+    .detailContainer #view > div:last-child,
+    .customContainer #productArea,
+    .ourContainer > div:first-of-type > h2{width: 30%;}
+
+    .detailContainer #view .circleBtnB{margin-left: 10%;}
+
+    .detailContainer :is(#view div.utLt20 > dl:nth-of-type(2), .nonMaFin) :is(dt:first-of-type, dt:last-of-type),
+    .customContainer > div:nth-child(2) > ol li :is(h3, span){padding-left: 15%;}
+
+    .detailContainer > div:nth-child(3){padding: 0 5%;}
+
+    .detailContainer .miniNavWrapper > ol > li:first-of-type{padding-right: 1%;}
+
+    .detailContainer .miniNavWrapper > ol > li:not(:first-of-type){padding: 0 1%;}
+
+    .detailContainer #why > ul{padding-top: var(--sp20);}
+
+    .detailContainer #why > ul > li{padding-top: var(--sp150); background-size: auto;}
+
+    .signContainer{padding-top: var(--sp200);}
+
+    .signContainer > div:last-of-type{justify-content: center;}
+
+    .signContainer .moveAside{
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%); display: flex; align-items: center;
+        position: absolute; z-index: 10; top: 0; transition: all 0.35s ease-in-out;
+    }
+    .signContainer .moveAside.active{left: 50%;}
+    .signContainer .moveAside:not(.active){left: -48%;}
+
+    .signContainer .moveAside > div{transition: opacity 1.3s ease-in-out;}
+
+    .signContainer .moveAside > div,
+    .signContainer .signIn,
+    .signContainer .signUp.active{opacity: 0;}
+
+    .signContainer .moveAside.active > div:first-of-type,
+    .signContainer .moveAside:not(.active) > div:last-of-type,
+    .signContainer .signIn.active,
+    .signContainer .signUp{opacity: 1;}
+
+    .signContainer .moveAside > div > p{width: 53%; max-width: 500px;}
+
+    .signContainer .toggleVisible,
+    .myContainer input[value="visible"]{top: 57px;}
+    .signContainer .toggleVisible.active,
+    .myContainer input[value="visible"].active{top: 58px;}
+
+    .signContainer .signIn > .forgotPw{
+        position: absolute; z-index: 1; top: var(--sp150); left: 2.5%; padding: var(--sp150) 0 var(--sp200);
+    }
+    .sideNav{width: 23%; border-right: 2px solid var(--GS02); padding: var(--sp150) 2% 0 0;}
+
+    .myContainer #save1Popups{top: 35%; left: 60%;}
+    .myContainer #save2Popups{top: 60%; left: 60%;}
+
+    :is(.myContainer, .wishContainer, .orderContainer) > div{width: 74%; margin-left: 3%;}
+
+    .myContainer form:first-of-type > fieldset :is(ul, div:not([id$='Popups'] > div)),
+    .myContainer form:last-of-type > fieldset,
+    .orderContainer #reRequest input[type="button"]{width: 48%;}
+
+    .myContainer form:first-of-type > fieldset > div{margin-left: 4%;}
+
+    .wishContainer .emptyList{background-position: 70% 30px;}
+
+    .wishContainer #deletePopup > div{padding: 35% 15% 20%;}
+
+    .wishContainer .haveList > ul > li{width: 33%;}
+
+    .orderContainer div > div:first-of-type ul li div{width: 13%;}
+
+    .orderContainer div > div:first-of-type ul li div sup{right: -13%; top: -10%;}
+
+    .orderContainer div > div:first-of-type ul li div img{width: 90%;}
+
+    .orderContainer div > div:first-of-type ul li strong{width: 7%;}
+
+    .orderContainer div > div:first-of-type ul li input[type="button"]{width: 20%; margin-left: 5%;}
+
+    .orderContainer #requestPopup{width: 40%; transform: translate(-20%, -60%);}
+
+    .orderContainer #requestPopup > div{padding: var(--sp100) 20% var(--sp50);}
+
+    .orderContainer #reRequest{display: none; width: 30%; position: relative;}
+
+    .orderContainer #reRequest.active{display: block;}
+
+    .orderContainer #reRequest > strong,
+    .ausContainer > div:last-of-type > div:last-of-type,
+    .ourContainer > div:last-of-type > div:first-of-type > div:last-of-type > p{text-align: right;}
+
+    .orderContainer #reRequest .selectRequest > span{width: 90%; line-height: 25px;}
+
+    .orderContainer #reRequest .selectRequest > ol{width: 90%; right: 0; top: 77px;}
+
+    .orderContainer #reRequest input[type="button"]{max-width: 160px;}
+
+    .payContainer > #completePopup{transform: translate(-50%, -100%);}
+
+    .payContainer{position: relative;}
+
+    .payContainer > div:nth-of-type(2){padding: var(--sp70) 5% var(--sp150);}
+
+    .payContainer > div:last-of-type{padding: var(--sp200) 5% 0;}
+
+    .storeContainer [id^='f_'] div:nth-child(3){padding: 0 10% 0 5%;}
+
+    .customContainer > div:nth-child(2) > ol > li > span::after{left: 15%;}
+
+    .customContainer #productImg{width: 65%;}
+
+    .customContainer #productArea [id$="Tab"]{height: 450px;} 
+
+    .customContainer > div:nth-child(2) > div:nth-of-type(2) > div{width: 40%;}
+
+    .customContainer #specs > li{padding: 0 2%;}
+
+    .customContainer #texArea{width: 55%; margin-left: 5%;}
+
+    .customContainer #colorArea > ul{display: flex; justify-content: space-between; list-style: none;}
+
+    .customContainer #colorArea > ul > li::before{height: 100%;}
+
+    .customContainer #colorArea > ul > li:not(:nth-of-type(2), :nth-of-type(3), :nth-of-type(5))::after{left: 30%;}
+    .customContainer #colorArea > ul > li:nth-of-type(3)::after{left: 28%;}
+    .customContainer #colorArea > ul > li:nth-of-type(5)::after{left: 33%;}
+
+    .customContainer #completePopup{transform: translate(-50%, 140%);}
+
+    .customContainer > div:last-child{background: url('../images/bg_custom_order.png') left center / 50% no-repeat;}
+
+    .cusContainer #sendPopups{transform: translate(-50%, 15%);}
+
+    .fContainer > div{width: 74%; margin-left: 3%;}
+
+    :is(.fContainer, .cusContainer) fieldset > ul,
+    .ourContainer > div:last-of-type > div:first-of-type{display: flex; flex-wrap: wrap;}
+
+    :is(.fContainer, .cusContainer) fieldset > ul > li:not(:last-of-type){width: 49%; margin-bottom: var(--sp40);}
+
+    .fContainer .shipInfo > p:first-of-type{padding: 3% 4%;}
+
+    .fContainer .shipInfo > ol > li{width: 25%;}
+
+    .fContainer .shipInfo > ol > li:not(:first-of-type){margin-left: 3%;}
+
+    .fContainer .reEx #sendPopups{transform: translate(-30%, 160%);}
+    .fContainer .warrantyInfo #sendPopups{transform: translate(-20%, 10%);} 
+    .fContainer .pPolicy #sendPopups{transform: translate(-18%, 630%);}
+    .fContainer .terms #sendPopups{transform: translate(-18%, 1230%);}
+
+    .ausContainer > div:last-of-type > div{justify-content: space-between;}
+
+    .ausContainer > div:last-of-type > div > div{width: 46%;}
+
+    .ourContainer > div:last-of-type > div:first-of-type > img:first-of-type{padding-left: 5%;}
+    .ourContainer > div:last-of-type > div:first-of-type > img:last-of-type{padding-right: 5%;}
+
+    .ourContainer > div:last-of-type > div:nth-of-type(2){padding: var(--sp100) 10%;}
+
+    .ourContainer > div:last-of-type > div:nth-of-type(2) > p{width: 85%;}
+
+    .ourContainer > div:last-of-type > div:last-of-type{background-image: url('../images/bg_ourstory_04.png'), url('../images/bg_ourstory_05.png'); background-size: 20%, 20%;}
+}

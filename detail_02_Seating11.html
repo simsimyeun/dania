@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="detailContainer">
+        <ol class="utMm16 stepNav">
+            <li class="dyIB"><a href="index_logO.html" class="gs05">Home</a></li>
+            <li class="gs06 dyIB poR poSB">Furniture</li>
+            <li class="dyIB poR poSB"><a href="list_02_seating_1.html" class="gs07">Seating</a></li>
+            <li class="gs08 dyIB poR poSB">Karsten</li>
+        </ol>
+        <!-- step -->
+        <div id="view">
+            <div class="poR">
+                <h2 class="utBd52 bls06">Karsten</h2>
+
+                <ul class="detailSlider">
+                    <li>
+                        <img src="images/detail_02_seating_11_1.png" alt="KarstenSeating1">
+                    </li>
+                    <li>
+                        <img src="images/detail_02_seating_11_2.png" alt="KarstenSeating2">
+                    </li>
+                    <li>
+                        <img src="images/detail_02_seating_11_3.png" alt="KarstenSeating3">
+                    </li>
+                    <li>
+                        <img src="images/detail_02_seating_11_4.png" alt="KarstenSeating4">
+                    </li>
+                    <li>
+                        <img src="images/detail_02_seating_11_5.png" alt="KarstenSeating5">
+                    </li>
+                    <li>
+                        <img src="images/detail_02_seating_11_6-03_tables_05_5-13_6-14_7-05_bed_04_8-4-8.png" alt="KarstenSeating6">
+                    </li>
+                </ul>
+                <ol class="thumbPager dyF wFull"></ol>
+            </div>
+            <!-- slider -->
+           <div>
+                <div class="dyF">
+                    <strong class="utLt36 gs09">$499.00</strong>
+                    <button class="utMm14 circleBtnB">ADD TO CART</button>
+                    <input type="button" value="addToWish" class="addToWish txBg">
+                </div>
+                <h3 class="pwbL30 gs11">Karsten71" Bench</h3>
+                <div class="utLt20">
+                    <span class="dyB">Color : Saddle Brown</span>
+                    <ol>
+                        <li class="dyIB">
+                            <a href="detail_02_Seating11.html" class="active">
+                                <img src="images/tex_25.png" alt="Saddle Brown">
+                            </a>
+                        </li>
+                    </ol>
+                    <dl class="haveFin">
+                        <dt class="flL">Material : </dt>
+                        <dd class="flL">Wood</dd>
+                        <dt class="flL">Finish : </dt>
+                        <dd class="flL">Saddle Brown stain with matte black base</dd>
+                    </dl>
+                    <dl>
+                        <dt class="flL">Free delivery</dt>
+                        <dt class="flL">In Stock : </dt>
+                        <dd class="flL">1 remaining</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ol class="utMm18">
+                <li class="active"><a href="#view">Overview</a></li>
+                <li><a href="#descript">Description</a></li>
+                <li><a href="#care">Care Instructions</a></li>
+                <li><a href="#dimen">Dimensions</a></li>
+                <li><a href="#why">Why Dania?</a></li>
+                <li><a href="#caProp">Ca Prop 65</a></li>
+            </ol>
+            <article id="descript">
+                <div>
+                    <h3 class="pwbL52 gs11">About this piece</h3>
+                    <p class="utMm18">
+                        The Karsten Bench showcases a streamlined design rich with natural wood details. A powder-coated metal frame contrasts dramatically with the solid American Poplar, giving this contemporary piece a rustic industrial feel perfectly suited to any space in your home.
+                    </p>
+                    <p class="utMm18">
+                        To enhance the rustic look of the wood, the surface of this piece is both intentionally distressed and cut with a smoothed live edge, making each piece one-of-a-kind.
+                    </p>
+                    <a href="list_08_collection_1.html" class="utMm18 borLearnBtnA">VIEW MORE COLLECTION</a>
+                </div>
+                <img src="images/detail_02_seating_11_sketch.png" alt="KarstenSeating sketch">
+            </article>
+            <div id="care">
+                <img src="images/detail_02_seating_11_care.png" alt="KarstenSeating care">
+                <div>
+                    <h3 class="pwbL52 gs11">Care Instructions</h3>
+                    <p class="utMm18">
+                        Wood, reclaimed wood and veneer are all susceptible to both climate and the elements. Follow these basic care tips to ensure the longevity of your furniture:
+                    </p>
+                    <p class="utMm18">
+                        CLEANING: When using cleaners, avoid wax-based furniture polish cleaners; some of the best-known brand name polishes on the market contain wax and silicone that will build up on the table surface, creating a "cloudy" appearance. Please read the contents and instructions carefully before applying a product to a wooden or veneered surface. For everyday cleaning, simply dust your pieces with a soft, lint-free cloth or feather duster. When heavier-duty cleaning is needed, wipe the surface with a damp (not wet) cloth or sponge, and follow immediately with a dry, clean, lint-free cloth.
+                    </p>
+                    <p class="utMm18">
+                        DISCOLORATION: Please note that water will stain wood or veneered surfaces when left for a period of time, leaving a mark that can be much harder to fix. It is important to wipe in the direction of the wood grain to avoid unsightly streaks on the wood surface. Intense heat can lead to changes on the wood surface. Always use coasters, felt pads, trivets, or placemats to prevent heat and water from having direct contact with wood surfaces; such contact can cause  discoloration. Direct sunlight may slightly darken or lighten wood furniture; move or rotate decorative objects on a regular basis to help to avoid odd light and dark patches. Note that based on the frequency of use and storage, dining table leaves may change tone at a different rate than the table itself.
+                    </p>
+                    <p class="utMm18">
+                        GENERAL CARE: Avoid placing your furniture in highly humid or dry areas, such as directly next to air vents. Avoid contact with certain materials such as rubber, which might react with the finish of your product: oil finishes may be renewed by rubbing a light application of a penetrating oil with a very fine steel wool and wiping with a clean soft cloth to remove any excess oil.
+                    </p>
+                    <p class="utMm18">
+                        Caring for your product is easy with our recommended cleaning advice.
+                    </p>
+                    <a href="list_07_care_1.html" class="utMm18 circleBtnA">LEARN MORE</a>
+                </div>
+            </div>
+            <div id="dimen">
+                <h3 class="pwbL52 gs11">Dimensions</h3>
+                <img src="images/detail_02_seating_11_dimen.png" alt="KarstenSeating dimensions">
+                <dl class="utMm18">
+                    <dt>Width(in)</dt>
+                    <dd>71</dd>
+                    <dt>Depth(in)</dt>
+                    <dd>16.5</dd>
+                    <dt>Height(in)</dt>
+                    <dd>17.7</dd>
+                    <dt>Seat Suspension</dt>
+                    <dd>Sinuous Springs</dd>
+                    <dt>Materials</dt>
+                    <dd>Solid Poplar, Metal, Birch live edge</dd>
+                    <dt>Finish</dt>
+                    <dd>Saddle Brown stain with matte black base</dd>
+                    <dt>Dania Model#</dt>
+                    <dd>S13*KAR-71BENCH</dd>
+                </dl>
+            </div>
+            <div id="why">
+                <h3 class="pwbL52 gs11">Why shop with Dania?</h3>
+                <p class="utMm18">
+                    We want to make your house a home with beautiful, affordable, high-quality furniture.
+                    Setting a new standard for value is kind of our thing.
+                </p>
+                <img src="images/detail_why.png" alt="why dania?">
+                <ul>
+                    <li class="wFull bdX">
+                        <strong class="utLt26 dyB">Best Price Guarantee</strong>
+                        <a href="footer_warrantyInfo.html" class="utBd20 borLearnBtnA">LEARN MORE</a>
+                    </li>
+                    <li class="wFull bdX">
+                        <strong class="utLt26 dyB">Shipping &amp; Handling</strong>
+                        <a href="footer_shippingInfo.html" class="utBd20 borLearnBtnA">LEARN MORE</a>
+                    </li>
+                    <li class="wFull bdX">
+                        <strong class="utLt26 dyB">Returns & Exchanges</strong>
+                        <a href="footer_returnsExchange.html" class="utBd20 borLearnBtnA">LEARN MORE</a>
+                    </li>
+                    <li class="wFull bdX">
+                        <strong class="utLt26 dyB">Financing Available</strong>
+                        <a href="footer_termsOfService.html" class="utBd20 borLearnBtnA">LEARN MORE</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="caProp">
+                <h3 class="pwbL52 gs11">Ca Prop 65</h3>
+                <p class="utMm18">
+                    WARNING: This product can expose you to chemicals including METHANOL & ETHYLBENZENE which is (are) known to the State of California to cause cancer and reproductive harm. For more information go to <a href="https://www.p65warnings.ca.gov/" target="_black">www.P65Warnings.ca.gov.</a>
+                </p>
+            </div>
+        </div>
+        <div class="reView bBe">
+            <h3 class="pwbL52 gs09">Recently Viewed</h3>
+            <ul>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa05.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_05.jpg" alt="Jaden Right Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Jaden Right Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$2,699.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa01.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_01.jpg" alt="Jessa Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Jessa Sofa</b>
+                        <mark class="utBd14 gs06">$799.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa06_L.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_06.jpg" alt="Celeste Flip Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Celeste Flip Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$1,499.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa10.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_10.jpg" alt="Tamar Convertible Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Tamar Convertible Sofa</b>
+                        <mark class="utBd14 gs06">$1,399.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

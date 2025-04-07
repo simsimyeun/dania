@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="listContainer">
+        <div class="utMm16 bdX">
+            <ol class="stepNav">
+                <li class="dyIB"><a href="index_logO.html" class="gs05">Home</a></li>
+                <li class="dyIB poR poSB"><a href="list_08_collection_1.html" class="gs06">Collection</a></li>
+            </ol>
+            <a href="list_08_collection_1.html" class="backOther">Other Collection</a>
+        </div>
+         <div class="bdX">
+            <h2 class="pwbL72 gs09">Karsten Collection</h2>
+            <img src="images/ban_list_08collection_kc.png" alt="list kaesten banner">
+        </div>
+        <ul class="thirdGrid bdX">
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_02_Seating11.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_02_seating_11.jpg" alt="Karsten71inch Bench" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten71" Bench</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$499.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_02_Seating25.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_02_seating_25.jpg" alt="Karsten Dinning Chair" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Dinning Chair</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$229.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_02_Seating26.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_02_seating_26.jpg" alt="Karsten Counter Stool" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Counter Stool</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_72.png" alt="Grey">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$199.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables04.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_04.jpg" alt="Karsten Coffee Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Coffee Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$899.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables05.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_05.jpg" alt="Karsten Console Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Console Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$419.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables08.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_08.jpg" alt="Karsten End Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten End Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$329.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables13.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_13.jpg" alt="Karsten Dinning Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Dinning Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$899.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables14.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_14.jpg" alt="Karsten Square Bar Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Square Bar Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$649.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage02.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_02.jpg" alt="Karsten Sideboard" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Sideboard</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,299.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage03.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_03.jpg" alt="Karsten Low Bookcase" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Low Bookcase</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$579.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage24.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_24.jpg" alt="Karsten Double Dresser" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Double Dresser</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,299.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_04_Storage25.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_04_storage_25.jpg" alt="Karsten Nightstand" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Nightstand</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$349.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_05_Bed04_q.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_05_bed_04_1.jpg" alt="Karsten Storage Bed" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Storage Bed</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,099.00</strong>
+                </div>
+            </li>
+        </ul>
+        <div class="utBd16 pager poR mgn0A bdX">
+            <a href="#" class="dyB poA">prev</a>
+            <a href="#" class="dyB poA">next</a>
+            <ol class="bs05 txtC">
+                <li class="dyIB"><a href="#" class="poSB active">1</a></li>
+            </ol>
+        </div>
+    </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

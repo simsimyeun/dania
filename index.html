@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div>
+        <div id="introPop" class="active">
+            <input type="button" value="close" class="closeBtn">
+            <b class="utSb">DANIA</b>
+            <p class="utSb">
+                총 318페이지로 데스크탑부터 모바일까지 반응형 구현이 되어있습니다.
+                <br>
+                시간을 들여 살펴봐 주시면 감사하겠습니다.
+            </p>
+            <a href="mailTo:simsimyeun@gmail.com" class="utRr">simsimyeun@gmail.com</a>
+        </div>
+    </div>
+
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                <li>
+                    <a href="signInUp.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="mainContainer">
+        <div class="gs01">
+            <div>
+                <h2 class="utBd42">FALL INTO COMFORT</h2>
+                <p class="utLt22">If you're in search of warm and inviting furniture to enhance the coziness of your home this fall, look no further. 
+                    Here, you'll discover a wide selection of timeless styles that have been thoughtfully designed with your comfort in mind.</p>
+                <a href="list_01_sofa_1.html" class="utBd16 mBtn">
+                    <span>SHOP THE FURNITURE</span>
+                </a>
+            </div>
+        </div>
+        <!-- main banner -->
+        <div>
+            <div class="bdX">
+                <h2 class="utBd72 bls08">GET COZY</h2>
+                <p class="utLt20 gs11">Weather that crisp fall feeling in style by snuggling up in your new favorite living room seat.</p>
+                <a href="list_02_seating_1.html" class="leafBtnA utBd20">SHOP NOW</a>
+            </div>
+        </div>
+         <!-- get cozy -->
+        <div>
+            <h3 class="utBd52 bls08 wFull">
+                <mark class="utBk16 dyB">MADE FOR DINING</mark>
+                Dining Season
+            </h3>
+            <p class="utRr16 bls08">Get ready to host this holiday season when you style your dining room with mid-century, rustic or contemporary designs!</p>
+            <ul class="mainSlider txtC">
+                <li>
+                    <a href="detail_02_Seating25.html">
+                        <img src="images/sp_main_pro_01.png" alt="Karsten Dining Chair">
+                        <mark class="utBd18 rs03 dyB">$229.00</mark>
+                        <b class="utBd20 gs10">Karsten Dining Chair</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_03_Tables11.html">
+                        <img src="images/sp_main_pro_02.png" alt="Acero Extension Dinning Table">
+                        <mark class="utBd18 rs03 dyB">$2,999.00</mark>
+                        <b class="utBd20 gs10">Acero Extension Dinning Table</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_02_Seating23_01.html">
+                        <img src="images/sp_main_pro_03.png" alt="Kyla Swivel Dining Chair">
+                        <span class="dyB">
+                            <img src="images/sp_main_pro_03_tex01.png" alt="saga green">
+                            <img src="images/sp_main_pro_03_tex02.png" alt="mushroom grey">
+                        </span>
+                        <mark class="utBd18 rs03 dyB">$1,899.00</mark>
+                        <b class="utBd20 gs10">Kyla Swivel Dining Chair</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_03_Tables19.html">
+                        <img src="images/sp_main_pro_04.png" alt="Enzo Dining Table">
+                        <mark class="utBd18 rs03 dyB">$1,299.00</mark>
+                        <b class="utBd20 gs10">Enzo Dining Table</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_02_Seating20_01.html">
+                        <img src="images/sp_main_pro_05.png" alt="Avanja Dining Chair">
+                        <span class="dyB">
+                            <img src="images/sp_main_pro_05_tex01.png" alt="light grey">
+                            <img src="images/sp_main_pro_05_tex02.png" alt="blue">
+                        </span>
+                        <mark class="utBd18 rs03 dyB">$149.00</mark>
+                        <b class="utBd20 gs10">Avanja Dining Chair</b>
+                    </a>
+                </li>
+            </ul>
+        </div>    
+        <!-- dining season -->
+        <div>
+            <h3 class="utBd52 bls08 wFull">
+                <mark class="utBk16 dyB">COMPLIMENTARY PIECES</mark>
+                For your inspiration.
+            </h3>
+            <img src="images/img_main_01_ins.png" alt="picture01" class="dyBFull">
+            <img src="images/img_main_02_ins.png" alt="picture02" class="dyBFull">
+        </div>
+        <!-- ins -->
+        <div>
+            <img src="images/img_main_03_collection.png" alt="collection" class="dyBFull">
+            <div>
+                <h3 class="utBd52 bls08 wFull">
+                    <mark class="utBk16 dyB">GO TO SEE...</mark>
+                    Our Collection.
+                </h3>
+                <p class="utRr16 bls08">We have a collections that blend perfectly with your style and create a curated look.</p>
+                <ul class="utRr16">
+                    <li class="poR poSB">Supremely plush yet supportive feel</li>
+                    <li class="poR poSB">A variety of styles</li>
+                    <li class="poR poSB">Constructed with solid and engineered woods</li>
+                    <li class="poR poSB">A variety of materials</li>
+                </ul>
+                <a href="list_08_collection_1.html" class="utBd16 leafBtnB">SEE COLLECTION</a>
+            </div>
+        </div>
+        <!-- collection -->
+        <div>
+            <h3 class="utBd52 bls08 wFull">
+                <mark class="utBk16 dyB">STORAGE</mark>
+                Design and Practicality
+            </h3>
+            <p class="utRr16 bls08">Furniture that achieves both!</p>
+            <ul class="mainSlider txtC">
+                <li>
+                    <a href="detail_04_Storage15.html">
+                        <img src="images/sp_main_pro_06.png" alt="Luciana 2-Door Curio">
+                        <mark class="utBd18 rs03 dyB">$2,299.00</mark>
+                        <b class="utBd20 gs10">Luciana 2-Door Curio</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_04_Storage09.html">
+                        <img src="images/sp_main_pro_07.png" alt="Acero SideBoard">
+                        <mark class="utBd18 rs03 dyB">$2,599.00</mark>
+                        <b class="utBd20 gs10">Acero SideBoard</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_04_Storage18.html">
+                        <img src="images/sp_main_pro_08.png" alt="Mondiana 2-Door Curio">
+                        <mark class="utBd18 rs03 dyB">$2,199.00</mark>
+                        <b class="utBd20 gs10">Mondiana 2-Door Curio</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_04_Storage12.html">
+                        <img src="images/sp_main_pro_09.png" alt="Holfred SideBoard">
+                        <mark class="utBd18 rs03 dyB">$999.00</mark>
+                        <b class="utBd20 gs10">Holfred SideBoard</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="detail_04_Storage29.html">
+                        <img src="images/sp_main_pro_10.png" alt="Knox High Chest">
+                        <mark class="utBd18 rs03 dyB">$449.00</mark>
+                        <b class="utBd20 gs10">Knox High Chest</b>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- de and pra -->
+        <div>
+            <img src="images/img_main_04.png" alt="dream bed" class="dyBFull">
+            <div>
+                <h3 class="utBd52 bls08 wFull">YOUR DREAM BED</h3>
+                <p class="utRr16 bls08">The perfect bed starts with details you love: think warm walnut tones + a wide range of dreamy designs 
+                    that fill your room with undeniable style.</p>
+                <a href="list_05_bed_1.html" class="utBd16 mBtn">
+                    <span>SHOP BED</span>
+                </a>
+            </div>
+        </div>
+        <!-- bed -->
+        <div class="bBe">
+            <div>
+                <div>
+                    <h3 class="utbd52 wFull">LAYERED LIGHTING</h3>
+                    <p class="utRr16 bls08">Illuminate your day-to-day with multiple light sources to enhance your sense of coziness and warmth.</p>
+                    <a href="list_06_lighting_1.html" class="utBd16 leafBtnB">SHOP LIGHTING</a>
+                </div>
+                <img src="images/img_main_05.png" alt="layered lighting" class="dyBFull">
+            </div>
+        </div>
+        <!-- light -->
+        <div>
+            <div>
+                <h3 class="utbd52 wFull">Custom Order</h3>
+                <p class="utRr16 bls08">Explore more than 100 pieces avail able for custom order. Pick the one you love. </p>
+                <a href="footer_customOrder.html" class="utBd16 mBtn">
+                    <span>GO CUSTOM</span>
+                </a>
+            </div>
+        </div>
+        <!-- custom order -->
+        <ul class="mainTicker">
+            <li><img src="images/sp_main_tiker_01.png" alt="ticker01"></li>
+            <li><img src="images/sp_main_tiker_02.png" alt="ticker02"></li>
+            <li><img src="images/sp_main_tiker_03.png" alt="ticker03"></li>
+            <li><img src="images/sp_main_tiker_04.png" alt="ticker04"></li>
+            <li><img src="images/sp_main_tiker_05.png" alt="ticker05"></li>
+            <li><img src="images/sp_main_tiker_06.png" alt="ticker06"></li>
+            <li><img src="images/sp_main_tiker_07.png" alt="ticker07"></li>
+            <li><img src="images/sp_main_tiker_08.png" alt="ticker08"></li>
+            <li><img src="images/sp_main_tiker_09.png" alt="ticker09"></li>
+            <li><img src="images/sp_main_tiker_10.png" alt="ticker10"></li>
+            <li><img src="images/sp_main_tiker_11.png" alt="ticker11"></li>
+            <li><img src="images/sp_main_tiker_12.png" alt="ticker12"></li>
+            <li><img src="images/sp_main_tiker_13.png" alt="ticker13"></li>
+            <li><img src="images/sp_main_tiker_14.png" alt="ticker14"></li>
+            <li><img src="images/sp_main_tiker_15.png" alt="ticker15"></li>
+            <li><img src="images/sp_main_tiker_16.png" alt="ticker16"></li>
+            <li><img src="images/sp_main_tiker_17.png" alt="ticker17"></li>
+            <li><img src="images/sp_main_tiker_18.png" alt="ticker18"></li>
+            <li><img src="images/sp_main_tiker_19.png" alt="ticker19"></li>
+            <li><img src="images/sp_main_tiker_20.png" alt="ticker20"></li>
+            <li><img src="images/sp_main_tiker_21.png" alt="ticker21"></li>
+            <li><img src="images/sp_main_tiker_22.png" alt="ticker22"></li>
+            <li><img src="images/sp_main_tiker_23.png" alt="ticker23"></li>
+            <li><img src="images/sp_main_tiker_24.png" alt="ticker24"></li>
+            <li><img src="images/sp_main_tiker_25.png" alt="ticker25"></li>
+            <li><img src="images/sp_main_tiker_26.png" alt="ticker26"></li>
+            <li><img src="images/sp_main_tiker_27.png" alt="ticker27"></li>
+            <li><img src="images/sp_main_tiker_28.png" alt="ticker28"></li>
+            <li><img src="images/sp_main_tiker_29.png" alt="ticker29"></li>
+            <li><img src="images/sp_main_tiker_30.png" alt="ticker30"></li>
+            <li><img src="images/sp_main_tiker_31.png" alt="ticker31"></li>
+            <li><img src="images/sp_main_tiker_32.png" alt="ticker32"></li>
+            <li><img src="images/sp_main_tiker_33.png" alt="ticker33"></li>
+            <li><img src="images/sp_main_tiker_34.png" alt="ticker34"></li>
+            <li><img src="images/sp_main_tiker_35.png" alt="ticker35"></li>
+            <li><img src="images/sp_main_tiker_36.png" alt="ticker36"></li>
+            <li><img src="images/sp_main_tiker_37.png" alt="ticker37"></li>
+            <li><img src="images/sp_main_tiker_38.png" alt="ticker38"></li>
+            <li><img src="images/sp_main_tiker_39.png" alt="ticker39"></li>
+            <li><img src="images/sp_main_tiker_40.png" alt="ticker40"></li>
+        </ul>
+        <!-- ticker -->
+        <div class="bBe poR">
+            <h2 class="utLt36 txtC">JOIN US</h2>
+            <p class="utBd16 bls08 txtC">Sign up to receive our email newsletter for furniture &amp; interior design inspiration, 
+                &amp; be the first to hear about upcoming offers &amp; promotions.</p>
+            <form>
+                <fieldset class="txtC">
+                    <input type="email" placeholder="Enter your email" class="utRr16 bgT" required title="enter ur email">
+                    <input type="submit" value="SUBMIT" class="utBd16 leafBtnB popUpBtn" data-popup="sendPopups">
+                </fieldset>
+            </form>
+            <div id="sendPopups">
+                <div>
+                    <input type="button" value="close" class="closeBtn">
+                    <span class="utLt36">Send Complete!</span>
+                    <input type="button" value="OK" class="utBd20 closeBtn okBtn">
+                </div>
+            </div>
+        </div>
+        <!-- join us -->
+    </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

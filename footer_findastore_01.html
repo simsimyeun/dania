@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="poR storeContainer">
+        <h2 class="utBd72 bls03">Find a Store</h2>
+        <div id="map" class="poR mgn0A txtC">
+            <a href="#fs_washington01" data-area="fs_washington01" class="dyB poA active"><img src="images/worldmap_01.png" alt="washington" class="wFull"></a>
+            <a href="#fs_idaho02" data-area="fs_idaho02" class="dyB poA"><img src="images/worldmap_02.png" alt="idaho" class="wFull"></a>
+            <a href="#fs_oregon03" data-area="fs_oregon03" class="dyB poA"><img src="images/worldmap_03.png" alt="oregon" class="wFull"></a>
+            <a href="#fs_california04" data-area="fs_california04" class="dyB poA"><img src="images/worldmap_04.png" alt="california" class="wFull"></a>
+            <a href="#fs_nevada05" data-area="fs_nevada05" class="dyB poA"><img src="images/worldmap_05.png" alt="nevada" class="wFull"></a>
+            <a href="#fs_arizona06" data-area="fs_arizona06" class="dyB poA"><img src="images/worldmap_06.png" alt="arizona" class="wFull"></a>
+            <a href="#fs_utah07" data-area="fs_utah07" class="dyB poA"><img src="images/worldmap_07.png" alt="utah" class="wFull"></a>
+            <a href="#fs_colorado08" data-area="fs_colorado08" class="dyB poA"><img src="images/worldmap_08.png" alt="colorado" class="wFull"></a>
+            <a href="#fs_montana09" data-area="fs_montana09" class="dyB poA"><img src="images/worldmap_09.png" alt="montana" class="wFull"></a>
+            <a href="#fs_southDakota10" data-area="fs_southDakota10" class="dyB poA"><img src="images/worldmap_10.png" alt="southDakota" class="wFull"></a>
+            <a href="#fs_minnesota11" data-area="fs_minnesota11" class="dyB poA"><img src="images/worldmap_11.png" alt="minnesota" class="wFull"></a>
+            <a href="#fs_missouri12" data-area="fs_missouri12" class="dyB poA"><img src="images/worldmap_12.png" alt="missouri" class="wFull"></a>
+            <a href="#fs_illinois13" data-area="fs_illinois13" class="dyB poA"><img src="images/worldmap_13.png" alt="illinois" class="wFull"></a>
+            <a href="#fs_indiana14" data-area="fs_indiana14" class="dyB poA"><img src="images/worldmap_14.png" alt="indiana" class="wFull"></a>
+            <a href="#fs_pennsylvania15" data-area="fs_pennsylvania15" class="dyB poA"><img src="images/worldmap_15.png" alt="pennsylvania" class="wFull"></a>
+            <a href="#fs_maryland16" data-area="fs_maryland16" class="dyB poA"><img src="images/worldmap_16.png" alt="maryland" class="wFull"></a>
+            <img src="images/worldmap_bg.png" alt="worldMapBg" class="wFull">
+        </div>
+        <div id="fs_washington01" class="active">
+            <h3 class="utBd52 gs04">WASHINGTON</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="KIRKLAND" data-map="f_washington1" class="bBe wFull txtL active"></li>
+                <li class="bdX"><input type="button" value="LYNNWOOD" data-map="f_washington2" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="SPOKANE" data-map="f_washington3" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="TACOMA" data-map="f_washington4" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="TUKWILA" data-map="f_washington5" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_washington1" class="active">
+                <h4 class="utBd42">KIRKLAND</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Dania Furniture</strong>
+                        12230 NE 116th St Kirkland, WA 98034 United States
+                    </address>
+                    <a href="tel:+14258239160" class="utLt26 gs06">(425) 823-9160</a>
+                    <a href="https://www.google.com/maps/place/Dania+Furniture/@47.7051947,-122.1799579,17z/data=!4m13!1m7!3m6!1s0x54900d7f99c57777:0x8c5b2ad46356320d!2s12230+NE+116th+St,+Kirkland,+WA+98034!3b1!8m2!3d47.7051911!4d-122.1777639!3m4!1s0x54900d7f97c2927b:0x621d621c4ea166b8!8m2!3d47.7050789!4d-122.1777324" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">8:00 PM</dd>
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_washington2">
+                <h4 class="utBd42">LYNNWOOD</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Dania Furniture</strong>
+                        19801 40th Avenue W Lynnwood, WA 98036 United States
+                    </address>
+                    <a href="tel:+14256731588" class="utLt26 gs06">(425) 673-1588</a>
+                    <a href="https://www.google.com/maps/place/Dania+Furniture/@47.8187761,-122.2880574,17z/data=!4m13!1m7!3m6!1s0x549005699567093f:0x191d530c0b1538ae!2s19801+40th+Ave+W,+Lynnwood,+WA+98036!3b1!8m2!3d47.81941!4d-122.285643!3m4!1s0x54900569ef245c83:0xdf8c0b39572de885!8m2!3d47.8193956!4d-122.2856327" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">8:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_washington3">
+                <h4 class="utBd42">SPOKANE</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Dania Furniture</strong>
+                        319 West Riverside Ave Spokane, WA 99201 United States
+                    </address>
+                    <a href="tel:+15096247740" class="utLt26 gs06">(509) 624-7740</a>
+                    <a href="https://www.google.com/maps/place/Dania+Furniture/@47.6576228,-117.4177256,17.35z/data=!4m13!1m7!3m6!1s0x549e18617636ea97:0x9f594298f1bd4eb7!2s319+W+Riverside+Ave,+Spokane,+WA+99201!3b1!8m2!3d47.6575725!4d-117.417041!3m4!1s0x549e1861d0656c23:0xa30e7324fb6d78a2!8m2!3d47.6575946!4d-117.4170121" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_washington4">
+                <h4 class="utBd42">TACOMA</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Dania Furniture</strong>
+                        2502 South 48th Street Tacoma, WA 98409 United States
+                    </address>
+                    <a href="tel:+12534440103" class="utLt26 gs06">(253) 444-0103</a>
+                    <a href="https://www.google.com/maps/place/Dania+Furniture/@47.2127762,-122.4681974,17.35z/data=!4m5!3m4!1s0x5491018f7c5cea37:0xcb0564021b13c75f!8m2!3d47.2132188!4d-122.4691399" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_washington5">
+                <h4 class="utBd42">TUKWILA</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Dania Furniture</strong>
+                        1251 Andover Park W Tukwila, WA 98188 United States
+                    </address>
+                    <a href="tel:+12065751918" class="utLt26 gs06">(206) 575-1918</a>
+                    <a href="https://www.google.com/maps/place/Dania+Furniture/@47.4418958,-122.2571907,17z/data=!4m15!1m8!3m7!1s0x54905cc1f6b97c75:0x6332a59021e6d01e!2zMTI1MSBBbmRvdmVyIFBhcmsgVywgVHVrd2lsYSwgV0EgOTgxODgg66-46rWt!3b1!8m2!3d47.441892!4d-122.2556786!16s%2Fg%2F11c4vh85r1!3m5!1s0x54905cc1f6b97c75:0x6be0a7feed704b31!8m2!3d47.441892!4d-122.2556786!16s%2Fg%2F1trcg3tq?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">8:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_idaho02">
+            <h3 class="utBd52 gs04">IDAHO</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="BOISE" data-map="f_idaho1" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="BOISE OUTLET" data-map="f_idaho2" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_idaho1" class="active">
+                <h4 class="utBd42">BOISE</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        2509 S Broadway Ave Boise, ID 83706 United States
+                    </address>
+                    <a href="tel:+12083432911" class="utLt26 gs06">(208) 343-2911</a>
+                    <a href="https://google.com/maps/place/Scandinavian+Designs/@43.5794647,-116.1958831,17z/data=!4m13!1m7!3m6!1s0x54aef816e572898d:0x84f81dcf85bd0783!2s2509+S+Broadway+Ave,+Boise,+ID+83706!3b1!8m2!3d43.5803313!4d-116.194365!3m4!1s0x54aef92712958af3:0x7e3cb65e31ae0b15!8m2!3d43.5803553!4d-116.194288" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_idaho2">
+                <h4 class="utBd42">BOISE OUTLET</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        2655 S Broadway Ave Boise, ID 83706 United States
+                    </address>
+                    <a href="tel:+12083432911" class="utLt26 gs06">(208) 343-2911</a>
+                    <a href="https://www.google.com/maps/place/The+Outlet+Home+Furnishings/@43.5780867,-116.1962047,17.69z/data=!4m15!1m8!3m7!1s0x54aef810c9ec2bc5:0xd26bf27735f29daf!2s2655+S+Broadway+Ave,+Boise,+ID+83706!3b1!8m2!3d43.5783718!4d-116.1957751!10e3!3m5!1s0x54aef99916eec179:0xd125d9f55d77605b!8m2!3d43.5783188!4d-116.1956441!16s%2Fg%2F11pcm1w064" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>    
+                        <dt>Tuesday ~ Wednesday</dt>
+                        <dd class="flR">Closed</dd>
+                        <dt>Thursday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_oregon03">
+            <h3 class="utBd52 gs04">OREGON</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="CLACKAMAS" data-map="f_oregon1" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="PORTLAND" data-map="f_oregon2" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="TANASBOURNE" data-map="f_oregon3" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_oregon1" class="active">
+                <h4 class="utBd42">CLACKAMAS</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Dania Furniture</strong>
+                        9650 SE 82nd Avenue Portland, OR 97086 United States
+                    </address>
+                    <a href="tel:+15039083141" class="utLt26 gs06">(503) 908-3141</a>
+                    <a href="https://www.google.com/maps/place/Dania+Furniture/@45.4524728,-122.5791648,17z/data=!4m13!1m7!3m6!1s0x54959fdfa2a629eb:0x23808e29e3b4e935!2s9650+SE+82nd+Ave,+Portland,+OR+97086!3b1!8m2!3d45.4524691!4d-122.5769708!3m4!1s0x54959f28f7e20149:0x21f7e80d89b5aad8!8m2!3d45.4525443!4d-122.5774636" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Sunday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_oregon2">
+                <h4 class="utBd42">PORTLAND</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Dania Furniture</strong>
+                        1905 NE 41st Ave Portland, OR 97212 United States
+                    </address>
+                    <a href="tel:+15032840880" class="utLt26 gs06">(503) 284-0880</a>
+                    <a href="https://www.google.com/maps/place/Dania+Furniture/@45.5347824,-122.6230868,17.35z/data=!4m13!1m7!3m6!1s0x5495a0d7170ed24b:0x65e74ed54cbacb51!2s1905+NE+41st+Ave,+Portland,+OR+97212!3b1!8m2!3d45.5368052!4d-122.6212218!3m4!1s0x5495a0d710dc5e9f:0x527a1c159ded8460!8m2!3d45.5368407!4d-122.6212309" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_oregon3">
+                <h4 class="utBd42">TANASBOURNE</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Dania Furniture</strong>
+                        16995 NW Cornell Rd Beaverton, OR 97006 United States
+                    </address>
+                    <a href="tel:+15036292522" class="utLt26 gs06">(503) 629-2522</a>
+                    <a href="https://www.google.com/maps/place/Dania+Furniture/@45.534114,-122.8517687,17z/data=!4m13!1m7!3m6!1s0x54950f47f54cba6f:0x35edb3d188e8d542!2s16995+NW+Cornell+Rd,+Beaverton,+OR+97006!3b1!8m2!3d45.5348618!4d-122.8510981!3m4!1s0x54950f3864525341:0x9e1af5ea4e3dd130!8m2!3d45.5348999!4d-122.8510586" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_california04">
+            <h3 class="utBd52 gs04">CALIFORNIA</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="BLOSSOM HILL" data-map="f_california1" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="CONCORD" data-map="f_california2" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="ELK GROVE" data-map="f_california3" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="FAIR OAKS" data-map="f_california4" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="IRVINE" data-map="f_california5" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="NORTH HOLLYWOOD" data-map="f_california6" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="ONTARIO" data-map="f_california7" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="PASADENA" data-map="f_california8" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="RANCHO MIRAGE" data-map="f_california9" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="ROCKLIN" data-map="f_california10" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="SAN DIEGO" data-map="f_california11" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="SAN JOSE" data-map="f_california12" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="SAN MATEO" data-map="f_california13" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="SAN RAFAEL" data-map="f_california14" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="SANTA ROSA" data-map="f_california15" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="SANTA ROSA OUTLET" data-map="f_california16" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="VACAVILLE" data-map="f_california17" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="WEST LA" data-map="f_california18" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_california1" class="active">
+                <h4 class="utBd42">BLOSSOM HILL</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        865 Blossom Hill Rd San Jose, CA 95123 United States
+                    </address>
+                    <a href="tel:+14085995660" class="utLt26 gs06">(408) 599-5660</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@37.2514446,-121.8593762,17z/data=!4m13!1m7!3m6!1s0x808e31d4a23c15b3:0x19d71070befd25fb!2s865+Blossom+Hill+Rd,+San+Jose,+CA+95123!3b1!8m2!3d37.2514404!4d-121.8571822!3m4!1s0x808e3131b4e3d37b:0xa24bb86ca1e417e7!8m2!3d37.2514477!4d-121.8570968" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california2">
+                <h4 class="utBd42">CONCORD</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        1701 Arnold Industrial Pl Concord, CA 94520 United States
+                    </address>
+                    <a href="tel:+19258274466" class="utLt26 gs06">(925) 827-4466</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@37.9997425,-122.0533371,17z/data=!4m13!1m7!3m6!1s0x80856658431681b5:0x7095c0223883960!2s1701+Arnold+Industrial+Pl,+Concord,+CA+94520!3b1!8m2!3d38.0001779!4d-122.0516258!3m4!1s0x808566584354e035:0x2a2ecbeae5c77080!8m2!3d38.000326!4d-122.0512232" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">8:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california3">
+                <h4 class="utBd42">ELK GROVE</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        1701 Arnold Industrial Pl Concord, CA 94520 United States
+                    </address>
+                    <a href="tel:+19169637205" class="utLt26 gs06">(916) 963-7205</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@38.4241989,-121.3935424,17z/data=!4m13!1m7!3m6!1s0x809ac6fd5c783bab:0x1089915eb95b4bc1!2s8507+Bond+Rd,+Elk+Grove,+CA+95624!3b1!8m2!3d38.4265314!4d-121.3897176!3m4!1s0x809ac7ac819e12d7:0x803fe16d4a670af1!8m2!3d38.4265314!4d-121.3897176" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>    
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california4">
+                <h4 class="utBd42">FAIR OAKS</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        4301 Sunrise Blvd Fair Oaks, CA 95628 United States
+                    </address>
+                    <a href="tel:+19169659550" class="utLt26 gs06">(916) 965-9550</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs+Furniture/@38.644053,-121.2735707,3a,75y,155.49h,93.66t/data=!3m7!1e1!3m5!1si6nwFGX4gvEhZ-BE403wTA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-3.664718418854619%26panoid%3Di6nwFGX4gvEhZ-BE403wTA%26yaw%3D155.48930138679117!7i16384!8i8192!4m16!1m9!3m8!1s0x809addfb294e74db:0xeae8e1e2dd8a50bd!2zNDMwMSBTdW5yaXNlIEJsdmQsIEZhaXIgT2FrcywgQ0EgOTU2Mjgg66-46rWt!3b1!8m2!3d38.643633!4d-121.2736423!10e5!16s%2Fg%2F11b8v4wmz_!3m5!1s0x809addfb2222024f:0x2ebfc0499fdd1c97!8m2!3d38.643617!4d-121.2735309!16s%2Fg%2F1td9_yj5?coh=205410&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california5">
+                <h4 class="utBd42">IRVINE</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        8660 Research Dr Irvine, CA 92618 United States
+                    </address>
+                    <a href="tel:+19497880004" class="utLt26 gs06">(949) 788-0004</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@33.6438076,-117.7429304,17z/data=!4m13!1m7!3m6!1s0x80dce7e3a918233d:0x86c7152eeb3e10bb!2s8660+Research+Dr,+Irvine,+CA+92618!3b1!8m2!3d33.6438032!4d-117.7407276!3m4!1s0x80dce7e3a97247d1:0xe4e881be1ee82dd8!8m2!3d33.6437861!4d-117.7407474" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california6">
+                <h4 class="utBd42">NORTH HOLLYWOOD</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        12240 Sherman Way N. Hollywood, CA 91605 United States
+                    </address>
+                    <a href="tel:+18187650401" class="utLt26 gs06">(818) 765-0401</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@34.20041,-118.4022789,17z/data=!4m13!1m7!3m6!1s0x80c29684ed09b1dd:0x18f559bd2c792844!2s12240+Sherman+Way,+North+Hollywood,+CA+91605!3b1!8m2!3d34.2008581!4d-118.400336!3m4!1s0x80c29684ec7c5aa5:0x6ea2982436515b38!8m2!3d34.2008682!4d-118.4004638" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california7">
+                <h4 class="utBd42">ONTARIO</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        4460 Ontario Mills Parkway Ontario, CA 91764 United States
+                    </address>
+                    <a href="tel:+19092844908" class="utLt26 gs06">(909) 284-4908</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@34.0684057,-117.5553027,17z/data=!4m13!1m7!3m6!1s0x80c3357e9951585b:0x8d615c31178c4d81!2s4460+Ontario+Mills+Pkwy,+Ontario,+CA+91764!3b1!8m2!3d34.068294!4d-117.5534369!3m4!1s0x80c335fc12ea1c0d:0x2104c681c59beff4!8m2!3d34.0686142!4d-117.5535226" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>    
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california8">
+                <h4 class="utBd42">PASADENA</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        3635 East Colorado Blvd Pasadena, CA 91107 United States
+                    </address>
+                    <a href="tel:+16267440211" class="utLt26 gs06">(626) 744-0211</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@34.1473599,-118.0774249,17z/data=!4m13!1m7!3m6!1s0x80c2db7cec260279:0x754f167f4f2c693f!2s3635+E+Colorado+Blvd,+Pasadena,+CA+91107!3b1!8m2!3d34.1473555!4d-118.0752309!3m4!1s0x80c2db7ceccfec5d:0xa109dfe5b3552bcf!8m2!3d34.1470342!4d-118.0752351" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california9">
+                <h4 class="utBd42">RANCHO MIRAGE</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        72767 Dinah Shore Dr Rancho Mirage, CA 92270 United States
+                    </address>
+                    <a href="tel:+17603248730" class="utLt26 gs06">(760) 324-8730</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@33.8003745,-116.3956001,17z/data=!4m13!1m7!3m6!1s0x80dafd37bbf7dbdb:0xa5f3b7cb0953681!2s72767+Dinah+Shore+Dr,+Rancho+Mirage,+CA+92270!3b1!8m2!3d33.8004144!4d-116.3939087!3m4!1s0x80dafd37bbf7dbdb:0xa2eb4bb3da237df6!8m2!3d33.8004613!4d-116.3938203" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">5:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california10">
+                <h4 class="utBd42">ROCKLIN</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        6849 Five Star Blvd Rocklin, CA 95677 United States
+                    </address>
+                    <a href="tel:+19166329201" class="utLt26 gs06">(916) 632-9201</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@38.7776627,-121.2650989,17z/data=!4m13!1m7!3m6!1s0x809b21d808f87017:0x1529993522998abf!2s6849+Five+Star+Blvd,+Rocklin,+CA+95677!3b1!8m2!3d38.7776585!4d-121.2629049!3m4!1s0x809b21d80bc4e22b:0x13bc07bb8f0a981a!8m2!3d38.7774277!4d-121.2628221" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california11">
+                <h4 class="utBd42">SAN DIEGO</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        8990 Miramar Rd San Diego, CA 92126 United States
+                    </address>
+                    <a href="tel:+18585667560" class="utLt26 gs06">(858) 566-7560</a>
+                    <a href="https://www.google.com/maps/place/8990+Miramar+Rd,+San+Diego,+CA+92126+%EB%AF%B8%EA%B5%AD/@32.8953867,-117.1348032,17z/data=!4m6!3m5!1s0x80dbf8d6b5141caf:0xba57f46ee43f57b4!8m2!3d32.8953822!4d-117.1322283!16s%2Fg%2F11c225vr2y?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california12">
+                <h4 class="utBd42">SAN JOSE</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        1115 South De Anza Blvd San Jose, CA 95129 United States
+                    </address>
+                    <a href="tel:+14082555900" class="utLt26 gs06">(408) 255-5900</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@37.3058546,-122.0339802,17z/data=!4m13!1m7!3m6!1s0x808fb51cac0c0bf1:0x42762d3223b9aa65!2sDe+Anza+Shopping+Center,+1115+S+De+Anza+Blvd,+San+Jose,+CA+95129!3b1!8m2!3d37.305592!4d-122.0329128!3m4!1s0x808fb51caa7a2f15:0x76845ebe3a3d882d!8m2!3d37.3056106!4d-122.0327911" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california13">
+                <h4 class="utBd42">SAN MATEO</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        317 South B St San Mateo, CA 94401 United States
+                    </address>
+                    <a href="tel:+16503400555" class="utLt26 gs06">(650) 340-0555</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@37.5652259,-122.3238782,17z/data=!4m13!1m7!3m6!1s0x808f9e7a813d8f59:0xea9149c621342988!2s317+S+B+St,+San+Mateo,+CA+94401!3b1!8m2!3d37.5653747!4d-122.3218236!3m4!1s0x808f9e7a86e0d667:0x24d232f27bd18ae5!8m2!3d37.5654557!4d-122.3219345" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california14">
+                <h4 class="utBd42">SAN RAFAEL</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        600 Francisco Blvd W San Rafael, CA 94901 United States
+                    </address>
+                    <a href="tel:+14154575500" class="utLt26 gs06">(415) 457-5500</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@37.9631703,-122.516219,17z/data=!4m13!1m7!3m6!1s0x80859a228294095f:0x64ebda8bd4df1c00!2s600+Francisco+Blvd+W,+San+Rafael,+CA+94901!3b1!8m2!3d37.9631661!4d-122.514025!3m4!1s0x808599fba0aa31ef:0xc6fffe321004e586!8m2!3d37.9632183!4d-122.5137886" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california15">
+                <h4 class="utBd42">SANTA ROSA</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        2835 Santa Rosa Ave Santa Rosa, CA 95407 United States
+                    </address>
+                    <a href="tel:+17075286640" class="utLt26 gs06">(707) 528-6640</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs+Furniture/@38.4080408,-122.7164197,17.54z/data=!4m15!1m8!3m7!1s0x80844828f6711c65:0x269f9213efa56ad8!2s2835+Santa+Rosa+Ave,+Santa+Rosa,+CA+95407!3b1!8m2!3d38.4085032!4d-122.7153542!16s%2Fg%2F11c5jswhyv!3m5!1s0x8084482858af066b:0xa5d14000006fc8ec!8m2!3d38.408572!4d-122.7153641!16s%2Fg%2F11hj9lggch?entry=ttu" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california16">
+                <h4 class="utBd42">SANTA ROSA OUTLET</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        3480 Industrial Dr Santa Rosa, CA 95403 United States
+                    </address>
+                    <a href="tel:+17075828537" class="utLt26 gs06">(707) 582-8537</a>
+                    <a href="https://www.google.com/maps/place/The+Outlet+by+Scandinavian+Designs/@38.4765179,-122.7397648,18z/data=!4m15!1m8!3m7!1s0x8084388d1187b05b:0xc0bacddf668a1e78!2s3480+Industrial+Dr,+Santa+Rosa,+CA+95403!3b1!8m2!3d38.4766387!4d-122.7385176!16s%2Fg%2F11bw40smyp!3m5!1s0x8084388d0d860d2f:0x99904ba98f1206ef!8m2!3d38.4766404!4d-122.7387496!16s%2Fg%2F1wv_sfn3?entry=ttu" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Wednesday</dt>
+                        <dd class="flR">Closed</dd>
+                        <dt>Thursday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california17">
+                <h4 class="utBd42">VACAVILLE</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        266 Bella Vista Rd Vacaville, CA 95687 United States
+                    </address>
+                    <a href="tel:+17074474449" class="utLt26 gs06">(707) 447-4449</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@38.3470305,-121.9931274,17z/data=!4m13!1m7!3m6!1s0x80853d585ebee157:0xa30f779a71c561e0!2s266+Bella+Vista+Rd,+Vacaville,+CA+95687!3b1!8m2!3d38.3473629!4d-121.9911265!3m4!1s0x80853d585e40beb7:0xd792b475c17ae59f!8m2!3d38.3475408!4d-121.9912415" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_california18">
+                <h4 class="utBd42">WEST LA</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        8850 Venice Blvd Los Angeles, CA 90034 United States
+                    </address>
+                    <a href="tel:+13108370138" class="utLt26 gs06">(310) 837-0138</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs+Furniture/@34.0301315,-118.388712,17z/data=!4m15!1m8!3m7!1s0x80c2b982304fee07:0xc9dd3f0200ae0452!2s8850+Venice+Blvd.,+Los+Angeles,+CA+90034+%EB%AF%B8%EA%B5%AD!3b1!8m2!3d34.0301271!4d-118.3861371!16s%2Fg%2F11c2bm_m2j!3m5!1s0x80c2b981813909f3:0xa76aba743f164fa!8m2!3d34.0301271!4d-118.3861371!16s%2Fg%2F1th49nr0?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>    
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_nevada05" class="noGap">
+            <h3 class="utBd52 gs04">NEVADA</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="RENO" data-map="f_nevada1" class="bBe"></li>
+            </ul>
+            <div id="f_nevada1" class="active">
+                <h4 class="utBd42">RENO</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        4869 Kietzke Lane Reno, NV 89509 United States
+                    </address>
+                    <a href="tel:+17758284050" class="utLt26 gs06">(775) 828-4050</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@39.479343,-119.8015988,16.71z/data=!4m15!1m8!3m7!1s0x809940718d45c1e5:0x53bc8ca13a3b0cda!2s4869+Kietzke+Ln,+Reno,+NV+89509,+USA!3b1!8m2!3d39.479201!4d-119.798965!16s%2Fg%2F11gfh9v76y!3m5!1s0x80994081fd19432d:0xe72a6d9d6688d4ec!8m2!3d39.479201!4d-119.798965!16s%2Fg%2F1vxw8hxv?entry=ttu" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_arizona06">
+            <h3 class="utBd52 gs04">ARIZONA</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="GLENDALE" data-map="f_arizona1" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="MESA" data-map="f_arizona2" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="PHOENIX" data-map="f_arizona3" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_arizona1" class="active">
+                <h4 class="utBd42">GLENDALE</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        7540 West Bell Road Glendale, AZ 85308 United States
+                    </address>
+                    <a href="tel:+16023449874" class="utLt26 gs06">(602) 344-9874</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@33.6393987,-112.2230755,17z/data=!4m13!1m7!3m6!1s0x872b683a0b186e1d:0x700a652c06fe876b!2s7540+W+Bell+Rd,+Glendale,+AZ+85308!3b1!8m2!3d33.6399093!4d-112.2217291!3m4!1s0x872b69137d47083b:0x3935b3f77abe708c!8m2!3d33.6397094!4d-112.2217178" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">8:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_arizona2">
+                <h4 class="utBd42">MESA</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        1516 South Power Road Mesa, AZ 85206 United States
+                    </address>
+                    <a href="tel:+14805508428" class="utLt26 gs06">(480) 550-8428</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs+Furniture/@33.3883125,-111.6881092,17z/data=!4m15!1m8!3m7!1s0x872bafcb39a346eb:0x59044cfcb128be7c!2zMTUxNiBTIFBvd2VyIFJkLCBNZXNhLCBBWiA4NTIwNiDrr7jqta0!3b1!8m2!3d33.3883821!4d-111.6858702!16s%2Fg%2F11b8v420m1!3m5!1s0x872bafd6fdf1544d:0xd3c8e7c3843a96cb!8m2!3d33.38836!4d-111.685874!16s%2Fg%2F11k2rf6syk?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">8:00 PM</dd>    
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_arizona3">
+                <h4 class="utBd42">PHOENIX</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        12801 North Tatum Blvd Phoenix, AZ 85032 United States
+                    </address>
+                    <a href="tel:+16023449787" class="utLt26 gs06">(602) 344-9787</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@33.601383,-111.9787878,17.26z/data=!4m5!3m4!1s0x872b7318c2a1e099:0xa8f33d4b5694e89!8m2!3d33.6017353!4d-111.9765149" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">8:00 PM</dd>    
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_utah07">
+            <h3 class="utBd52 gs04">UTAH</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="MURRAY" data-map="f_utah1" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="OGDEN" data-map="f_utah2" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_utah1" class="active">
+                <h4 class="utBd42">MURRAY</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        5968 South State Street Murray, UT 84107 United States
+                    </address>
+                    <a href="tel:+13853888883" class="utLt26 gs06">(385) 388-8883</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@40.641404,-111.8913719,17.69z/data=!4m13!1m7!3m6!1s0x87528996e4e43ab5:0xe62a0ba5feb1be1e!2s5968+S+State+St,+Murray,+UT+84107!3b1!8m2!3d40.6409132!4d-111.8891006!3m4!1s0x87528953aec3cf77:0xf6d6aeffb0b45bcb!8m2!3d40.641483!4d-111.8903088" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_utah2">
+                <h4 class="utBd42">OGDEN</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        4042 Riverdale Road Ogden, UT 84405 United States
+                    </address>
+                    <a href="tel:+13852756616" class="utLt26 gs06">(385) 275-6616</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@41.1894908,-111.980038,17.26z/data=!4m5!3m4!1s0x87530f4996082931:0x4f61adf3e7113e3!8m2!3d41.1899068!4d-111.9790307" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">Closed</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_colorado08">
+            <h3 class="utBd52 gs04">COLORADO</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="DENVER" data-map="f_colorado1" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="HIGHLANDS RANCH" data-map="f_colorado2" class="bBe wFull txtL"></li>
+                <li class="bdX"><input type="button" value="WESTMINSTER" data-map="f_colorado3" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_colorado1" class="active">
+                <h4 class="utBd42">DENVER</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        9000 East Hampden Ave Denver, CO 80231 United States
+                    </address>
+                    <a href="tel:+13036944177" class="utLt26 gs06">(303) 694-4177</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@39.6517382,-104.8833218,17z/data=!4m13!1m7!3m6!1s0x876c87980545c867:0xb7a6916c2a12762!2s9000+E+Hampden+Ave,+Denver,+CO+80231!3b1!8m2!3d39.6517341!4d-104.8811278!3m4!1s0x876c87983a000567:0xea56f39fa46e42d6!8m2!3d39.6518159!4d-104.8817019" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Tuesday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">8:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_colorado2">
+                <h4 class="utBd42">HIGHLANDS RANCH</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        7155 Business Center Dr Highlands Ranch, CO 80130 United States
+                    </address>
+                    <a href="tel:+17206258996" class="utLt26 gs06">(720) 625-8996</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@39.5614164,-104.9072366,17z/data=!4m13!1m7!3m6!1s0x876c8445cc0e7917:0xd93801f8562ea260!2s7155+Business+Center+Dr,+Highlands+Ranch,+CO+80130!3b1!8m2!3d39.561098!4d-104.9064266!3m4!1s0x876c85d51955f373:0x70079738c145907a!8m2!3d39.5610467!4d-104.9064875" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>    
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="f_colorado3">
+                <h4 class="utBd42">WESTMINSTER</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        10180 Wadsworth Pkwy Westminster, CO 80021 United States
+                    </address>
+                    <a href="tel:+13034108211" class="utLt26 gs06">(303) 410-8211</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@39.8811666,-105.0966387,17z/data=!3m1!5s0x876b89637d82f99f:0xb98195085472d020!4m13!1m7!3m6!1s0x876b8963bb15b881:0x238c909ed2c2c089!2s10180+Wadsworth+Pkwy,+Westminster,+CO+80020!3b1!8m2!3d39.8816894!4d-105.094509!3m4!1s0x876b8978ea7bfeb3:0x33341bfb1bac740f!8m2!3d39.8816894!4d-105.094509" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>    
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_montana09" class="noGap">
+            <h3 class="utBd52 gs04">MONTANA</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="HELENA" data-map="f_montana1" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_montana1" class="active">
+                <h4 class="utBd42">HELENA</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        3405 N Montana Ave Helena, MT 59602 United States
+                    </address>
+                    <a href="tel:+14062729467" class="utLt26 gs06">(406) 272-9467</a>
+                    <a href="https://www.google.com/maps/place/3405+N+Montana+Ave/@46.6228884,-112.020631,17.35z/data=!4m7!3m6!1s0x53435468f9eaa75d:0x74a8a2d7297862cc!4b1!8m2!3d46.6226124!4d-112.0185761!16s%2Fg%2F11b8v5tdf7" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">5:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_southDakota10" class="noGap">
+            <h3 class="utBd52 gs04">SOUTH DAKOTA</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="SIOUX FALLS" data-map="f_southDakota1" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_southDakota1" class="active">
+                <h4 class="utBd42">SIOUX FALLS</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        4401 West Empire Place Sioux Falls, SD 57106 United States
+                    </address>
+                    <a href="tel:+16056799910" class="utLt26 gs06">(605) 679-9910</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@43.5083139,-96.7818839,17z/data=!4m13!1m7!3m6!1s0x878ec988aea3705f:0x32df09c87f5b7d41!2s4401+W+Empire+Pl,+Sioux+Falls,+SD+57106!3b1!8m2!3d43.5089582!4d-96.7811054!3m4!1s0x878ec9205c413177:0xf15c1f05ff8eb056!8m2!3d43.5089213!4d-96.7807335" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Tuesday ~ Wednesday</dt>
+                        <dd class="flR">Closed</dd>
+                        <dt>Thursday ~ Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">5:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_minnesota11" class="noGap">
+            <h3 class="utBd52 gs04">MINNESOTA</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="ROSEVILLE" data-map="f_minnesota1" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_minnesota1" class="active">
+                <h4 class="utBd42">ROSEVILLE</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        2875 Snelling Ave N Roseville, MN 55113 United States
+                    </address>
+                    <a href="tel:+16516367333" class="utLt26 gs06">(651) 636-7333</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@45.0269698,-93.1698533,17z/data=!4m13!1m7!3m6!1s0x52b32be0e096e059:0x14eaa2b91db2fab6!2s2875+Snelling+Ave+N,+Roseville,+MN+55113!3b1!8m2!3d45.027421!4d-93.1680133!3m4!1s0x52b32be0e1b4dde1:0xfe0a476120ce3f0c!8m2!3d45.0274269!4d-93.1680722" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_missouri12" class="noGap">
+            <h3 class="utBd52 gs04">MISSOURI</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="ST. PETERS" data-map="f_missouri1" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_missouri1" class="active">
+                <h4 class="utBd42">ST. PETERS</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        5821 Suemandy Drive St. Peters, MO 63376 United States
+                    </address>
+                    <a href="tel:+16363296110" class="utLt26 gs06">(636) 329-6110</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs+Furniture/@38.7971418,-90.6271947,17z/data=!4m15!1m8!3m7!1s0x87ded7be0c0fc517:0xf5c486297c52cdaf!2zNTgyMSBTdWVtYW5keSBEciwgU3QgUGV0ZXJzLCBNTyA2MzM3NiDrr7jqta0!3b1!8m2!3d38.7970808!4d-90.6249726!16s%2Fg%2F11c2f1v0t_!3m5!1s0x87ded7ab25c912c7:0x9277fe90a86cb5d!8m2!3d38.7971418!4d-90.625006!16s%2Fg%2F11px5cyd8y?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_illinois13" class="noGap">
+            <h3 class="utBd52 gs04">ILLINOIS</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="NORTHBROOK" data-map="f_illinois1" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_illinois1" class="active">
+                <h4 class="utBd42">NORTHBROOK</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Dania Furniture</strong>
+                        1001 Skokie Blvd Northbrook, IL 60062 United States
+                    </address>
+                    <a href="tel:+18472059910" class="utLt26 gs06">(847) 205-9910</a>
+                    <a href="https://www.google.com/maps/place/Dania+Furniture/@42.1348791,-87.791125,17z/data=!4m13!1m7!3m6!1s0x880fc6b2f32017ff:0x389400f17e5df2a4!2s1001+Skokie+Blvd,+Northbrook,+IL+60062!3b1!8m2!3d42.1340252!4d-87.7875323!3m4!1s0x880fc6b33f007d3b:0x96b21134f088fd9!8m2!3d42.1340192!4d-87.7881688" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">8:00 PM</dd>
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_indiana14" class="noGap">
+            <h3 class="utBd52 gs04">INDIANA</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="INDIANAPOLIS" data-map="f_indiana1" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_indiana1" class="active">
+                <h4 class="utBd42">INDIANAPOLIS</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong>Scandinavian Designs </strong>
+                        8250 Castleton Corner Dr Indianapolis, IN 46250 United States
+                    </address>
+                    <a href="tel:+14637775660" class="utLt26 gs06">(463) 777-5660</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs/@39.9062242,-86.0718754,17z/data=!4m13!1m7!3m6!1s0x886b4d370818e0cf:0x41a712fa4bf9c748!2s8250+Castleton+Corner+Dr,+Indianapolis,+IN+46250!3b1!8m2!3d39.9064423!4d-86.070722!3m4!1s0x886b4dd3e84eef7b:0xef50003cffe8de68!8m2!3d39.9064423!4d-86.070722" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Saturday </dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_pennsylvania15" class="noGap">
+            <h3 class="utBd52 gs04">PENNSYLVANIA</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="CRANBERRY" data-map="f_pennsylvania1" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_pennsylvania1" class="active">
+                <h4 class="utBd42">CRANBERRY</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong>Scandinavian Designs </strong>
+                        1000 Cranberry Square Dr Cranberry Township, PA 16066 United States
+                    </address>
+                    <a href="tel:+18782420321" class="utLt26 gs06">(878) 242-0321</a>
+                    <a href="https://www.google.com/maps/place/1000+Cranberry+Square+Dr,+Cranberry+Twp,+PA+16066/@40.6912691,-80.1067834,17z/data=!3m1!4b1!4m6!3m5!1s0x883462ac735b38ed:0xf5b0d0da215efd1d!8m2!3d40.6912651!4d-80.1042085!16s%2Fg%2F11b8v5ywyk?entry=ttu" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="fs_maryland16" class="noGap">
+            <h3 class="utBd52 gs04">MARYLAND</h3>
+            <ul class="utLt22 gs09">
+                <li class="bdX"><input type="button" value="WALDORF" data-map="f_maryland1" class="bBe wFull txtL"></li>
+            </ul>
+            <div id="f_maryland1" class="active">
+                <h4 class="utBd42">WALDORF</h4>
+                <div>
+                    <h5 class="utLt36 gs05">LOCATION INFO</h5>
+                    <address class="utLt26 gs06">
+                        <strong class="dyB">Scandinavian Designs</strong>
+                        11055 Mall Cir Waldorf, MD 20603 United States
+                    </address>
+                    <a href="tel:+13014647158" class="utLt26 gs06">(301) 464-7158</a>
+                    <a href="https://www.google.com/maps/place/Scandinavian+Designs+Furniture/@38.6170276,-76.9226021,17z/data=!4m5!3m4!1s0x89b7a7ec8632ee0b:0x1cf4ab1f6a283302!8m2!3d38.6175692!4d-76.9216089" target="_blank" class="utMm18 borLearnBtnB flR">GET DIRECTIONS</a>
+                </div>
+                <div>
+                    <h5 class="utLt36 gs05">STORE HOURS</h5>
+                    <dl class="utLt26 gs06">
+                        <dt>Monday ~ Friday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">7:00 PM</dd>
+                        <dt>Saturday</dt>
+                        <dd class="flR">10:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                        <dt>Sunday</dt>
+                        <dd class="flR">11:00 AM</dd>
+                        <dd class="flR">6:00 PM</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

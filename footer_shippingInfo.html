@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="fContainer">
+        <aside class="sideNav">
+            <ul class="pwbL30 gs05">
+                <li><a href="footer_shippingInfo.html" class="dyB txtL active">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html" class="dyB txtL">Returns & Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html" class="dyB txtL">Warranty Information</a></li>
+            </ul>
+        </aside>
+        <div class="shipInfo">
+            <a class="utMm16 gs05 dyB poR poSB">Back</a>
+            <h2 class="utBd72 bls03">Shipping Information</h2>
+            <p class="utLt22 bBe wFull bdX">
+                We are only able to ship products when available in your nearest Distribution Center (DC). When you input your zip or postal code into our tracker, it allows us to see which items are available to reach you from your nearest DC. Some products will be ineligible to ship to your location based on availability in your nearest DC. We are not able to ship items from a split shipment, which includes products available in your nearest DC and a further DC. Some items may become available in your DC over time.
+            </p>
+            <ul class="utLt22">
+                <li>
+                    To see shipping options, just add the items you'd like to purchase to your cart. Once items have been added, go to your cart and enter your zip code in the Shipping Rates Calculator to see the shipping rates available in your location.
+                </li>
+                <li>
+                    Orders consisting only of small parcels (lighting, accessories, etc.) most often ship within 1 week of placing the order.
+                </li>
+                <li>
+                    Shipping time for furniture orders sometimes depends on your location. When you place your order, our Customer Care team will contact you to finalize delivery arrangements.
+                </li>
+            </ul>
+            <ol class="dyF">
+                <li class="bBe txtC">
+                    <h3 class="gs01 bdX">
+                        <strong class="utBd26 dyB">Ship to Store</strong>
+                        <span class="utLt18 dyB">(available at select locations)</span>
+                    </h3>
+                    <ul class="utLt18 bls08">
+                        <li>Loading assistance</li>
+                        <li>No assembly included</li>
+                        <li>No packaging removed</li>
+                    </ul>
+                    <span class="utLt18 bls08">Always</span>
+                    <strong class="utBd42 bls04 dyB">F R E E</strong>
+                </li>
+                <li class="bBe txtC">
+                    <h3 class="gs01 bdX">
+                        <strong class="utBd26 dyB">Small Parcel</strong>
+                        <span class="utLt18 dyB">(lighting, accessories, rugs)</span>
+                    </h3>
+                    <ul class="utLt18 bls08">
+                        <li>Delivered to your door</li>
+                        <li>No assembly included</li>
+                        <li>No packaging removed</li>
+                    </ul>
+                    <span class="utLt18 bls08">Starting at</span>
+                    <strong class="utBd42 bls04 dyB">$ 15</strong>
+                </li>
+                <li class="bBe txtC">
+                    <h3 class="gs01 bdX">
+                        <strong class="utBd26 dyB">Standard Delivery</strong>
+                        <span class="utLt18 dyB">(100+ miles from our stores)</span>
+                    </h3>
+                    <ul class="utLt18 bls08">
+                        <li>Delivered inside home</li>
+                        <li>No assembly included</li>
+                        <li>No packaging removed</li>
+                    </ul>
+                    <span class="utLt18 bls08">Starting at</span>
+                    <strong class="utBd42 bls04 dyB">$ 300</strong>
+                </li>
+                <li class="bBe txtC">
+                    <h3 class="gs01 bdX">
+                        <strong class="utBd26 dyB">Deluxe Delivery</strong>
+                        <span class="utLt18 dyB">(within 100 miles of our stores)</span>
+                    </h3>
+                    <ul class="utLt18 bls08">
+                        <li>Delivered to any room</li>
+                        <li>Assembly included*</li>
+                        <li>Packaging removed</li>
+                    </ul>
+                    <span class="utLt18 bls08">Starting at</span>
+                    <strong class="utBd42 bls04 dyB">$ 149</strong>
+                </li>
+            </ol>
+            <p class="utLt22">*Please note, some items include an additional assembly fee.</p>
+            <p class="utLt22">Deluxe delivery fees will increase for shipping addresses that are approximately 100 city miles or more from store locations. Enter your zip code before checking out or contact your local store to confirm the corresponding zone for your zip code.</p>
+            <ul>
+                <li class="utLt22">
+                    If you have delivery-related questions, please contact us using the following information to determine the best course of action:
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Store Purchases</h3>
+                    <p class="utLt22 bls04">
+                        Please contact the store where you made your purchase.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Online Orders Only</h3>
+                    <p class="utLt22 bls04">
+                        Call : <a href="tel:18447226347">(844) 722-6347</a>  OR  Email : <a href="mailto:hello@daniafurniture.com">hello@daniafurniture.com</a>
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Estimated Shipping and Delivery</h3>
+                    <p class="utLt22 bls04">
+                        We quote estimated times of arrival as accurately as possible. However, some orders may be delayed beyond our quoted time due to unforeseen circumstances. We are unable to discount due to production or shipping delays.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Delivery To Your Home</h3>
+                    <p class="utLt22 bls04">
+                        Before delivery of your product, there are a set of simple steps that can be taken to ensure a smooth and efficient delivery, including measuring your space in advance, and clearing a path for delivery.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Rescheduled deliveries</h3>
+                    <p class="utLt22 bls04">
+                        Reschedules made after your delivery time-frame has been scheduled will incur a rescheduling fee, starting at $49. Please Note: If you are not at home at the time of your agreed-upon delivery time-frame, you will incur the expense of the original delivery fee, and be charged for a second delivery.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

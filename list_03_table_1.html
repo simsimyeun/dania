@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="listContainer">
+        <div class="utMm16 bdX">
+            <ol class="stepNav">
+                <li class="dyIB"><a href="index_logO.html" class="gs05">Home</a></li>
+                <li class="gs06 dyIB poR poSB">Furniture</li>
+                <li class="dyIB poR poSB"><a href="list_03_table_1.html" class="gs07">Tables</a></li>
+            </ol>
+            <a href="#howTo">Jump To All Products</a>
+        </div>
+         <div class="bdX">
+            <h2 class="pwbL72 gs09">Tables</h2>
+            <img src="images/ban_list_03tables.png" alt="list tables banner">
+        </div>
+        <div id="sortBar" class="poR bdX">
+            <div>
+                <button class="utMm16 gs09 bgT poR poSB poSA" data-panel="filtersPanel">FILTERS</button>
+                <div id="filtersPanel" class="bGs01 poA bdX">
+                    <h3 class="pwbL26 gs08">Filters</h3>
+                    <ul class="colorSelect gs07">
+                        <li>
+                            <b class="utMm18 poSA">Color</b>
+                            <ol class="utMm14 bdX">
+                                <li>
+                                    <input type="radio" id="tablesColor1Btn" name="colorChip">
+                                    <label for="tablesColor1Btn" class="brown poSB">Brown</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="tablesColor2Btn" name="colorChip">
+                                    <label for="tablesColor2Btn" class="white poSB">White</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="tablesColor3Btn" name="colorChip">
+                                    <label for="tablesColor3Btn" class="black poSB">Black</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="tablesColor4Btn" name="colorChip">
+                                    <label for="tablesColor4Btn" class="grey poSB">Grey</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="tablesColor5Btn" name="colorChip">
+                                    <label for="tablesColor5Btn" class="begie poSB">Begie</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">Price</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="tablesPrice1Btn">
+                                    <label for="tablesPrice1Btn" class="checkZone">$50.00 - $250.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="tablesPrice2Btn">
+                                    <label for="tablesPrice2Btn" class="checkZone">$250.00 - $750.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="tablesPrice3Btn">
+                                    <label for="tablesPrice3Btn" class="checkZone">$750.00 - $1500.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="tablesPrice4Btn">
+                                    <label for="tablesPrice4Btn" class="checkZone">$1500.00 - $2000.00</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="tablesPrice5Btn">
+                                    <label for="tablesPrice5Btn" class="checkZone">$2000.00 - $3000.00</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul class="utMm18 gs07">
+                        <li>
+                            <b class="utMm18 poSA">In Stock</b>
+                            <ol>
+                                <li>
+                                    <input type="checkbox" id="stockBtn">
+                                    <label for="stockBtn" class="checkZone">In Stock and Ready to Ship</label>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+                <button class="utRr14">CLEAR FILTERS</button>
+                <span class="utMm14">22 Results</span>
+                <div class="notMui">
+                    <span class="utMm14">VIEW</span>
+                    <button class="way1 active">3grid</button>
+                    <button class="way2">2grid</button>
+                </div>
+                <div>
+                    <span class="utMm14">SORT BY - <span>Recommened</span></span>
+                    <div class="utMm14 selectBox">
+                        <ol>
+                            <li class="active">Recommened</li>
+                            <li>New Arrivals</li>
+                            <li>Price Low to High</li>
+                            <li>Price High to Low</li>
+                            <li>Product Name A - Z</li>
+                            <li>Product Name Z - A</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="thirdGrid bdX">
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables01.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_01.jpg" alt="Adria Coffee Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Adria Coffee Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_45.png" alt="White High Gloss">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$399.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables02.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_02.jpg" alt="Luke Coffee Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Luke Coffee Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_46.png" alt="Walnut">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$499.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables03.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_03.jpg" alt="Enna Lift Top Storage Coffee Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Enna Lift Top Storage Coffee Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_47.png" alt="White&Walnut Veneer">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$799.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables04.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_04.jpg" alt="Karsten Coffee Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Coffee Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$899.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables05.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_05.jpg" alt="Karsten Console Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten Console Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$419.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables06.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_06.jpg" alt="Holfred Storage Console Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Holfred Storage Console Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_29.png" alt="Timber Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$899.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables07.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_07.jpg" alt="Enna End Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Enna End Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_47.png" alt="White&Walnut Veneer">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$349.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables08.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_08.jpg" alt="Karsten End Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Karsten End Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_25.png" alt="Saddle Brown">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$329.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables09.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_09.jpg" alt="Luke End Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Luke End Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_46.png" alt="Walnut">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$379.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables10.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_10.jpg" alt="Adria End Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Adria End Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_45.png" alt="White High Gloss">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$249.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables11.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_11.jpg" alt="Acero Extension Dinning Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Acero Extension Dinning Table</b>
+                    <mark class="utLt26 flL">1 Color</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_48.png" alt="White Ceramic&Walnut Veneer">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$2,999.00</strong>
+                </div>
+            </li>
+            <li>
+                <div class="poR">
+                     <div class="poA txtC">
+                        <input type="button" value="close" class="closeBtn">
+                        <input type="button" value="addToWish" class="addToWish txBg">
+                        <a href="detail_03_Tables12_01.html" class="utLt26 gs01 bdX">
+                            <span class="txtC">View more</span><span class="txtC">+</span>
+                        </a>
+                        <input type="button" value="myCart" data-panel="cartPanel">
+                    </div>
+                    <img src="images/list_03_table_12.jpg" alt="Svante 94inch Dinning Table" class="dyBFull">
+                </div>
+                <div class="poR">
+                    <b class="pwbL30 gs09 dyB">Svante 94" Dinning Table</b>
+                    <mark class="utLt26 flL">2 Colors</mark>
+                    <ol class="flL">
+                        <li>
+                            <img src="images/tex_49_wh.png" alt="White">
+                            <img src="images/tex_49_oak.png" alt="Smoked Oak">
+                        </li>
+                    </ol>
+                    <strong class="utBd26 gs06 flR">$1,599.00</strong>
+                </div>
+            </li>
+        </ul>
+        <div class="utBd16 pager poR mgn0A bdX">
+            <a href="#" class="dyB poA">prev</a>
+            <a href="list_03_table_2.html" class="dyB poA">next</a>
+            <ol class="bs05 txtC">
+                <li class="dyIB"><a href="#" class="poSB active">1</a></li>
+                <li class="dyIB poR"><a href="list_03_table_2.html" class="poSB">2</a></li>
+            </ol>
+        </div>
+        <article id="howTo" class="gs08">
+            <h3 class="pwbL52">How to Choose a Table</h3>
+            <ul class="utMm16">
+                <li>
+                    Coffee table dimensions are the most important consideration to keep in mind when choosing a coffee table. And with that, it's important to know the dimensions of the seating furniture you plan on placing around your coffee table as well as have a rough plan for where you'd like to place all your living room furniture. Keep in mind that you should reserve 14” to 18” between your coffee table and surrounding seating furniture. Where you expect foot traffic, try to leave at least 30” around your coffee table so it doesn't hinder movement through the space.
+                </li>
+                <li>
+                    As for coffee table height, to ensure it's at a convenient height, it's a good idea to choose a coffee table that is within 4” taller or shorter than the seat height of surrounding chairs. Your coffee table width should be at least half as long as your sofa, but not longer.
+                </li>
+                <li>
+                    When it comes to choosing coffee material features and materials, you have much more freedom of expression. Choosing the right coffee table type and material is more so up to personal taste and preference. If you anticipate using your coffee table frequently for a multitude of different purposes, consider a coffee table with storage to keep your daily essentials close by. If you'd prefer your coffee table to be a visually striking accent piece, go with a solid marble coffee table instead. Keep in mind each coffee table material's durability and care needs – and if you have children, beware of glass, metal, and stone coffee tables which may have sharp corners.
+                </li>
+                <li>
+                    A functional dining table should be large enough to seat your household and some guests, but not so big that it inhibits easy movement throughout your dining room. To choose the right dining table size to seat your household and guests, make note of how many place settings you think you'll need. A standard place setting is 18”–24” wide (or wider, if you choose wide dining chairs) and 15”–18” deep. The minimum recommended dining table dimensions for four people (one on each side of a square or round dining table) are 30” by 30”. If you'd like more room for serving platters and centerpieces, choose a table that is 36” deep or deeper. Small dining tables for small spaces are typically round or square tables with neat pedestal bases, while long oval or rectangular dining tables are perfect for grander dining rooms. 42” round dining tables make ideal small dining tables for four people.
+                </li>
+                <li>
+                    When choosing a dining table size, you must also think about how it will fit into your space. To allow comfortable movement at or around the table, you should leave at least 36” between the table's edges and surrounding walls or furniture.
+                </li>
+                <li>
+                    Dining table height matters, too. Standard dining tabletops are between 28” and 32” high, ideal for pairing with 18”–24” dining chairs. However, keep an eye out for dining table aprons, which will further limit your dining chair options. Dining chairs with arms may not fit under a dining table apron. Ideally, you should leave at least six inches of space between your dining table apron and your dining chair seats.
+                </li>
+            </ul>
+        </article>
+        <div class="reView bBe">
+            <h3 class="pwbL52 gs09">Recently Viewed</h3>
+            <ul>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa05.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_05.jpg" alt="Jaden Right Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Jaden Right Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$2,699.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa01.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_01.jpg" alt="Jessa Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Jessa Sofa</b>
+                        <mark class="utBd14 gs06">$799.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa06_L.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_06.jpg" alt="Celeste Flip Chaise Sectional" class="dyBFull">
+                        <b class="pwbL18 gs10">Celeste Flip Chaise Sectional</b>
+                        <mark class="utBd14 gs06">$1,499.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+                <li class="bGs01">
+                    <a href="detail_01_Sofa10.html" class="dyB txtL">
+                        <img src="images/list_01_sofa_10.jpg" alt="Tamar Convertible Sofa" class="dyBFull">
+                        <b class="pwbL18 gs10">Tamar Convertible Sofa</b>
+                        <mark class="utBd14 gs06">$1,399.00</mark>
+                        <span class="utLt14 gs10 mgn0A">1 Color</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

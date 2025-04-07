@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="faqContainer">
+        <a class="utMm16 gs05 dyB poR poSB">Back</a>
+        <h2 class="utBd72 bls03">FAQ</h2>
+        <div>
+            <h3 class="utLt36 gs05">GENERAL</h3>
+            <ul>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">Who is Dania Furniture?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        View our <a href="footer_aboutUs.html" class="gs05">ABOUT US</a> page to learn all about Dania Furniture.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How do I contact Dania Furniture?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        The best way to contact us is to fill out the form on our <a href="footer_contactUs.html" class="gs05">CONTACT US</a> page.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">Does Dania Furniture have brick-and-mortar stores I can visit?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        Yes we do! Dania Furniture, along with our sister-brand Scandinavian Designs, has several locations in Arizona, California, Colorado, Idaho, Illinois, Minnesota, Nevada, Oregon, South Dakota and Washington. Click <a href="footer_findastore_01.html" class="gs05">HERE</a> to view a complete list of our showrooms and find the store closest to you.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">What is your privacy policy?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        View our <a href="footer_privacyPolicy.html" class="gs05">PRIVACY POLICY</a> for details.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How do I get on the mailing list?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        Insert your email under CONNECT at the bottom of any page on our website to sign up for our email list.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="utLt36 gs05">SHOPPING</h3>
+            <ul>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">Do I need to register for an account to make a purchase?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        No, you do not need to register for an account to make a purchase. You can place your order without creating an account.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How may I pay for my purchase?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        Dania Furniture accepts Visa, Discover, Mastercard, American Express and Google Payments. We also offer easy-to-use financing options (see below).
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">Do you offer financing?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        At Dania Furniture, you can buy now and pay later! We offer financing through Wells Fargo (in stores) and Affirm (online).
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">When will my credit card be charged?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        Your credit card will be charged immediately upon placing your order on our site. Once your order has been placed, you will receive a confirmation message on your screen and via email.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How can I make changes to my order?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        Once an order has been shipped, please refer to our <a href="footer_returnsExchange.html" class="gs05">RETURNS & EXCHANGES</a> policy. If you order has not yet shipped, please use our <a href="footer_contactUs.html" class="gs05">CONTACT US</a> form for assistance.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How do I check the status of my order?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        All tracking details will be emailed to you upon placing your order. If you do not receive an email with tracking details, contact Customer Care via our <a href="footer_contactUs.html" class="gs05">CONTACT US</a> form for assistance.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">What is your cancellation policy?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        If your order has not yet shipped, please contact Customer Care via our <a href="footer_contactUs.html" class="gs05">CONTACT US</a> form to determine if your order can be cancelled. If your order has shipped, please refer to our <a href="footer_returnsExchange.html" class="gs05">RETURNS & EXCHANGES</a> policy.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">What is your return and exchange policy?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        View our <a href="footer_returnsExchange.html" class="gs05">RETURNS & EXCHANGES</a> policy for details.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="utLt36 gs05">DELIVERY</h3>
+            <ul>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">What are your delivery charges?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        View <a href="footer_shippingInfo.html" class="gs05">SHIPPING INFORMATION</a> for details.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How will I know that Dania Furniture received my order and my order has been placed?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        Immediately upon placing your order you will receive an email confirmation. Our Customer Care team will personally contact you to schedule delivery when your order ships.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How can I track my order?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        Tracking details will be emailed to you upon shipment of your order for FedEx. Freight and in-home delivery information will be provided by our Customer Care team. For further information or questions, please contact Customer Care via our <a href="footer_contactUs.html" class="gs05">CONTACT US</a> form for assistance.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">Will all of the items in my order be delivered at the same time?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        We do our best to make sure that all items in an order arrive at the same time. If this is not possible, Dania Furniture Customer Care will contact you to let you know in advance.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How long will it take to get my shipment?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        Once you place your order online, items generally ship within a week. Specifics on shipping timeframes, along with tracking information, will be emailed directly to you once your order is processed.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How will I be notified of my delivery day and time?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        All tracking details will be emailed to you upon placing your order. If you do not receive an email with tracking details, contact Customer Care via our <a href="footer_contactUs.html" class="gs05">CONTACT US</a> form for assistance.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">What do I do if an item arrives damaged?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        When your order is being delivered, you should inspect all items in your shipment before signing for the delivery. Upon inspection, if you notice something faulty or missing but the item is still usable, please keep the item and contact Customer Care immediately to arrange for replacement part, a scheduled repair or exchange. If the item is unusable, you should refuse the delivery. Please photograph the items that are damaged to help expedite the process.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">Do you deliver everywhere?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        We ship to the contiguous United States. At this time, we do not ship to Alaska and Hawaii or any United States territories.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="utLt36 gs05">MERCHANDISE</h3>
+            <ul>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">What is your merchandise warranty?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        View our <a href="footer_returnsExchange.html" class="gs05">RETURNS & EXCHANGES</a> policy for details.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How do I find assembly instructions?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        Contact Customer Care via our <a href="footer_contactUs.html" class="gs05">CONTACT US</a> form for assistance if your product did not include instructions or if you need a replacement copy.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">What if I am missing parts for my item?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        Contact Customer Care via our <a href="footer_contactUs.html" class="gs05">CONTACT US</a> form to inquire about missing or replacement parts.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">Do your upholstered items contain flame retardants?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        As of 2014, the state of California no longer allowed upholstered items to contain flame retardants. For all of our products manufactured after the 2014 effective date, we adopted this regulation company-wide in every state where we do business. All of our products are compliant with the California regulation.
+                    </p>
+                </li>
+                <li class="poR poSB">
+                    <h4 class="utLt26 gs05 bdX">How do I find furniture dimensions?</h4>
+                    <p class="utLt22 bls04 bdX">
+                        All product dimensions are listed on the individual product pages under DIMENSIONS. If you have questions regarding the dimensions of a product, please contact Customer Care via our <a href="footer_contactUs.html" class="gs05">CONTACT US</a> form for assistance.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>

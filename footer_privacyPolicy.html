@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dania</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jqueryDania.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel" class="utRr20 dyN bdX wFull txtC">
+        <input type="search" placeholder="Search" class="utRr20 mgn0A bdX" title="search">
+        <input type="submit" value="searchKeyword" class="poA bdX txBg">
+        <button class="closedBtn bdX txBg">close</button>
+    </div>
+    <div id="cartPanel" class="bdX">
+        <button class="closedBtn txBg">close</button>
+        <form action="payMent.html">
+            <fieldset class="dyF">
+                <h3 class="utBd22 wFull bls06">Your cart <strong class="flR">$5,768.00</strong></h3>
+                <p class="utMm22 emptyCart dyN bls08">Your cart is currently empty.</p>
+                <ul class="haveCart">
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn1" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_01.png" alt="Laila Linen Duvet Cover + Shams Set - Desert Rose">
+                        <dl>
+                            <dt class="utBd20">Laila Linen Duvet Cover + Shams Set - Desert Rose</dt>
+                            <dd class="utLt20 bls08">Desert Rose</dd>
+                            <dd class="utLt20 bls08">Estn-King</dd>
+                            <dd class="utBd18 rs03">$269.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                    <li class="poR bdX">
+                        <input type="button" value="delete" id="deleteBtn2" class="poA bdX txBg">
+                        <img src="images/sp_main_cart_02.png" alt="Voss Leather Power Reclining Sectional">
+                        <dl>
+                            <dt class="utBd20">Voss Leather Power Reclining Sectional</dt>
+                            <dd class="utLt20 bls08">Frost NCS-156E</dd>
+                            <dd class="utBd18 rs03">$5,499.00</dd>
+                        </dl>
+                        <div class="utBd18 qtyComponent dyF poA txtC bs04">
+                            <input type="button" value="-" class="utBd18 qtyRemove bgT">
+                            <span>1</span>
+                            <input type="button" value="+" class="utBd18 qtyAdd bgT">
+                        </div>
+                    </li>
+                </ul>
+                <a href="payMent.html" class="utMm20 haveBtn bGs01 bs04">B U Y  N O W</a>
+                <button type="button" class="utMm20 emptyBtn dyN bGs01 bs04">
+                    <span>C O N T I N U E  S H O P P I N G</span>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <header class="wFull bGs01">
+        <ol class="utBd16 hRollBan txtC gs01">
+            <li>SOME PRODUCTS ARE IN LIMITED SUPPLY: CONTACT A STORE TO LEARN MORE ABOUT BEST LOCAL AVAILABILITY.</li>
+            <li>CUSTOM YOUR OWN FURNITURE WITH OUR STORE'S BEST FURNITURE!</li>
+        </ol>
+        <div class="bBe">
+            <ul class="utMm16 txtR">
+                <li><a href="footer_findastore_01.html" class="gs09">Find a Store</a></li>
+                <li><a href="footer_faq.html" class="gs09">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="dyF bdX">
+            <button class="mui bgT">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1>
+                <a href="index_logO.html" class="dyB txBg">logo</a>
+            </h1>
+            <nav class="bGs01 bdX">
+                <ul class="utMm18 poR">
+                    <li>
+                        <u>Furniture</u>
+                        <ol class="utMm14 bdX">   
+                            <li>
+                                <a href="list_01_sofa_1.html">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="list_02_seating_1.html">Seating</a>
+                            </li>
+                            <li>
+                                <a href="list_03_table_1.html">Tables</a>
+                            </li>
+                            <li>
+                                <a href="list_04_storage_1.html">Storage</a>
+                            </li>
+                            <li>
+                                <a href="list_05_bed_1.html">Bed</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <u>Decor</u>
+                        <ol class="utMm14 bdX">
+                            <li>
+                                <a href="list_06_lighting_1.html">Lighting</a>
+                            </li>
+                            <li>
+                                <a href="list_06_rug_1.html">Rug</a>
+                            </li>
+                            <li>
+                                <a href="list_06_tabletop_1.html">Table Top</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="list_07_care_1.html" class="utMm18">Care</a></li>
+                    <li><a href="list_08_collection_1.html" class="utMm18">Collection</a></li>
+                </ul>
+            </nav>
+            <input type="button" value="accountNav" class="accountNav dyB poR txBg">
+            <ul class="bGs01 dyF bdX">
+                <li data-panel="searchPanel">
+                    <input type="button" value="search" class="txBg">
+                </li>
+                <li>
+                    <a href="myAccount.html" class="dyB bdX txBg">account</a>
+                </li>
+                <li>
+                    <a href="myWishList.html" class="dyB bdX txBg">heart</a>
+                </li>
+                <li data-panel="cartPanel" class="poR">
+                    <input type="button" value="cart" class="txBg">
+                    <sup class="utMm10 poA gs01">99</sup>
+                </li>
+                <li>
+                    <img src="images/bul_search_close.png" alt="closeBtn">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="fContainer">
+        <aside class="sideNav">
+            <ul class="pwbL30 gs05">
+                <li><a href="footer_privacyPolicy.html" class="dyB txtL active">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html" class="dyB txtL">Terms of Service</a></li>
+                <li><a href="footer_delivery.html" class="dyB txtL">Delivery Terms &amp; Conditions</a></li>
+            </ul>
+        </aside>
+        <div class="pPolicy">
+            <a class="utMm16 gs05 dyB poR poSB">Back</a>
+            <h2 class="utBd72 bls03">Privacy Policy</h2>
+            <ul>
+                <li>
+                    <h3 class="utLt36 gs05">Collection and Use of Personal Information</h3>
+                    <p class="utLt22">
+                        It is the Company's policy to not sell or transfer your personal information to individuals or unauthorized entities without your approval and written consent. The Company will collect and manage all personal information in accordance with Consumer Privacy Laws, including the California Consumer Privacy Act.
+                    </p>
+                    <p class="utLt22">
+                        For all visitors to our Company websites, the Company will automatically collect general data from each visitor, such as:
+                    </p>
+                    <ul class="utLt22 bdX">
+                        <li class="poR poSB bdX">Visitor's IP address</li>
+                        <li class="poR poSB bdX">Operating system</li>
+                        <li class="poR poSB bdX">Browser type and version number</li>
+                        <li class="poR poSB bdX">Web pages viewed</li>
+                    </ul>
+                    <p class="utLt22">
+                        This information and data is aggregated with all other visitor information for tailoring the website to customer preferences.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">To Establish an Account</h3>
+                    <p class="utLt22">
+                        For customers to register with an account on our Company website, the minimum information necessary to setup an account is limited to:
+                    </p>
+                    <ul class="utLt22 bdX">
+                        <li class="poR poSB bdX">First and last name</li>
+                        <li class="poR poSB bdX">Email address</li>
+                        <li class="poR poSB bdX">Optional: business or home address  </li>
+                        <li class="poR poSB bdX">Optional: phone number   </li>
+                    </ul>
+                    <p class="utLt22">
+                        You have the right to request from the Company to have your account deleted at any time by contacting us here.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Online Transactions and Delivery</h3>
+                    <p class="utLt22">
+                        For customers to receive tailored services and to proceed with online purchase transactions with shipment delivery preferences, the Company will require additional personal information such as:
+                    </p>
+                    <ul class="utLt22 bdX">
+                        <li class="poR poSB bdX">Customer's first and last name </li>
+                        <li class="poR poSB bdX">Mailing and/or shipping address  </li>
+                        <li class="poR poSB bdX">E-mail address</li>
+                        <li class="poR poSB bdX">Phone number       </li>
+                        <li class="poR poSB bdX">Credit card information</li>
+                        <li class="poR poSB bdX">Billing address</li>
+                    </ul>
+                    <p class="utLt22">
+                        Customers are responsible for updating their personal information at any time by accessing their Personal Profile after log-in to our website.
+                    </p>
+                    <p class="utLt22">
+                        You have the right to request from the Company to have your account deleted at any time by contacting us ​here.​ It is our company policy to verify the identity of the customer and any requests received will be responded to within 45 business days from the date it was received.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Cookies</h3>
+                    <p class="utLt22">
+                        A cookie is a type of identifier sent from a website to your computer system via your web browser to provide tailored features. The Company uses cookies in order to secure and confirm your information when logging into our website with your private login name and password. We do not use this information for any other purposes.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Third-Party Financing Options</h3>
+                    <p class="utLt22">
+                        If a customer is interested in applying for credit financing through our Company's affiliated third-party partners by clicking on a hyperlink on our website for services that direct you to another website, be aware that our Company's privacy policy and security measures applies solely to information collected by us through our website. The data collected by an external financing company that is necessary for credit approval can report status and payment history to various credit reporting agencies. We encourage our customers to read our Company's financing partners privacy and security policies before proceeding to use them.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Third-Party Services</h3>
+                    <p class="utLt22">
+                        On occasion, the Company will offer customers an opportunity to participate in contests, events, and webinars that may be in partnership with other companies. Customer's personal information will be necessary to collect for the purposes of notification and delivery of awarded prizes and for business development opportunities. The personal information provided by you may be disclosed to our third-party partners for a limited purpose as part of the contractual event obligations. Our Company's privacy policy applies solely to information collected by us through our website. Thereby, we are not responsible for third party privacy and security practices if the customer is accessing links from our Company website to other external partner websites. We encourage our customers to read the privacy and security policies of our Company's partners before proceeding to use them.
+                    </p>
+                    <p class="utLt22">
+                        Customers have the right to request how their personal information is being used, request your information to be deleted or opt-out of having the information shared.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Sharing Your Personal Information</h3>
+                    <p class="utLt22">
+                        To offer our customers extended or customized services, the Company may share your personal information within our organization,​ ​or with authorized third parties as described in this policy. We may also disclose customer information in response to litigation inquiries, subpoenas, regulatory compliance requests and in cases where we need to protect our legal and/or contractual obligations. Customers have the right to request how their personal information is being used, request information to be deleted or opt-out of having personal information shared by contacting us here.
+                    </p>
+                    <ul class="bdX">
+                        <li class="bdX">
+                            <h4 class="utLt26 gs05">Service providers</h4>
+                            <p class="utLt22">We work with service providers that work on our behalf which may need access to certain personal data in order to provide their services to us. These companies include those we've hired to provide customer service suppice, assist in protecting and securing our systems and services, and he market our own products and services as well as partner products, services, events, and co-branded promotions in which we are involved.</p>
+                        </li>
+                        <li class="bdX">
+                            <h4 class="utLt26 gs05">Payment processors</h4>
+                            <p class="utLt22">We will share your personal data with our payment processors as necessary to enable them to process your payments, and for anti-fraud purposes.</p>
+                        </li>
+                        <li class="bdX">
+                            <h4 class="utLt26 gs05">Advertising partners</h4>
+                            <p class="utLt22">We work with advertising partners to enable us to customize the advertising content you may receive on outside websites. These partners help us deliver more relevant ads and promotional messages to you. We and our advertising partners may process certain personal data to help us understand your interests or preferences so that we can deliver advertisements that are more relevant to you.</p>
+                        </li>
+                        <li class="bdX">
+                            <h4 class="utLt26 gs05">Other Scandinavian Designs / Interline / Dania group companies</h4>
+                            <p class="utLt22">We will share your personal data with other Interline group companies to carry out our daily business operations and to enable us to maintain and provide service to you.</p>
+                        </li>
+                        <li class="bdX">
+                            <h4 class="utLt26 gs05">Law enforcement and data protection authorities</h4>
+                            <p class="utLt22">We share your personal data when we in good faith believe it is necessary for us to do so in order to comply with a legal obligation under applicable law, or respond to valid legal process, such as a search warrant, a court order, or a subpoena. We also share your personal data where we in good faith believe that it is necessary for the purpose of our own, or a third party's legitimate interest relating to national security, law enforcement, litigation, criminal investigation, protecting the safety of any person, or to prevent death or imminent bodily harm, provided that we deem that such interest is not overridden by your interests or fundamental rights and freedoms requiring the protection of your personal data.</p>
+                        </li>
+                        <li class="bdX">
+                            <h4 class="utLt26 gs05">Purchasers of our business</h4>
+                            <p class="utLt22">We will share your personal data in those cases where we sell or negotiate to sell our business to a buyer or prospective buyer. In this situation, we will continue to ensure the confidentiality of your personal data and give you notice before your personal data is transferred to the buyer or becomes subject to a different privacy policy.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">Email Communications</h3>
+                    <p class="utLt22">
+                        The Company provides customers with promotional announcements for savings, product launches, and Company newsletters. The customer has the right to stop or modify these subscriptions at any time by clicking on the “unsubscribe” feature at the bottom of the e-mail received. You also have the option to submit a request by contacting us here.
+                    </p>
+                    <p class="utLt22">
+                        You may also update or change information related to your <a href="www.daniafurniture.com" class="bls04">www.daniafurniture.com</a> account by accessing your Personal Profile section of the website with your User ID and password or by sending us a message directly here.
+                    </p>
+                </li>
+                <li>
+                    <h3 class="utLt36 gs05">How We Protect Your Personal Information</h3>
+                    <p class="utLt22">
+                        The Company uses a combination of industry standard security measures designed to protect your personal information from loss, misuse and unauthorized access. In general, your account is password-protected by the password you created when setting up the account. We recommend you secure your account by logging out after each use. In addition to your account password, the Company uses SSL encryption throughout our website, including the checkout process. You can verify this by looking for a padlock icon in your web browser address bar.
+                    </p>
+                </li>
+            </ul>
+            <form>
+                <fieldset>
+                    <div id="sendPopups">
+                        <div>
+                            <input type="button" value="close" class="closeBtn">
+                            <span class="utLt36">Send Complete!</span>
+                            <input type="button" value="OK" class="utBd20 closeBtn okBtn">
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <label for="Name" class="utBd26 gs09">Name</label>
+                            <input type="text" placeholder="Enter your name" id="Name" class="utBd20">
+                        </li>
+                        <li>
+                            <label for="Email" class="utBd26 gs09">Email</label>
+                            <input type="text" placeholder="Enter your email address" id="Email" class="utBd20">
+                        </li>
+                        <li>
+                            <label for="messageBox" class="utBd26 gs09">Message</label>
+                            <textarea rows="5" id="messageBox" placeholder="Enter your message" class="utBd20 bls04 wFull bdX"></textarea>
+                        </li>
+                    </ul>
+                    <input type="button" value="SEND" data-popup="sendPopups" class="utBd20 leafBtnA popUpBtn flR">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <input type="button" value="top" class="dyB">
+    <footer class="bdX">
+        <div>
+            <h2><a href="index_logO.html" class="dyB txBg">logo</a></h2>
+            <ol>
+                <li><a href="https://www.facebook.com/daniadesign" target="_blank" class="dyB txBg">facebook</a></li>
+                <li><a href="https://kr.pinterest.com/daniafurniture/" target="_blank" class="dyB txBg">insta</a></li>
+                <li><a href="https://www.instagram.com/daniafurniture/" target="_blank" class="dyB txBg">pinterest</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="dyB txBg">linkdin</a></li>
+            </ol>
+        </div>
+        <div class="bdX">
+            <h3 class="utBd20 poR bdX gs10">Support</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_customOrder.html">Custom</a></li>
+                <li><a href="list_07_care_1.html">Care</a></li>
+                <li><a href="footer_faq.html">FAQ</a></li>
+                <li><a href="footer_shippingInfo.html">Shipping Information</a></li>
+                <li><a href="footer_returnsExchange.html">Returns &amp; Exchanges</a></li>
+                <li><a href="footer_warrantyInfo.html">Warranty Information</a></li>
+            </ol>
+            <h3 class="utBd20 poR bdX gs10">Company</h3>
+            <ol class="utMm16 gs11">
+                <li><a href="footer_findastore_01.html">Find a Store</a></li>
+                <li><a href="footer_aboutUs.html">About Us</a></li>
+                <li><a href="footer_ourStory.html">Our Story</a></li>
+                <li><a href="footer_contactUs.html">Contact Us</a></li>
+                <li><a href="footer_privacyPolicy.html">Privacy Policy</a></li>
+                <li><a href="footer_termsOfService.html">Terms of Service</a></li>
+                <li><a href="footer_delivery.html">Delivery Terms &amp; Conditions</a></li>
+            </ol>
+        </div>
+        <cite class="utMm16 wFull flR gs11">© 2023 Dania Furniture.</cite>
+    </footer>
+</body>
+</html>
