@@ -119,7 +119,7 @@
 [class*='mgn0A']{margin: 0 auto;}
 [class*='bdX']{box-sizing: border-box;}
 [class*='txBg']{text-indent: -9999px; background-color: transparent;}
-[class*='txtC'], a:not(nav a, .reView a, .backLog, .sideNav a, [class*='bor'], .delivery a){text-align: center;}
+[class*='txtC'], a:not(nav a, .reView a, .backLog, .sideNav a, [class*='bor'], .delivery a.txtL){text-align: center;}
 [class*='txtL']{text-align: left;}
 [class*='txtR']{text-align: right;}
 
@@ -197,11 +197,11 @@ div #introPop a{color: var(--BLS06);}
     width: 50px; height: 50px; z-index: -1; left: 20px; top: 0px; transition-duration: 0.4s;
     background-color: var(--BLS02); border-radius: 30px; position: absolute;
 }
-[class*='circleBtn']:not(circleBtnC):hover::before{
+[class*='circleBtn']:not(.circleBtnC):hover::before{
     background-image: url('../images/bul_cart_arrow_wh.png'); transform: rotate(180deg);
 }
-[class*='circleBtn']:not(circleBtnC):hover{color: var(--GS01);}
-[class*='circleBtn']:not(circleBtnC):hover::after{
+[class*='circleBtn']:not(.circleBtnC):hover{color: var(--GS01);}
+[class*='circleBtn']:not(.circleBtnC):hover::after{
     width: 100%; max-width: 185px; height: 50px; background-color: var(--BS04);
 }
 .circleBtnC::before{
