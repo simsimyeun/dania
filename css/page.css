@@ -911,7 +911,6 @@ input[type="button"],
 .fContainer .delivery > ul > li > ul > li::before{
     width: 7px; height: 7px; border-radius: 10px; background-color: var(--BLS04); left: 0; top: 10px;
 }
-.fContainer .pPolicy > ul > li > ul > li{padding-left: 2%;}
 
 .fContainer .delivery > ul > li > ul > li:last-of-type > ul{padding-top: var(--sp20);}
 
@@ -1296,7 +1295,7 @@ input[type="button"],
     .mainContainer > div:last-of-type input[type="email"]{
         display: block; width: 80%; max-width: 700px; margin: 0 auto var(--sp50);
     }
-    .mCollection > ul > li > a{line-height: 60px;}
+    .mCollection > ul > li > a{line-height: 60px; text-align: left;}
 
     .detailContainer .stepNav > li:not(:first-child)::before{left: -15px;}
 
@@ -1473,7 +1472,7 @@ input[type="button"],
     .fContainer .pPolicy #sendPopups{transform: translate(-50%, 1610%);}
     .fContainer .terms #sendPopups{transform: translate(-50%, 3400%);}
 
-    .fContainer .delivery > ul > li > ul > li{padding-left: 7%;}
+    .fContainer :is(.delivery, .pPolicy) > ul > li > ul > li{padding-left: 7%;}
 
     .ausContainer > div:first-of-type{background: url('../images/ban_aboutus.png') center / cover no-repeat;}
 
@@ -1707,7 +1706,7 @@ input[type="button"],
     .faqContainer > div > ul > li::before{top: 40px;}
     .faqContainer > div > ul > li > h4{padding: var(--sp30) 0 var(--sp30) 8%;}
 
-    .fContainer .delivery > ul > li > ul > li{padding-left: 2%;}
+    .fContainer :is(.delivery, .pPolicy) > ul > li > ul > li{padding-left: 2%;}
     .fContainer .delivery > ul > li > ul > li:not(:last-of-type),
     .fContainer .delivery > ul > li > ul > li:last-of-type > ul > li{margin-bottom: var(--sp25);}
 
