@@ -333,7 +333,6 @@ input[type="button"],
 
 .mainContainer .mainSlider img{margin: 0 auto var(--sp10);}
 
-.mainContainer .bx-wrapper:not(:has(.mainTicker)),
 .fContainer .warrantyInfo > p{width: 95%;}
 
 .mainContainer > div:nth-of-type(3) :is(.bx-prev, .bx-next),
@@ -987,6 +986,8 @@ input[type="button"],
     .mainContainer > div:nth-of-type(8) a,
     .detailContainer #view .circleBtnB{margin-left: auto;}
 
+    .mainContainer .bx-wrapper:not(:has(.mainTicker)){width: 90%;}
+
     .mainContainer > div:nth-of-type(7) div{width: 100%; box-sizing: border-box;}
 
     .mainContainer > div:nth-of-type(9){
@@ -1276,8 +1277,8 @@ input[type="button"],
     .mainContainer > div:nth-of-type(3) :is(.bx-prev, .bx-next),
     .mainContainer > div:nth-of-type(6) :is(.bx-prev, .bx-next){width: 45px; height: 45px;}
 
-    .mainContainer > div:nth-of-type(3) .mainSlider > li{margin-left: 7px;}
-    .mainContainer > div:nth-of-type(6) .mainSlider > li{margin-left: 10px;}
+    .mainContainer > div:nth-of-type(3) .mainSlider > li{margin-left: 10px;}
+    .mainContainer > div:nth-of-type(6) .mainSlider > li{margin-left: 13px;}
 
     .mainContainer > div:nth-of-type(5) p,
     .mainContainer > div:nth-of-type(9) > div p,
@@ -1999,6 +2000,8 @@ input[type="button"],
     .customContainer > div:nth-child(2) > :is(div:first-of-type, div:nth-of-type(2)){display: flex;}
 
     .mainContainer > div:nth-of-type(2){padding-left: 5%; padding-right: 60%;}
+
+    .mainContainer .bx-wrapper:not(:has(.mainTicker)){width: 95%;}
 
     .mainContainer > div:nth-of-type(2) > div,
     .detailContainer :is(.careDescript > div, #why > p),

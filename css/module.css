@@ -119,7 +119,7 @@
 [class*='mgn0A']{margin: 0 auto;}
 [class*='bdX']{box-sizing: border-box;}
 [class*='txBg']{text-indent: -9999px; background-color: transparent;}
-[class*='txtC'], a:not(nav a, .reView a, .backLog, .sideNav a, [class*='bor'], .delivery a.txtL){text-align: center;}
+[class*='txtC'], a:not(nav a, .reView a, .backLog, .sideNav a, [class*='bor'], .delivery a.txtL, .mCollection a){text-align: center;}
 [class*='txtL']{text-align: left;}
 [class*='txtR']{text-align: right;}
 
