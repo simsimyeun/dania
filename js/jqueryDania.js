@@ -5,8 +5,8 @@ $(document).ready(function(){
         listGrid();
     });
     hrollClone();
-    panelToggle('header div:last-of-type > ul li');
-    panelToggle('.wishContainer .haveList input[type="button"]');
+    panelActive('header div:last-of-type > ul li');
+    panelActive('.wishContainer .haveList input[type="button"]');
     panelToggle('.listContainer input[type="button"]');
     panelToggle('.listContainer #sortBar > div > button:first-of-type');
     miniNav();
@@ -58,8 +58,8 @@ function hrollClone(){
     $('.hRollBan > li').clone().appendTo('.hRollBan');
 }
 
-function panelToggle(target){
-    $(target).click(function(){
+function panelToggle(targetA){
+    $(targetA).click(function(){
         var panelBtn = "#" + $(this).attr("data-panel");
         $(panelBtn).addClass("active")
 
@@ -70,6 +70,13 @@ function panelToggle(target){
             $(panelBtn).addClass("active");
             $(this).addClass("active");
         }
+    });
+}
+
+function panelActive(targetB){
+    $(targetB).click(function(){
+        var panelBtn = "#" + $(this).attr("data-panel");
+        $(panelBtn).addClass("active")
     });
 
     $('#searchPanel button').click(function(){
