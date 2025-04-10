@@ -43,6 +43,7 @@ $(document).ready(function(){
     tabBtn('header .mui','header nav');
     tabBtn('footer > div:last-of-type > h3:first-child','footer > div:last-of-type > ol:nth-child(2)');
     tabBtn('footer > div:last-of-type > h3:nth-child(3)','footer > div:last-of-type > ol:last-child');
+    activeDeactive();
     listHover();
     listGrid();
     filterClone('#sortBar > div > button.utRr14', '#filtersPanel');
@@ -98,6 +99,20 @@ function miniNav(){
     });
     $('header > div:last-child > ul > li:last-of-type').click(function(){
         $('header > div:last-child > ul').removeClass("active");
+    });
+}
+
+function activeDeactive(){
+    var targetC = {
+        '.mui' : ['header div:last-of-type > ul', '#cartPanel', '#searchPanel'],
+        '.accountNav': ['header .mui', 'header nav', '#cartPanel', '#searchPanel'],
+        'header div:last-of-type > ul li:first-of-type': ['header div:last-of-type > ul', 'header .mui', 'header nav', '#cartPanel'],
+        'header div:last-of-type > ul li:nth-of-type(4)': ['header div:last-of-type > ul', 'header .mui', 'header nav', '#searchPanel']
+    }
+    $.each(targetC, function(selector, targets) {
+        $(selector).click(function() {
+            $(targets.join(', ')).removeClass('active');
+        });
     });
 }
 
